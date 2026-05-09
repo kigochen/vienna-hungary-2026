@@ -144,7 +144,7 @@
       <div class="space-y-2 text-sm">
         <p><span class="text-gray-500">維也納 → 布達佩斯</span></p>
         <p><span class="text-amber">2.5 小時</span> · <span class="text-amber">€29-50</span></p>
-        <a href="https://www.oebb.at" target="_blank" class="inline-block mt-2 px-3 py-1.5 bg-amber text-dark text-xs rounded-lg hover:bg-amber-light transition">提前預購 →</a>
+        <a href="https://www.oebb.at" target="_blank" rel="noopener" class="inline-block mt-2 px-3 py-1.5 bg-amber text-dark text-xs rounded-lg hover:bg-amber-light transition">提前預購 →</a>
       </div>
     </div>
     <!-- Local -->
@@ -208,6 +208,12 @@
 <script>
 const FALLBACK_IMG = 'https://images.unsplash.com/photo-1508009603885-50cf7c579365?w=800';
 
+function fallbackMapsUrl(place) {
+  const encodedName = encodeURIComponent(place.name + ' ' + place.city);
+  const [lat, lng] = place.coordinates;
+  return `https://www.google.com/maps/search/?api=1&query=${encodedName}@${lat},${lng}`;
+}
+
 let placesData = null;
 let selectedCategory = 'all';
 let selectedCity = 'all';
@@ -270,9 +276,25 @@ function renderPlaces() {
           <p class="text-green-400">✓ ${p.pros}</p>
           <p class="text-red-400/80">✗ ${p.cons}</p>
         </div>
-        <div class="mt-3 pt-3 border-t border-amber/10 flex justify-between text-xs text-gray-400">
-          <span>💰 ${p.cost}</span>
-          <span>🕐 ${p.bestTime}</span>
+        <div class="mt-3 pt-3 border-t border-amber/10 flex justify-between items-center text-xs text-gray-400">
+          <div class="flex gap-3">
+            <span>💰 ${p.cost}</span>
+            <span>🕐 ${p.bestTime}</span>
+          </div>
+          <div class="flex gap-2">
+            <a href="${p.mapsUrl || fallbackMapsUrl(p)}" target="_blank" rel="noopener"
+               class="flex items-center gap-1 px-2 py-1 rounded-lg bg-blue-500/20 text-blue-400 hover:bg-blue-500/30 transition text-xs"
+               title="在 Google Maps 開啟">
+              <svg class="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+              地圖
+            </a>
+            <a href="${p.googleSearchUrl}" target="_blank" rel="noopener"
+               class="flex items-center gap-1 px-2 py-1 rounded-lg bg-amber/20 text-amber hover:bg-amber/30 transition text-xs"
+               title="搜尋照片">
+              <svg class="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 24 24"><path d="M21 19V5c0-1.1-.9-2-2-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2zM8.5 13.5l2.5 3.01L14.5 12l4.5 6H5l3.5-4.5z"/></svg>
+              照片
+            </a>
+          </div>
         </div>
       </div>
     </article>
@@ -333,9 +355,10 @@ function updateMapMarkers() {
   }
 
   filtered.forEach(p => {
-    const marker = L.circleMarker([p.coordinates[0], p.coordinates[1]], {
+    const mapsLink = p.mapsUrl || fallbackMapsUrl(p);
+    marker = L.circleMarker([p.coordinates[0], p.coordinates[1]], {
       radius: 8, fillColor: '#d4a017', color: '#f0c040', weight: 2, opacity: 1, fillOpacity: 0.8
-    }).addTo(map).bindPopup(`<b>${p.nameZh}</b><br>${p.city}<br>⭐ ${p.rating}`);
+    }).addTo(map).bindPopup(`<b>${p.nameZh}</b><br>${p.city} · ⭐ ${p.rating}<br><a href="${mapsLink}" target="_blank" rel="noopener" style="color:#d4a017">🗺️ 在 Google Maps 開啟</a>`);
     markers.push(marker);
   });
 }

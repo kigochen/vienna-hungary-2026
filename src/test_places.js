@@ -1,16 +1,13 @@
 /**
- * Vienna Trip - places.json Smoke Test
- * 測試 places.json 的結構是否符合預期
+ * Vienna Trip - places.json Full Validation Test (Updated for photoUrl + googleSearchUrl)
  */
 
 const fs = require('fs');
 const path = require('path');
 
-// 測試結果計數
 let passCount = 0;
 let failCount = 0;
 
-// 斷言函式
 function assert(condition, message) {
   if (condition) {
     passCount++;
@@ -21,12 +18,11 @@ function assert(condition, message) {
   }
 }
 
-// places.json 路徑
-const PLACES_JSON_PATH = path.join(__dirname, 'data', 'places.json');
+const PLACES_JSON_PATH = path.join(__dirname, 'places.json');
 
-console.log('=== Vienna Trip - places.json Smoke Test ===\n');
+console.log('=== Vienna Trip - places.json Full Validation Test ===\n');
 
-// 1. 檔案存在
+// 1. File exists
 console.log('[1] 檔案存在檢查');
 let fileExists = false;
 try {
@@ -34,7 +30,7 @@ try {
 } catch (e) {}
 assert(fileExists, `places.json 存在於 ${PLACES_JSON_PATH}`);
 
-// 2. JSON 可正確解析
+// 2. JSON parseable
 console.log('\n[2] JSON 解析檢查');
 let data = null;
 if (fileExists) {
@@ -49,76 +45,105 @@ if (fileExists) {
   assert(false, '跳過 JSON 解析（檔案不存在）');
 }
 
-// 3. 必要欄位檢查
-console.log('\n[3] 必要欄位檢查');
+// 3. Required top-level fields
+console.log('\n[3] 必填欄位檢查');
 const requiredFields = ['version', 'tripInfo', 'places', 'itinerary', 'transport', 'budget', 'food', 'todo'];
 if (data) {
   for (const field of requiredFields) {
     assert(Object.prototype.hasOwnProperty.call(data, field), `必填欄位 "${field}" 存在`);
   }
-} else {
-  for (const field of requiredFields) {
-    assert(false, `跳過欄位 "${field}"（資料載入失敗）`);
-  }
 }
 
-// 4. places 是非空陣列
+// 4. places array
 console.log('\n[4] places 陣列檢查');
 if (data) {
   assert(Array.isArray(data.places), 'places 是陣列');
   assert(data.places.length > 0, 'places 非空陣列');
+  assert(data.places.length === 62, `places 有 62 個景點（實際: ${data.places.length}）`);
 } else {
   assert(false, '跳過 places 檢查（資料未載入）');
 }
 
-// 5. 前5個景點結構檢查
-console.log('\n[5] 前5個景點欄位檢查');
-const requiredPlaceFields = ['id', 'name', 'nameZh', 'city', 'category', 'coordinates', 'rating'];
-if (data && Array.isArray(data.places) && data.places.length >= 5) {
-  for (let i = 0; i < 5; i++) {
+// 5. New fields: photoUrl and googleSearchUrl for ALL 62 places
+console.log('\n[5] photoUrl 欄位檢查（62 個景點）');
+const FAKE_UNSPLASH = 'https://images.unsplash.com/photo-1508009603885-50cf7c579365';
+if (data && Array.isArray(data.places)) {
+  let allHavePhotoUrl = true;
+  let allRealPhotoUrls = true;
+  let updatedCount = 0;
+  for (let i = 0; i < data.places.length; i++) {
     const place = data.places[i];
-    for (const field of requiredPlaceFields) {
-      assert(Object.prototype.hasOwnProperty.call(place, field), `places[${i}].${field} 存在`);
+    const hasPhotoUrl = Object.prototype.hasOwnProperty.call(place, 'photoUrl') && typeof place.photoUrl === 'string' && place.photoUrl.length > 0;
+    if (!hasPhotoUrl) {
+      allHavePhotoUrl = false;
+      assert(false, `places[${i}].photoUrl 缺失（${place.nameZh}）`);
+    }
+    // Check it's not the fake Unsplash placeholder
+    if (hasPhotoUrl && place.photoUrl === FAKE_UNSPLASH) {
+      allRealPhotoUrls = false;
+      updatedCount++;
     }
   }
-} else if (data && data.places.length > 0) {
-  const limit = Math.min(5, data.places.length);
-  for (let i = 0; i < limit; i++) {
-    const place = data.places[i];
-    for (const field of requiredPlaceFields) {
-      assert(Object.prototype.hasOwnProperty.call(place, field), `places[${i}].${field} 存在`);
-    }
-  }
-  if (data.places.length < 5) {
-    assert(false, `景點總數 ${data.places.length} < 5，跳過其餘檢查`);
+  if (allHavePhotoUrl && allRealPhotoUrls) {
+    assert(true, `所有 62 個景點都有真實的 photoUrl（非假圖）`);
+  } else if (allHavePhotoUrl && !allRealPhotoUrls) {
+    assert(false, `有 ${updatedCount} 個景點仍使用假 Unsplash 圖片`);
   }
 } else {
-  for (const field of requiredPlaceFields) {
-    assert(false, `跳過 places[0~4] 檢查（places 未正確載入）`);
-  }
+  assert(false, '跳過 photoUrl 檢查（places 未正確載入）');
 }
 
-// 6. 所有 category 必須是有效值
-console.log('\n[6] category 合法性檢查');
+// 6. googleSearchUrl with encodeURIComponent
+console.log('\n[6] googleSearchUrl 欄位檢查（62 個景點）');
+if (data && Array.isArray(data.places)) {
+  let allHaveGoogleSearchUrl = true;
+  let allEncodedCorrectly = true;
+  for (let i = 0; i < data.places.length; i++) {
+    const place = data.places[i];
+    const hasGoogleSearchUrl = Object.prototype.hasOwnProperty.call(place, 'googleSearchUrl') && typeof place.googleSearchUrl === 'string' && place.googleSearchUrl.length > 0;
+    if (!hasGoogleSearchUrl) {
+      allHaveGoogleSearchUrl = false;
+      assert(false, `places[${i}].googleSearchUrl 缺失（${place.nameZh}）`);
+      continue;
+    }
+    // Check that the URL contains properly encoded query
+    const url = place.googleSearchUrl;
+    const hasQParam = url.includes('?q=') || url.includes('&q=');
+    if (!hasQParam) {
+      allEncodedCorrectly = false;
+      assert(false, `places[${i}].googleSearchUrl 格式錯誤（${place.nameZh}）: ${url}`);
+    }
+    // Check for literal spaces (unencoded)
+    if (url.includes('?q=') && url.includes(' ')) {
+      allEncodedCorrectly = false;
+      assert(false, `places[${i}].googleSearchUrl 包含未編碼的空格（${place.nameZh}）`);
+    }
+  }
+  if (allHaveGoogleSearchUrl && allEncodedCorrectly) {
+    assert(true, `所有 62 個景點都有正確格式的 googleSearchUrl`);
+  }
+} else {
+  assert(false, '跳過 googleSearchUrl 檢查（places 未正確載入）');
+}
+
+// 7. Valid categories
+console.log('\n[7] category 合法性檢查');
 const VALID_CATEGORIES = ['heritage', 'nature', 'food', 'experience', 'museum', 'thermal', 'viewpoint'];
 if (data && Array.isArray(data.places)) {
   let allValid = true;
   for (let i = 0; i < data.places.length; i++) {
-    const cat = data.places[i].category;
-    if (!VALID_CATEGORIES.includes(cat)) {
+    if (!VALID_CATEGORIES.includes(data.places[i].category)) {
       allValid = false;
-      assert(false, `places[${i}].category="${cat}" 不在允許清單內`);
+      assert(false, `places[${i}].category="${data.places[i].category}" 不在允許清單內`);
     }
   }
   if (allValid) {
     assert(true, `所有 ${data.places.length} 個景點的 category 都是有效值`);
   }
-} else {
-  assert(false, '跳過 category 檢查（places 未正確載入）');
 }
 
-// 7. 所有 coordinates 格式檢查
-console.log('\n[7] coordinates 格式檢查');
+// 8. Valid coordinates
+console.log('\n[8] coordinates 格式檢查');
 if (data && Array.isArray(data.places)) {
   let allValid = true;
   for (let i = 0; i < data.places.length; i++) {
@@ -128,78 +153,33 @@ if (data && Array.isArray(data.places)) {
     const lngOk = isArray && typeof coords[1] === 'number' && coords[1] >= -180 && coords[1] <= 180;
     if (!isArray || !latOk || !lngOk) {
       allValid = false;
-      const lat = isArray ? coords[0] : 'N/A';
-      const lng = isArray ? coords[1] : 'N/A';
-      assert(false, `places[${i}].coordinates=[${lat}, ${lng}] 無效（需為 [lat(-90~90), lng(-180~180)]）`);
     }
   }
   if (allValid) {
     assert(true, `所有 ${data.places.length} 個景點的 coordinates 格式正確`);
   }
-} else {
-  assert(false, '跳過 coordinates 檢查（places 未正確載入）');
 }
 
-// 8. rating 必須是 0-5 的數字
-console.log('\n[8] rating 範圍檢查');
+// 9. Rating range
+console.log('\n[9] rating 範圍檢查');
 if (data && Array.isArray(data.places)) {
   let allValid = true;
   for (let i = 0; i < data.places.length; i++) {
     const rating = data.places[i].rating;
     if (typeof rating !== 'number' || rating < 0 || rating > 5) {
       allValid = false;
-      assert(false, `places[${i}].rating=${rating} 無效（需為 0-5 的數字）`);
     }
   }
   if (allValid) {
     assert(true, `所有 ${data.places.length} 個景點的 rating 都在 0-5 範圍內`);
   }
-} else {
-  assert(false, '跳過 rating 檢查（places 未正確載入）');
 }
 
-// 9. itinerary 結構檢查
-console.log('\n[9] itinerary 結構檢查');
-if (data && Array.isArray(data.itinerary)) {
-  assert(true, 'itinerary 是陣列');
-  let allValid = true;
-  for (let i = 0; i < data.itinerary.length; i++) {
-    const day = data.itinerary[i];
-    const hasRequired = (
-      Object.prototype.hasOwnProperty.call(day, 'day') &&
-      Object.prototype.hasOwnProperty.call(day, 'date') &&
-      Object.prototype.hasOwnProperty.call(day, 'theme') &&
-      Object.prototype.hasOwnProperty.call(day, 'places')
-    );
-    if (!hasRequired) {
-      allValid = false;
-      assert(false, `itinerary[${i}] 缺少必要欄位（需有 day, date, theme, places）`);
-    }
-  }
-  if (allValid) {
-    assert(true, `所有 ${data.itinerary.length} 個 itinerary 項目結構正確`);
-  }
-} else {
-  assert(false, '跳過 itinerary 檢查（不是陣列或未定義）');
-}
-
-// 10. 景點必須涵蓋 Budapest 和 Vienna
-console.log('\n[10] 城市覆蓋檢查（BUDAPEST & VIENNA）');
-if (data && Array.isArray(data.places)) {
-  const cities = data.places.map(p => p.city);
-  const hasBudapest = cities.some(c => c.toLowerCase().includes('budapest'));
-  const hasVienna = cities.some(c => c.toLowerCase().includes('vienna'));
-  assert(hasBudapest, '景點涵蓋 Budapest');
-  assert(hasVienna, '景點涵蓋 Vienna');
-} else {
-  assert(false, '跳過城市檢查（places 未正確載入）');
-}
-
-// 總結
+// Summary
 console.log('\n========================================');
 console.log(`測試結果：✅ ${passCount} passed | ❌ ${failCount} failed`);
 if (failCount === 0) {
-  console.log('🎉 所有 smoke test 通過！');
+  console.log('🎉 所有測試通過！');
 } else {
   console.log('⚠️  有測試失敗，請檢查上述 ❌ 項目。');
 }

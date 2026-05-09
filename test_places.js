@@ -126,6 +126,39 @@ if (data && Array.isArray(data.places)) {
   assert(false, '跳過 googleSearchUrl 檢查（places 未正確載入）');
 }
 
+// 6b. mapsUrl field
+console.log('\n[6b] mapsUrl 欄位檢查（62 個景點）');
+if (data && Array.isArray(data.places)) {
+  let allHaveMapsUrl = true;
+  let allFormattedCorrectly = true;
+  for (let i = 0; i < data.places.length; i++) {
+    const place = data.places[i];
+    const hasMapsUrl = Object.prototype.hasOwnProperty.call(place, 'mapsUrl') && typeof place.mapsUrl === 'string' && place.mapsUrl.length > 0;
+    if (!hasMapsUrl) {
+      allHaveMapsUrl = false;
+      assert(false, `places[${i}].mapsUrl 缺失（${place.nameZh}）`);
+      continue;
+    }
+    const url = place.mapsUrl;
+    // Must contain google.com/maps/search and @lat,lng
+    const hasGoogleMapsSearch = url.includes('google.com/maps/search');
+    const hasCoords = /@-?\d+\.\d+,-?\d+\.\d+/.test(url);
+    if (!hasGoogleMapsSearch) {
+      allFormattedCorrectly = false;
+      assert(false, `places[${i}].mapsUrl 不是 Google Maps search URL（${place.nameZh}）`);
+    }
+    if (!hasCoords) {
+      allFormattedCorrectly = false;
+      assert(false, `places[${i}].mapsUrl 缺少座標格式 @lat,lng（${place.nameZh}）`);
+    }
+  }
+  if (allHaveMapsUrl && allFormattedCorrectly) {
+    assert(true, `所有 62 個景點都有正確格式的 mapsUrl`);
+  }
+} else {
+  assert(false, '跳過 mapsUrl 檢查（places 未正確載入）');
+}
+
 // 7. Valid categories
 console.log('\n[7] category 合法性檢查');
 const VALID_CATEGORIES = ['heritage', 'nature', 'food', 'experience', 'museum', 'thermal', 'viewpoint'];

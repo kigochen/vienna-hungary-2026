@@ -90,8 +90,8 @@
     .filter-btn.active { background: var(--color-cofounder-blue); color: var(--color-off-white); }
     .leaflet-container { background: var(--color-rich-black); border-radius: var(--radius-xl); }
     ::-webkit-scrollbar { width: 8px; }
-    ::-webkit-scrollbar-track { background: var(--color-rich-black); }
-    ::-webkit-scrollbar-thumb { background: var(--color-cofounder-blue); border-radius: var(--radius-md); opacity: 0.5; }
+    ::-webkit-scrollbar-track { background: var(--color-ash-gray); }
+    ::-webkit-scrollbar-thumb { background: var(--color-cofounder-blue); border-radius: var(--radius-md); opacity: 0.4; }
   </style>
 </head>
 <body>
@@ -116,7 +116,7 @@
 <header class="pt-24 pb-16 px-4 text-center bg-nightSky">
   <div class="max-w-4xl mx-auto">
     <p class="text-cofounderBlue text-sm tracking-widest uppercase mb-3">2026 年夏季旅遊</p>
-    <h1 class="text-5xl md:text-6xl font-bold mb-4">維也納 + 匈牙利之旅</h1>
+    <h1 class="text-5xl md:text-6xl font-serif-tc font-medium tracking-tight mb-4">維也納 + 匈牙利之旅</h1>
     <p class="text-2xl text-cofounderBlue mb-6">8 月 30 日 — 9 月 12 日（14 天）</p>
     <p class="text-lg text-lightGray mb-2">匈牙利定點深度遊 → 最後 4 天維也納</p>
     <p class="text-mediumGray">布達佩斯進 · 維也納出</p>
@@ -395,7 +395,7 @@ function setupFilters() {
 function renderMap() {
   if (map) return;
   map = L.map('map-container', { zoomControl: true }).setView([47.5, 19.0], 7);
-  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  L.tileLayer('https://basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png', {
     attribution: '© OpenStreetMap'
   }).addTo(map);
   updateMapMarkers();

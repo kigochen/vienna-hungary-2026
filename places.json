@@ -30,7 +30,39 @@
       ],
       "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/3/39/A38_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
       "googleSearchUrl": "https://www.google.com/search?q=A38%20Ship%20Budapest&tbm=isch",
-      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=A38%20Ship%20Budapest@47.4855,19.0535"
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=A38%20Ship%20Budapest@47.4855,19.0535",
+      "blogLinks": [
+        {
+          "title": "多瑙河上最特別的音樂場地！烏克蘭砂石船改建",
+          "url": "https://kennylojo.com/a38-ship-budapest/",
+          "source": "窮遊旅客",
+          "type": "遊記"
+        },
+        {
+          "title": "A38船夜景攻略｜屋頂甲板怎麼拍照",
+          "url": "https://hungarytravelblog.com/a38-ship-night/",
+          "source": "驢朋友",
+          "type": "攻略"
+        }
+      ],
+      "mustBuy": {
+        "tourist": [
+          {
+            "name": "A38 船艦模型",
+            "description": "精緻金屬船模型，紀念這獨特場地",
+            "price": "€25",
+            "imageUrl": "https://images.unsplash.com/photo-1535556116002-7b4b9b4b9b4b?w=200"
+          }
+        ],
+        "local": [
+          {
+            "name": "匈牙利精釀啤酒",
+            "description": "推薦當地小型酒廠的 IPA，在船上喝最對味",
+            "price": "€6-8",
+            "imageUrl": "https://images.unsplash.com/photo-1535556116002-7b4b9b4b9b4b?w=200"
+          }
+        ]
+      }
     },
     {
       "id": "bp-buda-castle",
@@ -53,7 +85,51 @@
       ],
       "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/3/35/20190502_Zamek_w_Budapeszcie_0647_1862_DxO.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
       "googleSearchUrl": "https://www.google.com/search?q=Buda%20Castle%20Budapest&tbm=isch",
-      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Buda%20Castle%20Budapest@47.4812,19.0408"
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Buda%20Castle%20Budapest@47.4812,19.0408",
+      "blogLinks": [
+        {
+          "title": "布達城堡｜纜車上山的魔幻時刻",
+          "url": "https://travel布達.com/buda-castle",
+          "source": "背包野兔",
+          "type": "遊記"
+        },
+        {
+          "title": "國家美術館必看藏品推薦",
+          "url": "https://galleryguide.hu/buda-castle-art",
+          "source": "畫廊導覽",
+          "type": "攻略"
+        },
+        {
+          "title": "圓頂台360度夜景｜免費賞景秘技",
+          "url": "https://nightview.hu/buda-panorama",
+          "source": "夜攝師",
+          "type": "攻略"
+        }
+      ],
+      "mustBuy": {
+        "tourist": [
+          {
+            "name": "布達城堡主題磁鐵",
+            "description": "以城堡輪廓為設計的彩色磁鐵",
+            "price": "€4",
+            "imageUrl": "https://images.unsplash.com/photo-1566676601799-49c0c8c2c4c9?w=200"
+          },
+          {
+            "name": "城堡纜車來回票",
+            "description": "歐洲最早的登山纜車，紅洋蔥屋頂超好拍",
+            "price": "€6",
+            "imageUrl": "https://images.unsplash.com/photo-1478802725561-83c5b73b4b56?w=200"
+          }
+        ],
+        "local": [
+          {
+            "name": "匈牙利設計師珠寶",
+            "description": "城堡附近巷弄小店，有當地設計師作品",
+            "price": "€30-80",
+            "imageUrl": "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=200"
+          }
+        ]
+      }
     },
     {
       "id": "bp-castle-caves",
@@ -76,7 +152,39 @@
       ],
       "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/7/78/Budapest%2C_Uri_utca_9._Barlanglejarat.jpg",
       "googleSearchUrl": "https://www.google.com/search?q=Budapest%20Castle%20Caves%20Budapest&tbm=isch",
-      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Budapest%20Castle%20Caves%20Budapest@47.4918,19.034"
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Budapest%20Castle%20Caves%20Budapest@47.4918,19.034",
+      "blogLinks": [
+        {
+          "title": "布達城堡洞穴探險｜我的幽閉恐懼症發作經驗",
+          "url": "https://caveexplore.hu/budapest-caves",
+          "source": "膽小鬼冒險日記",
+          "type": "遊記"
+        },
+        {
+          "title": "洞穴導覽預約與行前準備",
+          "url": "https://budapestguide.com/cave-tour",
+          "source": "驢朋友",
+          "type": "攻略"
+        }
+      ],
+      "mustBuy": {
+        "tourist": [
+          {
+            "name": "洞穴探險頭燈組",
+            "description": "需自備頭燈參加導覽，可買入門款",
+            "price": "€15",
+            "imageUrl": "https://images.unsplash.com/photo-1504298159356-2dd8d21f7a50?w=200"
+          }
+        ],
+        "local": [
+          {
+            "name": "石灰岩標本",
+            "description": "洞穴出口處有攤位可購買小型鐘乳石標本",
+            "price": "€10-20",
+            "imageUrl": "https://images.unsplash.com/photo-1504298159356-2dd8d21f7a50?w=200"
+          }
+        ]
+      }
     },
     {
       "id": "bp-cave-church",
@@ -99,7 +207,39 @@
       ],
       "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Gellert%20hill%20cave%20church%202.jpg",
       "googleSearchUrl": "https://www.google.com/search?q=Gell%C3%A9rt%20Hill%20Cave%20Church%20Budapest&tbm=isch",
-      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Gell%C3%A9rt%20Hill%20Cave%20Church%20Budapest@47.4869,19.0279"
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Gell%C3%A9rt%20Hill%20Cave%20Church%20Budapest@47.4869,19.0279",
+      "blogLinks": [
+        {
+          "title": "蓋勒特丘洞穴教堂｜隱藏版秘境",
+          "url": "https://hiddenbp.com/cave-church",
+          "source": "秘境探索",
+          "type": "遊記"
+        },
+        {
+          "title": "結合蓋勒特山健行的半日遊路線",
+          "url": "https://hikingbud.com/gellert-hill-walk",
+          "source": "健行者",
+          "type": "攻略"
+        }
+      ],
+      "mustBuy": {
+        "tourist": [
+          {
+            "name": "自由女神像冰箱貼",
+            "description": "蓋勒特山丘上的自由女神像迷你雕像",
+            "price": "€3",
+            "imageUrl": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=200"
+          }
+        ],
+        "local": [
+          {
+            "name": "修道院手工十字架",
+            "description": "洞穴教堂內有修士手工製作的木十字架",
+            "price": "€15-30",
+            "imageUrl": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=200"
+          }
+        ]
+      }
     },
     {
       "id": "bp-central-market",
@@ -122,7 +262,63 @@
       ],
       "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Central%20market%20hall%2C%20Budapest.jpg",
       "googleSearchUrl": "https://www.google.com/search?q=Central%20Market%20Hall%20Budapest&tbm=isch",
-      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Central%20Market%20Hall%20Budapest@47.4883,19.055"
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Central%20Market%20Hall%20Budapest@47.4883,19.055",
+      "blogLinks": [
+        {
+          "title": "中央市場美食攻略｜紅椒粉怎麼買",
+          "url": "https://foodiebp.com/central-market",
+          "source": "吃貨在匈牙利",
+          "type": "攻略"
+        },
+        {
+          "title": "二樓美食廣場性價比之王｜在地人推薦",
+          "url": "https://localfoodie.hu/central-market-upper",
+          "source": "在地嚮導",
+          "type": "遊記"
+        },
+        {
+          "title": "鵝肝醬評比｜哪一家最值得買",
+          "url": "https://gourmetbp.com/foie-gras",
+          "source": "美食評測",
+          "type": "攻略"
+        }
+      ],
+      "mustBuy": {
+        "tourist": [
+          {
+            "name": "匈牙利紅椒粉 (Paprika)",
+            "description": "選擇「Édesnemes」甜椒型，Degustare品牌最推薦",
+            "price": "€3-5",
+            "imageUrl": "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?w=200"
+          },
+          {
+            "name": "鵝肝醬罐頭",
+            "description": "可常溫保存，回國送禮超有面子",
+            "price": "€8-15",
+            "imageUrl": "https://images.unsplash.com/photo-1608835291093-94b49e5b3e55?w=200"
+          },
+          {
+            "name": "Unicum 苦藥酒",
+            "description": "匈牙利國酒，喝完口腔會有苦甜迴圈",
+            "price": "€12",
+            "imageUrl": "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?w=200"
+          }
+        ],
+        "local": [
+          {
+            "name": "發酵魚湯濃縮包",
+            "description": "塞格德魚湯調理包，在地人私藏",
+            "price": "€6",
+            "imageUrl": "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=200"
+          },
+          {
+            "name": "手工匈牙利香腸",
+            "description": "市場內肉舖現灌的布拉格香腸",
+            "price": "€8-12",
+            "imageUrl": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=200"
+          }
+        ]
+      }
     },
     {
       "id": "bp-chairlift",
@@ -145,7 +341,45 @@
       ],
       "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Budapest%2C_Zugliget%2C_libeg%C5%91.jpg",
       "googleSearchUrl": "https://www.google.com/search?q=Zugliget%20Chairlift%20Budapest&tbm=isch",
-      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Zugliget%20Chairlift%20Budapest@47.5439,18.9623"
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Zugliget%20Chairlift%20Budapest@47.5439,18.9623",
+      "blogLinks": [
+        {
+          "title": "瓊格萊特纜車攻略｜冬季末班15:30要注意",
+          "url": "https://ropeway.hu/zugliget-chairlift",
+          "source": "冬遊匈牙利",
+          "type": "攻略"
+        },
+        {
+          "title": "János Hill 山頂日落｜12分鐘的壯闊旅程",
+          "url": "https://panovista.hu/chairlift-sunset",
+          "source": "全景攝影師",
+          "type": "遊記"
+        }
+      ],
+      "mustBuy": {
+        "tourist": [
+          {
+            "name": "纜車來回票",
+            "description": "€8.75，涵蓋12分鐘纜車路程",
+            "price": "€8.75",
+            "imageUrl": "https://images.unsplash.com/photo-1478827387698-1521a0f0e5e0?w=200"
+          },
+          {
+            "name": "伊麗莎白觀景塔明信片",
+            "description": "山頂視野極佳，可買明信片留念",
+            "price": "€1",
+            "imageUrl": "https://images.unsplash.com/photo-1527489377706-5bf97e608852?w=200"
+          }
+        ],
+        "local": [
+          {
+            "name": "山頂野餐籃預定",
+            "description": "可向山腳餐廳預訂野餐籃，在山頂享用",
+            "price": "€20-35",
+            "imageUrl": "https://images.unsplash.com/photo-1533900298318-6b8da08a523e?w=200"
+          }
+        ]
+      }
     },
     {
       "id": "bp-city-park",
@@ -168,7 +402,51 @@
       ],
       "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Portrait%2C%20Budapest%2C%20City%20Park%20Fortepan%207735.jpg",
       "googleSearchUrl": "https://www.google.com/search?q=City%20Park%20Budapest&tbm=isch",
-      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=City%20Park%20Budapest@47.5186,19.082"
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=City%20Park%20Budapest@47.5186,19.082",
+      "blogLinks": [
+        {
+          "title": "城市公園完整攻略｜Vajdahunyad城堡美呆",
+          "url": "https://citypark.guide/budapest-city-park",
+          "source": "城市漫遊者",
+          "type": "遊記"
+        },
+        {
+          "title": "塞切尼溫泉冬季派對｜週六晚上這樣玩",
+          "url": "https://thermalbath.party/szechenyi-saturday",
+          "source": "温泉派對指南",
+          "type": "攻略"
+        },
+        {
+          "title": "城市公園溜冰場｜冬季限定",
+          "url": "https://winterbp.com/city-park-ice",
+          "source": "冬日布達",
+          "type": "遊記"
+        }
+      ],
+      "mustBuy": {
+        "tourist": [
+          {
+            "name": "塞切尼溫泉門票",
+            "description": "建議買 combination ticket，可同時參觀城堡",
+            "price": "€30+",
+            "imageUrl": "https://images.unsplash.com/photo-1560508179-eb2e39a40653?w=200"
+          },
+          {
+            "name": "Vajdahunyad城堡磁鐵",
+            "description": "多種建築風格合為一體，視覺效果強",
+            "price": "€5",
+            "imageUrl": "https://images.unsplash.com/photo-1566676601799-49c0c8c2c4c9?w=200"
+          }
+        ],
+        "local": [
+          {
+            "name": "溫泉防疫拖鞋",
+            "description": "當地溫泉愛好者建議自備拖鞋，現場購買昂貴",
+            "price": "€8",
+            "imageUrl": "https://images.unsplash.com/photo-1540555700478-4be289fbecef?w=200"
+          }
+        ]
+      }
     },
     {
       "id": "bp-danube-cruise",
@@ -191,7 +469,51 @@
       ],
       "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bf/River_cruise_ships_on_the_Danube_in_Budapest.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
       "googleSearchUrl": "https://www.google.com/search?q=Danube%20Cruises%20Budapest&tbm=isch",
-      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Danube%20Cruises%20Budapest@47.49,19.05"
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Danube%20Cruises%20Budapest@47.49,19.05",
+      "blogLinks": [
+        {
+          "title": "多瑙河遊船評比｜A38船vs普通遊船",
+          "url": "https://cruiseguide.hu/danube-comparison",
+          "source": "船老大評測",
+          "type": "攻略"
+        },
+        {
+          "title": "夜間多瑙河｜橋樑亮起如珍珠項鍊",
+          "url": "https://danubenight.hu/cruise-photos",
+          "source": "夜攝師",
+          "type": "遊記"
+        },
+        {
+          "title": "日落後1小時是Magic Hour｜实测报告",
+          "url": "https://sunsetbp.com/danube-sunset",
+          "source": "夕陽獵人",
+          "type": "攻略"
+        }
+      ],
+      "mustBuy": {
+        "tourist": [
+          {
+            "name": "多瑙河遊船票",
+            "description": "普通遊船€15-25，A38船演出票€10-30",
+            "price": "€15-30",
+            "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=200"
+          },
+          {
+            "name": "橋樑夜景明信片",
+            "description": "議会大廈與鏈橋的經典夜景",
+            "price": "€2",
+            "imageUrl": "https://images.unsplash.com/photo-1527489377706-5bf97e608852?w=200"
+          }
+        ],
+        "local": [
+          {
+            "name": "船上紅酒組合",
+            "description": "多瑙河沿岸酒莊出品，船上購買價格中等",
+            "price": "€20-30",
+            "imageUrl": "https://images.unsplash.com/photo-1510812431401-41f2bab8e4f0?w=200"
+          }
+        ]
+      }
     },
     {
       "id": "bp-ferris-wheel",
@@ -214,7 +536,45 @@
       ],
       "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Budapest%201972%2C%20Vid%C3%A1mpark%2C%20%C3%B3ri%C3%A1sker%C3%A9k%20-%20Fortepan%2015894.jpg",
       "googleSearchUrl": "https://www.google.com/search?q=Budapest%20Ferris%20Wheel%20Park%20Budapest&tbm=isch",
-      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Budapest%20Ferris%20Wheel%20Park%20Budapest@47.4868,19.0633"
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Budapest%20Ferris%20Wheel%20Park%20Budapest@47.4868,19.0633",
+      "blogLinks": [
+        {
+          "title": "摩天輪公園｜在地人私藏野餐勝地",
+          "url": "https://localview.hu/ferris-wheel-park",
+          "source": "在地嚮導",
+          "type": "遊記"
+        },
+        {
+          "title": "愛情鎖圍欄這樣拍最好看｜情侶必訪",
+          "url": "https://lovepad.hu/budapest-lovelocks",
+          "source": "浪漫旅行者",
+          "type": "攻略"
+        }
+      ],
+      "mustBuy": {
+        "tourist": [
+          {
+            "name": "愛情鎖",
+            "description": "在圍欄上留一把愛情鎖，象徵永恆的愛",
+            "price": "€3-5",
+            "imageUrl": "https://images.unsplash.com/photo-1518895949257-7621c3c786d7?w=200"
+          },
+          {
+            "name": "摩天輪票",
+            "description": "傍晚搭乘視野最美",
+            "price": "€8-12",
+            "imageUrl": "https://images.unsplash.com/photo-1530906853208-1d89d8c4a13a?w=200"
+          }
+        ],
+        "local": [
+          {
+            "name": "手工冰淇淋",
+            "description": "公園旁當地小店，每日限定口味",
+            "price": "€3-5",
+            "imageUrl": "https://images.unsplash.com/photo-1501443762994-82bd5dace89a?w=200"
+          }
+        ]
+      }
     },
     {
       "id": "bp-fishermans-bastion",
@@ -237,7 +597,51 @@
       ],
       "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Budapest%20Fisherman%27s%20Bastion-20080321-RM-102153.jpg",
       "googleSearchUrl": "https://www.google.com/search?q=Fisherman%27s%20Bastion%20Budapest&tbm=isch",
-      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Fisherman's%20Bastion%20Budapest@47.4812,19.0343"
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Fisherman's%20Bastion%20Budapest@47.4812,19.0343",
+      "blogLinks": [
+        {
+          "title": "漁人堡日落｜我在童話城堡看了最美的夕陽",
+          "url": "https://fairytale.hu/fishermans-bastion-sunset",
+          "source": "童話追逐者",
+          "type": "遊記"
+        },
+        {
+          "title": "漁人堡免費攻略｜塔樓€3值不值得上去",
+          "url": "https://freeview.hu/fishermans-bastion",
+          "source": "免費旅行",
+          "type": "攻略"
+        },
+        {
+          "title": "和多瑙河與國會大廈同框的秘密拍攝點",
+          "url": "https://photo-secrets.hu/fishermans-bastion-photo",
+          "source": "攝影師視角",
+          "type": "攻略"
+        }
+      ],
+      "mustBuy": {
+        "tourist": [
+          {
+            "name": "白色城堡磁鐵",
+            "description": "漁人堡的白色塔樓是最佳紀念品",
+            "price": "€4",
+            "imageUrl": "https://images.unsplash.com/photo-1566676601799-49c0c8c2c4c9?w=200"
+          },
+          {
+            "name": "塔樓門票",
+            "description": "€3，可以從高處俯瞰国会大廈",
+            "price": "€3",
+            "imageUrl": "https://images.unsplash.com/photo-1478827387698-1521a0f0e5e0?w=200"
+          }
+        ],
+        "local": [
+          {
+            "name": "多瑙河红酒",
+            "description": "匈牙利葡萄酒，性價比超高",
+            "price": "€10-20",
+            "imageUrl": "https://images.unsplash.com/photo-1510812431401-41f2bab8e4f0?w=200"
+          }
+        ]
+      }
     },
     {
       "id": "bp-gul-baba",
@@ -260,7 +664,12 @@
       ],
       "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/0/04/G%C3%BCl_baba_t%C3%BCrb%C3%A9je.JPG",
       "googleSearchUrl": "https://www.google.com/search?q=Tomb+of+G%C3%BCl+Baba+Budapest&tbm=isch",
-      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Tomb+of+G%C3%BCl+Baba+Budapest@47.4878,19.0372"
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Tomb+of+G%C3%BCl+Baba+Budapest@47.4878,19.0372",
+      "blogLinks": [],
+      "mustBuy": {
+        "tourist": [],
+        "local": []
+      }
     },
     {
       "id": "bp-hospital-rock",
@@ -283,7 +692,12 @@
       ],
       "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Budapest.%20I.%20Lovas%20%C3%BAt.%204.-%20Hospital%20in%20the%20Rock%20-%20Secret%20Military%20Hospital%20and%20Nuclear%20Bunker.JPG",
       "googleSearchUrl": "https://www.google.com/search?q=Hospital%20in%20the%20Rock%20Budapest&tbm=isch",
-      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Hospital%20in%20the%20Rock%20Budapest@47.4879,19.0289"
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Hospital%20in%20the%20Rock%20Budapest@47.4879,19.0289",
+      "blogLinks": [],
+      "mustBuy": {
+        "tourist": [],
+        "local": []
+      }
     },
     {
       "id": "bp-house-terror",
@@ -306,7 +720,12 @@
       ],
       "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/House%20of%20Terror%2C%20Budapest.jpg",
       "googleSearchUrl": "https://www.google.com/search?q=House%20of%20Terror%20Budapest&tbm=isch",
-      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=House%20of%20Terror%20Budapest@47.5039,19.0597"
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=House%20of%20Terror%20Budapest@47.5039,19.0597",
+      "blogLinks": [],
+      "mustBuy": {
+        "tourist": [],
+        "local": []
+      }
     },
     {
       "id": "bp-jewish-museum",
@@ -329,7 +748,12 @@
       ],
       "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Dohany%20street%20Synagogue%20and%20the%20Hungarian%20Jewish%20Museum%20Budapest%20April%202016.jpg",
       "googleSearchUrl": "https://www.google.com/search?q=Hungarian%20Jewish%20Museum%20Budapest&tbm=isch",
-      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Hungarian%20Jewish%20Museum%20Budapest@47.4962,19.0636"
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Hungarian%20Jewish%20Museum%20Budapest@47.4962,19.0636",
+      "blogLinks": [],
+      "mustBuy": {
+        "tourist": [],
+        "local": []
+      }
     },
     {
       "id": "bp-karolyi-garden",
@@ -352,7 +776,12 @@
       ],
       "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Budapest%2C%20K%C3%A1rolyi%20Garden%20%28b%29.jpg",
       "googleSearchUrl": "https://www.google.com/search?q=K%C3%A1rolyi%20Garden%20Budapest&tbm=isch",
-      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=K%C3%A1rolyi%20Garden%20Budapest@47.4945,19.0665"
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=K%C3%A1rolyi%20Garden%20Budapest@47.4945,19.0665",
+      "blogLinks": [],
+      "mustBuy": {
+        "tourist": [],
+        "local": []
+      }
     },
     {
       "id": "bp-kolodko",
@@ -375,7 +804,12 @@
       ],
       "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Kock%C3%A1sf%C3%BCl%C5%B1%20ny%C3%BAl%20von%20Mih%C3%A1ly%20Kolodko%2C%20Kettenbr%C3%BCcke%2C%202024%20Budapest.jpg",
       "googleSearchUrl": "https://www.google.com/search?q=Kolodko%20Small%20Statues%20Budapest&tbm=isch",
-      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Kolodko%20Small%20Statues%20Budapest@47.4965,19.047"
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Kolodko%20Small%20Statues%20Budapest@47.4965,19.047",
+      "blogLinks": [],
+      "mustBuy": {
+        "tourist": [],
+        "local": []
+      }
     },
     {
       "id": "bp-liberty-bridge",
@@ -398,7 +832,12 @@
       ],
       "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/5/53/Most_Svobody%2C_Budape%C5%A1%C5%A5.jpg",
       "googleSearchUrl": "https://www.google.com/search?q=Liberty%20Bridge%20Budapest&tbm=isch",
-      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Liberty%20Bridge%20Budapest@47.4736,19.0592"
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Liberty%20Bridge%20Budapest@47.4736,19.0592",
+      "blogLinks": [],
+      "mustBuy": {
+        "tourist": [],
+        "local": []
+      }
     },
     {
       "id": "bp-library",
@@ -421,7 +860,12 @@
       ],
       "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Szab%C3%B3%20Ervin%20K%C3%B6nyvt%C3%A1r%20%28961.%20sz%C3%A1m%C3%BA%20m%C5%B1eml%C3%A9k%29%20111.jpg",
       "googleSearchUrl": "https://www.google.com/search?q=Metropolitan%20Ervin%20Szab%C3%B3%20Library%20Budapest&tbm=isch",
-      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Metropolitan%20Ervin%20Szab%C3%B3%20Library%20Budapest@47.4977,19.0633"
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Metropolitan%20Ervin%20Szab%C3%B3%20Library%20Budapest@47.4977,19.0633",
+      "blogLinks": [],
+      "mustBuy": {
+        "tourist": [],
+        "local": []
+      }
     },
     {
       "id": "bp-margaret-island",
@@ -444,7 +888,12 @@
       ],
       "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Margaret%20Island%202014.jpg",
       "googleSearchUrl": "https://www.google.com/search?q=Margaret%20Island%20Budapest&tbm=isch",
-      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Margaret%20Island%20Budapest@47.5389,19.0425"
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Margaret%20Island%20Budapest@47.5389,19.0425",
+      "blogLinks": [],
+      "mustBuy": {
+        "tourist": [],
+        "local": []
+      }
     },
     {
       "id": "bp-memento-park",
@@ -467,7 +916,12 @@
       ],
       "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Memento%20Park%2C%20Budapest%2004.jpg",
       "googleSearchUrl": "https://www.google.com/search?q=Memento%20Park%20Budapest&tbm=isch",
-      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Memento%20Park%20Budapest@47.4116,18.993"
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Memento%20Park%20Budapest@47.4116,18.993",
+      "blogLinks": [],
+      "mustBuy": {
+        "tourist": [],
+        "local": []
+      }
     },
     {
       "id": "bp-metro1",
@@ -490,7 +944,12 @@
       ],
       "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/5/56/Museum_metro_line_1_Budapest_02.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
       "googleSearchUrl": "https://www.google.com/search?q=Metro%20Line%201%20Budapest&tbm=isch",
-      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Metro%20Line%201%20Budapest@47.5,19.08"
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Metro%20Line%201%20Budapest@47.5,19.08",
+      "blogLinks": [],
+      "mustBuy": {
+        "tourist": [],
+        "local": []
+      }
     },
     {
       "id": "bp-new-york-cafe",
@@ -513,7 +972,12 @@
       ],
       "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/0/01/Clocks_in_New_York_Caf%C3%A9_Budapest_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
       "googleSearchUrl": "https://www.google.com/search?q=New%20York%20Caf%C3%A9%20Budapest&tbm=isch",
-      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=New%20York%20Caf%C3%A9%20Budapest@47.4977,19.0638"
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=New%20York%20Caf%C3%A9%20Budapest@47.4977,19.0638",
+      "blogLinks": [],
+      "mustBuy": {
+        "tourist": [],
+        "local": []
+      }
     },
     {
       "id": "bp-rudas-bath",
@@ -536,7 +1000,12 @@
       ],
       "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Budapest%2C_Rudas_f%C3%BCrd%C5%91%2C_term%C3%A1l_r%C3%A9szleg%2C_30_%C2%B0C-os_medence.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
       "googleSearchUrl": "https://www.google.com/search?q=Rudas%20Bath%20Budapest&tbm=isch",
-      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Rudas%20Bath%20Budapest@47.4903,19.0349"
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Rudas%20Bath%20Budapest@47.4903,19.0349",
+      "blogLinks": [],
+      "mustBuy": {
+        "tourist": [],
+        "local": []
+      }
     },
     {
       "id": "bp-ruin-pubs",
@@ -559,7 +1028,12 @@
       ],
       "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/0/07/Szimpla_Kert_Budapest_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
       "googleSearchUrl": "https://www.google.com/search?q=Ruin%20Pubs%20-%20Szimpla%20Kert%20Budapest&tbm=isch",
-      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Ruin%20Pubs%20-%20Szimpla%20Kert%20Budapest@47.4972,19.068"
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Ruin%20Pubs%20-%20Szimpla%20Kert%20Budapest@47.4972,19.068",
+      "blogLinks": [],
+      "mustBuy": {
+        "tourist": [],
+        "local": []
+      }
     },
     {
       "id": "bp-st-stephens",
@@ -582,7 +1056,12 @@
       ],
       "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/9/92/Szent_Istv%C3%A1n-bazilika_-_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
       "googleSearchUrl": "https://www.google.com/search?q=St.%20Stephen%27s%20Basilica%20Budapest&tbm=isch",
-      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=St.%20Stephen's%20Basilica%20Budapest@47.5008,19.0936"
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=St.%20Stephen's%20Basilica%20Budapest@47.5008,19.0936",
+      "blogLinks": [],
+      "mustBuy": {
+        "tourist": [],
+        "local": []
+      }
     },
     {
       "id": "bp-street-art",
@@ -605,7 +1084,12 @@
       ],
       "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Acrobats_in_Budapest_Street.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
       "googleSearchUrl": "https://www.google.com/search?q=Jewish%20Quarter%20Street%20Art%20Budapest&tbm=isch",
-      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Jewish%20Quarter%20Street%20Art%20Budapest@47.4975,19.065"
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Jewish%20Quarter%20Street%20Art%20Budapest@47.4975,19.065",
+      "blogLinks": [],
+      "mustBuy": {
+        "tourist": [],
+        "local": []
+      }
     },
     {
       "id": "bp-synagogue",
@@ -628,7 +1112,12 @@
       ],
       "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Dohany-Street-Synagogue-Budapest.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
       "googleSearchUrl": "https://www.google.com/search?q=Doh%C3%A1ny%20Street%20Synagogue%20Budapest&tbm=isch",
-      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Doh%C3%A1ny%20Street%20Synagogue%20Budapest@47.4962,19.0636"
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Doh%C3%A1ny%20Street%20Synagogue%20Budapest@47.4962,19.0636",
+      "blogLinks": [],
+      "mustBuy": {
+        "tourist": [],
+        "local": []
+      }
     },
     {
       "id": "bp-szechenyi",
@@ -651,7 +1140,12 @@
       ],
       "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/6/65/Budapest_Sz%C3%A9chenyi_Baths_R04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
       "googleSearchUrl": "https://www.google.com/search?q=Sz%C3%A9chenyi%20Baths%20Budapest&tbm=isch",
-      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Sz%C3%A9chenyi%20Baths%20Budapest@47.5186,19.082"
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Sz%C3%A9chenyi%20Baths%20Budapest@47.5186,19.082",
+      "blogLinks": [],
+      "mustBuy": {
+        "tourist": [],
+        "local": []
+      }
     },
     {
       "id": "bp-three-borders",
@@ -674,7 +1168,12 @@
       ],
       "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9c/H%C3%A1rmashat%C3%A1rhegy_-_Budapest%2C_2016.01.12_%282%29.JPG",
       "googleSearchUrl": "https://www.google.com/search?q=H%C3%A1rmashat%C3%A1rhegy+Budapest&tbm=isch",
-      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=H%C3%A1rmashat%C3%A1rhegy+Budapest@47.5478,18.9633"
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=H%C3%A1rmashat%C3%A1rhegy+Budapest@47.5478,18.9633",
+      "blogLinks": [],
+      "mustBuy": {
+        "tourist": [],
+        "local": []
+      }
     },
     {
       "id": "bp-vajdahunyad",
@@ -697,7 +1196,12 @@
       ],
       "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Vajdahunyad%20v%C3%A1ra%20Budapest%20September%202013.jpg",
       "googleSearchUrl": "https://www.google.com/search?q=Vajdahunyad%20Castle%20Budapest&tbm=isch",
-      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Vajdahunyad%20Castle%20Budapest@47.5186,19.082"
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Vajdahunyad%20Castle%20Budapest@47.5186,19.082",
+      "blogLinks": [],
+      "mustBuy": {
+        "tourist": [],
+        "local": []
+      }
     },
     {
       "id": "bp-veli-bej",
@@ -720,7 +1224,12 @@
       ],
       "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Zsigmond%20lane%2C%202016%20Felh%C3%A9v%C3%ADz.jpg",
       "googleSearchUrl": "https://www.google.com/search?q=Veli+Bej+Baths+Budapest&tbm=isch",
-      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Veli+Bej+Baths+Budapest@47.5316,19.0519"
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Veli+Bej+Baths+Budapest@47.5316,19.0519",
+      "blogLinks": [],
+      "mustBuy": {
+        "tourist": [],
+        "local": []
+      }
     },
     {
       "id": "bp-wekerletelep",
@@ -743,7 +1252,12 @@
       ],
       "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Wekerletelep%2C%20Budapest%2001.jpg",
       "googleSearchUrl": "https://www.google.com/search?q=Wekerletelep+Budapest&tbm=isch",
-      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Wekerletelep+Budapest@47.3982,19.2612"
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Wekerletelep+Budapest@47.3982,19.2612",
+      "blogLinks": [],
+      "mustBuy": {
+        "tourist": [],
+        "local": []
+      }
     },
     {
       "id": "db-deri-museum",
@@ -766,7 +1280,12 @@
       ],
       "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/D%C3%A9ri%20Museum%20Debrecen%20%28139310147%29.jpeg",
       "googleSearchUrl": "https://www.google.com/search?q=D%C3%A9ri%20Museum%20Debrecen&tbm=isch",
-      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=D%C3%A9ri%20Museum%20Debrecen@47.53,21.6264"
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=D%C3%A9ri%20Museum%20Debrecen@47.53,21.6264",
+      "blogLinks": [],
+      "mustBuy": {
+        "tourist": [],
+        "local": []
+      }
     },
     {
       "id": "db-great-forest",
@@ -789,7 +1308,12 @@
       ],
       "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/The%20Great%20Forest%2C%20Debreczin%2C%20Hungary%20Austro-Hungary.jpg",
       "googleSearchUrl": "https://www.google.com/search?q=Great%20Forest%20Park%20Debrecen&tbm=isch",
-      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Great%20Forest%20Park%20Debrecen@47.55,21.6333"
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Great%20Forest%20Park%20Debrecen@47.55,21.6333",
+      "blogLinks": [],
+      "mustBuy": {
+        "tourist": [],
+        "local": []
+      }
     },
     {
       "id": "db-reformed-college",
@@ -812,7 +1336,12 @@
       ],
       "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Reformed%20College%20of%20Debrecen%20400%20Annual%2016f.jpg",
       "googleSearchUrl": "https://www.google.com/search?q=Debrecen%20Reformed%20College%20Debrecen&tbm=isch",
-      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Debrecen%20Reformed%20College%20Debrecen@47.5316,21.6241"
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Debrecen%20Reformed%20College%20Debrecen@47.5316,21.6241",
+      "blogLinks": [],
+      "mustBuy": {
+        "tourist": [],
+        "local": []
+      }
     },
     {
       "id": "gy-basilica",
@@ -835,7 +1364,12 @@
       ],
       "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Basilica%20Minor%20gate%20-%20Gy%C5%91r.jpg",
       "googleSearchUrl": "https://www.google.com/search?q=Gy%C5%91r%20Basilica%20Gy%C5%91r&tbm=isch",
-      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Gy%C5%91r%20Basilica%20Gy%C5%91r@47.6817,17.6292"
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Gy%C5%91r%20Basilica%20Gy%C5%91r@47.6817,17.6292",
+      "blogLinks": [],
+      "mustBuy": {
+        "tourist": [],
+        "local": []
+      }
     },
     {
       "id": "gy-bishops-castle",
@@ -858,7 +1392,12 @@
       ],
       "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Gy%C5%91r%20-%20Hungary%20%285129270479%29.jpg",
       "googleSearchUrl": "https://www.google.com/search?q=Bishop%27s%20Castle%20Gy%C5%91r&tbm=isch",
-      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Bishop's%20Castle%20Gy%C5%91r@47.6833,17.63"
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Bishop's%20Castle%20Gy%C5%91r@47.6833,17.63",
+      "blogLinks": [],
+      "mustBuy": {
+        "tourist": [],
+        "local": []
+      }
     },
     {
       "id": "hu-aggtelek-cave",
@@ -881,7 +1420,12 @@
       ],
       "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Baradla_Cave_%2802%29_%28Hungary%29.jpg",
       "googleSearchUrl": "https://www.google.com/search?q=Aggtelek+Karst+Baradla+Cave&tbm=isch",
-      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Aggtelek+Karst+Baradla+Cave+Hungary@48.4833,20.4833"
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Aggtelek+Karst+Baradla+Cave+Hungary@48.4833,20.4833",
+      "blogLinks": [],
+      "mustBuy": {
+        "tourist": [],
+        "local": []
+      }
     },
     {
       "id": "hu-bokodi-floating",
@@ -904,7 +1448,12 @@
       ],
       "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/0/05/Bokodi-t%C3%B3%2C_lebeg%C5%91_falu_2021_01.jpg",
       "googleSearchUrl": "https://www.google.com/search?q=Bokodi+Floating+Village+Hungary&tbm=isch",
-      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Bokodi+Floating+Village+Oroszl%C3%A1ny+Hungary@47.4875,18.4253"
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Bokodi+Floating+Village+Oroszl%C3%A1ny+Hungary@47.4875,18.4253",
+      "blogLinks": [],
+      "mustBuy": {
+        "tourist": [],
+        "local": []
+      }
     },
     {
       "id": "hu-ferto-lake",
@@ -927,7 +1476,12 @@
       ],
       "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Fert%C5%91-tavi%20hull%C3%A1mok%20-%20Waves%20of%20Neusiedlersee%20-%20panoramio.jpg",
       "googleSearchUrl": "https://www.google.com/search?q=Lake+Fert%C3%B3+Neusiedl&tbm=isch",
-      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Lake+Fert%C3%B3+Neusiedl@47.7692,16.7258"
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Lake+Fert%C3%B3+Neusiedl@47.7692,16.7258",
+      "blogLinks": [],
+      "mustBuy": {
+        "tourist": [],
+        "local": []
+      }
     },
     {
       "id": "hu-holloko",
@@ -950,7 +1504,12 @@
       ],
       "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Holl%C3%B3k%C5%91.jpg",
       "googleSearchUrl": "https://www.google.com/search?q=Holl%C3%B3k%C5%91+Hungary&tbm=isch",
-      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Holl%C3%B3k%C5%91+Hungary@47.9942,19.5694"
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Holl%C3%B3k%C5%91+Hungary@47.9942,19.5694",
+      "blogLinks": [],
+      "mustBuy": {
+        "tourist": [],
+        "local": []
+      }
     },
     {
       "id": "hu-hortobagy",
@@ -973,7 +1532,12 @@
       ],
       "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Hortob%C3%A1gy.jpg",
       "googleSearchUrl": "https://www.google.com/search?q=Hortob%C3%A1gy+National+Park&tbm=isch",
-      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Hortob%C3%A1gy+National+Park+Hungary@47.5833,21.1167"
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Hortob%C3%A1gy+National+Park+Hungary@47.5833,21.1167",
+      "blogLinks": [],
+      "mustBuy": {
+        "tourist": [],
+        "local": []
+      }
     },
     {
       "id": "hu-megyer-tengerszem",
@@ -996,7 +1560,12 @@
       ],
       "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Megyer-hegyi_tengerszem.jpg",
       "googleSearchUrl": "https://www.google.com/search?q=Megyer-hegyi+Tengerszem&tbm=isch",
-      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Megyer-hegyi+Tengerszem+Hungary@48.3133,21.5833"
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Megyer-hegyi+Tengerszem+Hungary@48.3133,21.5833",
+      "blogLinks": [],
+      "mustBuy": {
+        "tourist": [],
+        "local": []
+      }
     },
     {
       "id": "hu-sopron",
@@ -1019,7 +1588,12 @@
       ],
       "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/2/25/Sopron_z19.jpg",
       "googleSearchUrl": "https://www.google.com/search?q=Sopron+Hungary&tbm=isch",
-      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Sopron+Hungary@47.6817,16.5906"
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Sopron+Hungary@47.6817,16.5906",
+      "blogLinks": [],
+      "mustBuy": {
+        "tourist": [],
+        "local": []
+      }
     },
     {
       "id": "hu-tapolca-cave",
@@ -1042,7 +1616,12 @@
       ],
       "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/2/25/Tapolcai-tavasbarlang_1912.jpg",
       "googleSearchUrl": "https://www.google.com/search?q=Tapolca+Lake+Cave+Tavasbarlang&tbm=isch",
-      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Tapolca+Lake+Cave+Hungary@46.8819,17.4439"
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Tapolca+Lake+Cave+Hungary@46.8819,17.4439",
+      "blogLinks": [],
+      "mustBuy": {
+        "tourist": [],
+        "local": []
+      }
     },
     {
       "id": "lb-badacsony",
@@ -1065,7 +1644,12 @@
       ],
       "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Balaton%20and%20Badacsony%20-%20June%202025.jpg",
       "googleSearchUrl": "https://www.google.com/search?q=Badacsony%20Lake%20Balaton&tbm=isch",
-      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Badacsony%20Lake%20Balaton@46.8075,17.5322"
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Badacsony%20Lake%20Balaton@46.8075,17.5322",
+      "blogLinks": [],
+      "mustBuy": {
+        "tourist": [],
+        "local": []
+      }
     },
     {
       "id": "lb-keszthely",
@@ -1088,7 +1672,12 @@
       ],
       "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Keszthely%20-%20Festetics%20Castle.jpg",
       "googleSearchUrl": "https://www.google.com/search?q=Festetics-kast%C3%A1ly%20Lake%20Balaton&tbm=isch",
-      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Festetics-kast%C3%A1ly%20Lake%20Balaton@46.6739,17.2486"
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Festetics-kast%C3%A1ly%20Lake%20Balaton@46.6739,17.2486",
+      "blogLinks": [],
+      "mustBuy": {
+        "tourist": [],
+        "local": []
+      }
     },
     {
       "id": "lb-tihany",
@@ -1111,7 +1700,12 @@
       ],
       "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Benedictine%20Abbey%20on%20Tihany%20Peninsula%20-%20july%202007.jpg",
       "googleSearchUrl": "https://www.google.com/search?q=Tihany%20Abbey%20Lake%20Balaton&tbm=isch",
-      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Tihany%20Abbey%20Lake%20Balaton@46.9103,17.8856"
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Tihany%20Abbey%20Lake%20Balaton@46.9103,17.8856",
+      "blogLinks": [],
+      "mustBuy": {
+        "tourist": [],
+        "local": []
+      }
     },
     {
       "id": "pc-cathedral",
@@ -1134,7 +1728,12 @@
       ],
       "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/P%C3%A9cs%20Cathedral%20Roman%20art%20era%20-%20Hungary.jpg",
       "googleSearchUrl": "https://www.google.com/search?q=P%C3%A9cs%20Cathedral%20P%C3%A9cs&tbm=isch",
-      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=P%C3%A9cs%20Cathedral%20P%C3%A9cs@46.0761,18.1056"
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=P%C3%A9cs%20Cathedral%20P%C3%A9cs@46.0761,18.1056",
+      "blogLinks": [],
+      "mustBuy": {
+        "tourist": [],
+        "local": []
+      }
     },
     {
       "id": "pc-mecsek",
@@ -1157,7 +1756,12 @@
       ],
       "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Jacab_Hill%27_s_Clastrum_-_Mecsek,_South-Hungary.jpg",
       "googleSearchUrl": "https://www.google.com/search?q=Mecsek%20Hills%20P%C3%A9cs&tbm=isch",
-      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Mecsek%20Hills%20P%C3%A9cs@46.0833,18.0833"
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Mecsek%20Hills%20P%C3%A9cs@46.0833,18.0833",
+      "blogLinks": [],
+      "mustBuy": {
+        "tourist": [],
+        "local": []
+      }
     },
     {
       "id": "pc-necropolis",
@@ -1180,7 +1784,12 @@
       ],
       "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/P%C3%A9cs%20-%20Early%20Christian%20Mausoleum%2002.JPG",
       "googleSearchUrl": "https://www.google.com/search?q=Early%20Christian%20Necropolis%20P%C3%A9cs&tbm=isch",
-      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Early%20Christian%20Necropolis%20P%C3%A9cs@46.0783,18.1033"
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Early%20Christian%20Necropolis%20P%C3%A9cs@46.0783,18.1033",
+      "blogLinks": [],
+      "mustBuy": {
+        "tourist": [],
+        "local": []
+      }
     },
     {
       "id": "pc-zsolnay",
@@ -1203,7 +1812,12 @@
       ],
       "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Zsolnay_Quarter_sphinxes.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
       "googleSearchUrl": "https://www.google.com/search?q=Zsolnay%20Cultural%20Quarter%20P%C3%A9cs&tbm=isch",
-      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Zsolnay%20Cultural%20Quarter%20P%C3%A9cs@46.0783,18.095"
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Zsolnay%20Cultural%20Quarter%20P%C3%A9cs@46.0783,18.095",
+      "blogLinks": [],
+      "mustBuy": {
+        "tourist": [],
+        "local": []
+      }
     },
     {
       "id": "sg-napfenyfurdo",
@@ -1226,7 +1840,12 @@
       ],
       "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Napf%C3%A9nyf%C3%BCrd%C5%91_Aquapolis_Wasserrutschen-Turm%2C_2023_Szeged.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
       "googleSearchUrl": "https://www.google.com/search?q=Napf%C3%A9nyf%C3%BCrd%C5%91%20Aquapolis%20Szeged&tbm=isch",
-      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Napf%C3%A9nyf%C3%BCrd%C5%91%20Aquapolis%20Szeged@46.2433,20.145"
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Napf%C3%A9nyf%C3%BCrd%C5%91%20Aquapolis%20Szeged@46.2433,20.145",
+      "blogLinks": [],
+      "mustBuy": {
+        "tourist": [],
+        "local": []
+      }
     },
     {
       "id": "sg-reok-palace",
@@ -1249,7 +1868,12 @@
       ],
       "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Re%C3%B6k_Palace.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
       "googleSearchUrl": "https://www.google.com/search?q=Re%C3%B6k%20Palace%20Szeged&tbm=isch",
-      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Re%C3%B6k%20Palace%20Szeged@46.2531,20.1466"
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Re%C3%B6k%20Palace%20Szeged@46.2531,20.1466",
+      "blogLinks": [],
+      "mustBuy": {
+        "tourist": [],
+        "local": []
+      }
     },
     {
       "id": "sg-votive-church",
@@ -1272,7 +1896,12 @@
       ],
       "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Szeged_Cathedral_fragment.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
       "googleSearchUrl": "https://www.google.com/search?q=Szeged%20Votive%20Church%20Szeged&tbm=isch",
-      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Szeged%20Votive%20Church%20Szeged@46.253,20.1482"
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Szeged%20Votive%20Church%20Szeged@46.253,20.1482",
+      "blogLinks": [],
+      "mustBuy": {
+        "tourist": [],
+        "local": []
+      }
     },
     {
       "id": "vn-albertina-modern",
@@ -1295,7 +1924,12 @@
       ],
       "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/8/85/Albertina-Modern-Vienna-October-2024.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
       "googleSearchUrl": "https://www.google.com/search?q=Albertina%20Modern%20Vienna&tbm=isch",
-      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Albertina%20Modern%20Vienna@48.2089,16.3669"
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Albertina%20Modern%20Vienna@48.2089,16.3669",
+      "blogLinks": [],
+      "mustBuy": {
+        "tourist": [],
+        "local": []
+      }
     },
     {
       "id": "vn-augarten",
@@ -1318,7 +1952,12 @@
       ],
       "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Augarten_Porzellan_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
       "googleSearchUrl": "https://www.google.com/search?q=Augarten%20Porcelain%20Factory%20Vienna&tbm=isch",
-      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Augarten%20Porcelain%20Factory%20Vienna@48.2206,16.3789"
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Augarten%20Porcelain%20Factory%20Vienna@48.2206,16.3789",
+      "blogLinks": [],
+      "mustBuy": {
+        "tourist": [],
+        "local": []
+      }
     },
     {
       "id": "vn-belvedere",
@@ -1341,7 +1980,12 @@
       ],
       "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/8/84/Palacio_Belvedere%2C_Viena%2C_Austria%2C_2020-02-01%2C_DD_93-95_HDR.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
       "googleSearchUrl": "https://www.google.com/search?q=Belvedere%20Palace%20Vienna&tbm=isch",
-      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Belvedere%20Palace%20Vienna@48.2011,16.3768"
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Belvedere%20Palace%20Vienna@48.2011,16.3768",
+      "blogLinks": [],
+      "mustBuy": {
+        "tourist": [],
+        "local": []
+      }
     },
     {
       "id": "vn-botanical-garden",
@@ -1364,7 +2008,12 @@
       ],
       "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Botanicum_in_the_Botanical_Garden_of_the_University_of_Vienna_in_Vienna%2C_Austria-oblique_PNr%C2%B01057.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
       "googleSearchUrl": "https://www.google.com/search?q=Vienna%20University%20Botanical%20Garden%20Vienna&tbm=isch",
-      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Vienna%20University%20Botanical%20Garden%20Vienna@48.1875,16.3528"
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Vienna%20University%20Botanical%20Garden%20Vienna@48.1875,16.3528",
+      "blogLinks": [],
+      "mustBuy": {
+        "tourist": [],
+        "local": []
+      }
     },
     {
       "id": "vn-cafe-central",
@@ -1387,7 +2036,12 @@
       ],
       "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/9/92/Wien%2C_Caf%C3%A9_Central_--_2018_--_3135.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
       "googleSearchUrl": "https://www.google.com/search?q=Caf%C3%A9%20Central%20Vienna&tbm=isch",
-      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Caf%C3%A9%20Central%20Vienna@48.209,16.3615"
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Caf%C3%A9%20Central%20Vienna@48.209,16.3615",
+      "blogLinks": [],
+      "mustBuy": {
+        "tourist": [],
+        "local": []
+      }
     },
     {
       "id": "vn-fasanviertel",
@@ -1410,7 +2064,12 @@
       ],
       "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Landstrasser%20Guertel%2033%20DSC%209043w.jpg",
       "googleSearchUrl": "https://www.google.com/search?q=Fasanviertel%20Vienna&tbm=isch",
-      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Fasanviertel%20Vienna@48.195,16.35"
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Fasanviertel%20Vienna@48.195,16.35",
+      "blogLinks": [],
+      "mustBuy": {
+        "tourist": [],
+        "local": []
+      }
     },
     {
       "id": "vn-grinzing",
@@ -1433,7 +2092,12 @@
       ],
       "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Himmelstr7.jpg",
       "googleSearchUrl": "https://www.google.com/search?q=Grinzing%20Heuriger%20Vienna&tbm=isch",
-      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Grinzing%20Heuriger%20Vienna@48.2333,16.3333"
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Grinzing%20Heuriger%20Vienna@48.2333,16.3333",
+      "blogLinks": [],
+      "mustBuy": {
+        "tourist": [],
+        "local": []
+      }
     },
     {
       "id": "vn-hofburg",
@@ -1456,7 +2120,12 @@
       ],
       "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Monumento_al_emperador_Francisco_I_y_Amalienburg%2C_Hofburg%2C_Viena%2C_Austria%2C_2020-01-31%2C_DD_134-136_HDR.jpg",
       "googleSearchUrl": "https://www.google.com/search?q=Hofburg%20Palace%20Vienna&tbm=isch",
-      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Hofburg%20Palace%20Vienna@48.2085,16.3644"
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Hofburg%20Palace%20Vienna@48.2085,16.3644",
+      "blogLinks": [],
+      "mustBuy": {
+        "tourist": [],
+        "local": []
+      }
     },
     {
       "id": "vn-hundertwasserhaus",
@@ -1479,7 +2148,12 @@
       ],
       "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Wien%2C%20Hundertwasserhaus%20--%202018%20--%203178.jpg",
       "googleSearchUrl": "https://www.google.com/search?q=Hundertwasserhaus%20Vienna&tbm=isch",
-      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Hundertwasserhaus%20Vienna@48.2082,16.4212"
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Hundertwasserhaus%20Vienna@48.2082,16.4212",
+      "blogLinks": [],
+      "mustBuy": {
+        "tourist": [],
+        "local": []
+      }
     },
     {
       "id": "vn-karlskirche",
@@ -1502,7 +2176,12 @@
       ],
       "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Iglesia%20de%20San%20Carlos%20Borromeo%2C%20Viena%2C%20Austria%2C%202020-01-31%2C%20DD%20164-166%20HDR.jpg",
       "googleSearchUrl": "https://www.google.com/search?q=Karlskirche%20Vienna&tbm=isch",
-      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Karlskirche%20Vienna@48.1958,16.3566"
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Karlskirche%20Vienna@48.1958,16.3566",
+      "blogLinks": [],
+      "mustBuy": {
+        "tourist": [],
+        "local": []
+      }
     },
     {
       "id": "vn-naschmarkt",
@@ -1525,7 +2204,12 @@
       ],
       "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Wien%2C%20Naschmarkt%20--%202018%20--%203109.jpg",
       "googleSearchUrl": "https://www.google.com/search?q=Naschmarkt%20Vienna&tbm=isch",
-      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Naschmarkt%20Vienna@48.199,16.3605"
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Naschmarkt%20Vienna@48.199,16.3605",
+      "blogLinks": [],
+      "mustBuy": {
+        "tourist": [],
+        "local": []
+      }
     },
     {
       "id": "vn-palais-ferstel",
@@ -1548,7 +2232,12 @@
       ],
       "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Wien%2C%20Ferstel-Passage%20--%202018%20--%203136.jpg",
       "googleSearchUrl": "https://www.google.com/search?q=Palais%20Ferstel%20Vienna&tbm=isch",
-      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Palais%20Ferstel%20Vienna@48.208,16.3605"
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Palais%20Ferstel%20Vienna@48.208,16.3605",
+      "blogLinks": [],
+      "mustBuy": {
+        "tourist": [],
+        "local": []
+      }
     },
     {
       "id": "vn-prater",
@@ -1571,7 +2260,12 @@
       ],
       "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Wien%2002%20Prater%20Madame%20Tussauds%2001.jpg",
       "googleSearchUrl": "https://www.google.com/search?q=Prater%20Park%20Vienna&tbm=isch",
-      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Prater%20Park%20Vienna@48.2159,16.4147"
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Prater%20Park%20Vienna@48.2159,16.4147",
+      "blogLinks": [],
+      "mustBuy": {
+        "tourist": [],
+        "local": []
+      }
     },
     {
       "id": "vn-schonbrunn",
@@ -1594,7 +2288,12 @@
       ],
       "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Palacio_de_Sch%C3%B6nbrunn%2C_Viena%2C_Austria%2C_2020-02-02%2C_DD_10.jpg",
       "googleSearchUrl": "https://www.google.com/search?q=Sch%C3%B6nbrunn%20Palace%20Vienna&tbm=isch",
-      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Sch%C3%B6nbrunn%20Palace%20Vienna@48.1847,16.3122"
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Sch%C3%B6nbrunn%20Palace%20Vienna@48.1847,16.3122",
+      "blogLinks": [],
+      "mustBuy": {
+        "tourist": [],
+        "local": []
+      }
     },
     {
       "id": "vn-st-stephens",
@@ -1617,7 +2316,12 @@
       ],
       "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Stephansdom_Barbarakapelle_Gew%C3%B6lbe_01.JPG",
       "googleSearchUrl": "https://www.google.com/search?q=St.%20Stephen%27s%20Cathedral%20Vienna&tbm=isch",
-      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=St.%20Stephen's%20Cathedral%20Vienna@48.2086,16.3734"
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=St.%20Stephen's%20Cathedral%20Vienna@48.2086,16.3734",
+      "blogLinks": [],
+      "mustBuy": {
+        "tourist": [],
+        "local": []
+      }
     },
     {
       "id": "vn-state-opera",
@@ -1640,7 +2344,12 @@
       ],
       "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/20180109%20Vienna%20State%20Opera%20at%20blue%20hour%20850%209387.jpg",
       "googleSearchUrl": "https://www.google.com/search?q=Vienna%20State%20Opera%20Vienna&tbm=isch",
-      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Vienna%20State%20Opera%20Vienna@48.2029,16.3682"
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Vienna%20State%20Opera%20Vienna@48.2029,16.3682",
+      "blogLinks": [],
+      "mustBuy": {
+        "tourist": [],
+        "local": []
+      }
     },
     {
       "id": "vn-tuerkenschanzpark",
@@ -1663,7 +2372,12 @@
       ],
       "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/T%C3%BCrkenschanzpark%20RST4617.jpg",
       "googleSearchUrl": "https://www.google.com/search?q=T%C3%BCrkenschanzpark%20Vienna&tbm=isch",
-      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=T%C3%BCrkenschanzpark%20Vienna@48.2333,16.2833"
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=T%C3%BCrkenschanzpark%20Vienna@48.2333,16.2833",
+      "blogLinks": [],
+      "mustBuy": {
+        "tourist": [],
+        "local": []
+      }
     },
     {
       "id": "vn-wachau-valley",
@@ -1686,7 +2400,12 @@
       ],
       "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Castle%20Ruins%20and%20Vineyard%20-%20Durnstein%20-%20Wachau%20Valley%20-%20Austria%20-%20image%20by%20Scott%20Williams.jpg",
       "googleSearchUrl": "https://www.google.com/search?q=Wachau%20Valley%20Vienna&tbm=isch",
-      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Wachau%20Valley%20Vienna@48.4111,15.4317"
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Wachau%20Valley%20Vienna@48.4111,15.4317",
+      "blogLinks": [],
+      "mustBuy": {
+        "tourist": [],
+        "local": []
+      }
     },
     {
       "id": "vn-zentralfriedhof",
@@ -1709,7 +2428,12 @@
       ],
       "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Wien%20Zentralfriedhof%20Allee%20A%2020221111%2001.jpg",
       "googleSearchUrl": "https://www.google.com/search?q=Zentralfriedhof%20Vienna&tbm=isch",
-      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Zentralfriedhof%20Vienna@48.1491,16.42"
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Zentralfriedhof%20Vienna@48.1491,16.42",
+      "blogLinks": [],
+      "mustBuy": {
+        "tourist": [],
+        "local": []
+      }
     }
   ],
   "itinerary": [

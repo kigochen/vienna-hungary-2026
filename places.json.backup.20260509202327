@@ -1,0 +1,2008 @@
+{
+  "version": "1.0",
+  "tripInfo": {
+    "destination": "維也納+匈牙利",
+    "startDate": "2026-08-30",
+    "endDate": "2026-09-12",
+    "base": "布達佩斯（匈牙利定點深度遊）",
+    "viennaDays": "最後4天（9/9-9/12）",
+    "totalDays": 14
+  },
+  "places": [
+    {
+      "id": "bp-a38",
+      "name": "A38 Ship",
+      "nameZh": "A38船",
+      "city": "Budapest",
+      "category": "experience",
+      "coordinates": [
+        47.4855,
+        19.0535
+      ],
+      "rating": 4.7,
+      "pros": "烏克蘭砂石船改建的音樂表演場地；有餐廳畫廊；屋頂甲板夜景",
+      "cons": "表演不一定符合口味；可能需提前購票",
+      "cost": "€10-30",
+      "bestTime": "晚上",
+      "tips": "距電車6號線不遠",
+      "photos": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/A38%201.jpg"
+      ],
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/A38%201.jpg",
+      "googleSearchUrl": "https://www.google.com/search?q=A38%20Ship%20Budapest&tbm=isch",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=A38%20Ship%20Budapest@47.4855,19.0535"
+    },
+    {
+      "id": "bp-buda-castle",
+      "name": "Buda Castle",
+      "nameZh": "布達城堡",
+      "city": "Budapest",
+      "category": "heritage",
+      "coordinates": [
+        47.4812,
+        19.0408
+      ],
+      "rating": 4.5,
+      "pros": "軌道纜車上山；國家美術館；圓頂台360度景觀",
+      "cons": "博物館門票不便宜；夏季戶外熱",
+      "cost": "€20（博物館套票）",
+      "bestTime": "傍晚賞夜景",
+      "tips": "纜車廣場視野很美",
+      "photos": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/20190502%20Zamek%20w%20Budapeszcie%200647%201862%20DxO.jpg"
+      ],
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/20190502%20Zamek%20w%20Budapeszcie%200647%201862%20DxO.jpg",
+      "googleSearchUrl": "https://www.google.com/search?q=Buda%20Castle%20Budapest&tbm=isch",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Buda%20Castle%20Budapest@47.4812,19.0408"
+    },
+    {
+      "id": "bp-castle-caves",
+      "name": "Budapest Castle Caves",
+      "nameZh": "布達城堡洞穴",
+      "city": "Budapest",
+      "category": "experience",
+      "coordinates": [
+        47.4918,
+        19.034
+      ],
+      "rating": 4.4,
+      "pros": "全市200+洞穴；導覽穿越狹窄空間",
+      "cons": "需導覽；有幽閉恐懼症者不宜",
+      "cost": "€10",
+      "bestTime": "上午",
+      "tips": "有幽閉恐懼症不建議",
+      "photos": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Budapest%2C%20Uri%20utca%209.%20Barlanglejarat.jpg"
+      ],
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Budapest%2C%20Uri%20utca%209.%20Barlanglejarat.jpg",
+      "googleSearchUrl": "https://www.google.com/search?q=Budapest%20Castle%20Caves%20Budapest&tbm=isch",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Budapest%20Castle%20Caves%20Budapest@47.4918,19.034"
+    },
+    {
+      "id": "bp-cave-church",
+      "name": "Gellért Hill Cave Church",
+      "nameZh": "蓋勒特丘洞穴教堂",
+      "city": "Budapest",
+      "category": "heritage",
+      "coordinates": [
+        47.4869,
+        19.0279
+      ],
+      "rating": 4.1,
+      "pros": "獨特洞穴教堂；語音導覽；門票便宜",
+      "cons": "規模較小；位置偏遠",
+      "cost": "€4",
+      "bestTime": "上午",
+      "tips": "結合蓋勒特山丘健行",
+      "photos": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Gellert%20hill%20cave%20church%202.jpg"
+      ],
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Gellert%20hill%20cave%20church%202.jpg",
+      "googleSearchUrl": "https://www.google.com/search?q=Gell%C3%A9rt%20Hill%20Cave%20Church%20Budapest&tbm=isch",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Gell%C3%A9rt%20Hill%20Cave%20Church%20Budapest@47.4869,19.0279"
+    },
+    {
+      "id": "bp-central-market",
+      "name": "Central Market Hall",
+      "nameZh": "中央市場",
+      "city": "Budapest",
+      "category": "food",
+      "coordinates": [
+        47.4883,
+        19.055
+      ],
+      "rating": 4.4,
+      "pros": "匈牙利最大傳統市場；必買紅椒粉與鵝肝醬",
+      "cons": "觀光客多；價格比外面貴",
+      "cost": "免費參觀",
+      "bestTime": "早上",
+      "tips": "二樓美食廣場比一樓便宜",
+      "photos": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Central%20market%20hall%2C%20Budapest.jpg"
+      ],
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Central%20market%20hall%2C%20Budapest.jpg",
+      "googleSearchUrl": "https://www.google.com/search?q=Central%20Market%20Hall%20Budapest&tbm=isch",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Central%20Market%20Hall%20Budapest@47.4883,19.055"
+    },
+    {
+      "id": "bp-chairlift",
+      "name": "Zugliget Chairlift",
+      "nameZh": "瓊格萊特纜車",
+      "city": "Budapest",
+      "category": "viewpoint",
+      "coordinates": [
+        47.5439,
+        18.9623
+      ],
+      "rating": 4.4,
+      "pros": "歐洲大陸最早纜車系統；12分鐘到海拔527公尺János Hill；冬雪夏夕陽",
+      "cons": "冬季末班15:30；票價€8.75",
+      "cost": "€8.75",
+      "bestTime": "日落前1小時",
+      "tips": "還可通往伊麗莎白觀景塔",
+      "photos": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Budapest%20Chairlift%201.jpg"
+      ],
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Budapest%20Chairlift%201.jpg",
+      "googleSearchUrl": "https://www.google.com/search?q=Zugliget%20Chairlift%20Budapest&tbm=isch",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Zugliget%20Chairlift%20Budapest@47.5439,18.9623"
+    },
+    {
+      "id": "bp-city-park",
+      "name": "City Park",
+      "nameZh": "城市公園",
+      "city": "Budapest",
+      "category": "nature",
+      "coordinates": [
+        47.5186,
+        19.082
+      ],
+      "rating": 4.5,
+      "pros": "Vajdahunyad城堡/塞切尼溫泉/摩天輪/洞穴博物館；一年四季不同活動",
+      "cons": "腹地大需充足時間",
+      "cost": "免費",
+      "bestTime": "任何季節",
+      "tips": "當地人休閒首選",
+      "photos": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Budapest%20City%20Park.%20Flowerbed.JPG"
+      ],
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Budapest%20City%20Park.%20Flowerbed.JPG",
+      "googleSearchUrl": "https://www.google.com/search?q=City%20Park%20Budapest&tbm=isch",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=City%20Park%20Budapest@47.5186,19.082"
+    },
+    {
+      "id": "bp-danube-cruise",
+      "name": "Danube Cruises",
+      "nameZh": "多瑙河游船",
+      "city": "Budapest",
+      "category": "experience",
+      "coordinates": [
+        47.49,
+        19.05
+      ],
+      "rating": 4.3,
+      "pros": "夜間橋樑亮起如珍珠項鍊；浪漫體驗",
+      "cons": "普通觀光船無突出特色",
+      "cost": "€15-25",
+      "bestTime": "日落後1小時",
+      "tips": "建議選A38船或水上巴士",
+      "photos": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/River%20cruise%20ships%20on%20the%20Danube%20in%20Budapest.jpg"
+      ],
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/River%20cruise%20ships%20on%20the%20Danube%20in%20Budapest.jpg",
+      "googleSearchUrl": "https://www.google.com/search?q=Danube%20Cruises%20Budapest&tbm=isch",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Danube%20Cruises%20Budapest@47.49,19.05"
+    },
+    {
+      "id": "bp-ferris-wheel",
+      "name": "Budapest Ferris Wheel Park",
+      "nameZh": "摩天輪公園",
+      "city": "Budapest",
+      "category": "viewpoint",
+      "coordinates": [
+        47.4868,
+        19.0633
+      ],
+      "rating": 4,
+      "pros": "當地人野餐勝地；愛情鎖圍欄可拍照",
+      "cons": "無明顯觀光景點標示；夏季太曬",
+      "cost": "免費（摩天輪另計）",
+      "bestTime": "傍晚",
+      "tips": "愛情鎖圍欄是拍照熱點",
+      "photos": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Budapest%201972%2C%20Vid%C3%A1mpark%2C%20%C3%B3ri%C3%A1sker%C3%A9k%20-%20Fortepan%2015894.jpg"
+      ],
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Budapest%201972%2C%20Vid%C3%A1mpark%2C%20%C3%B3ri%C3%A1sker%C3%A9k%20-%20Fortepan%2015894.jpg",
+      "googleSearchUrl": "https://www.google.com/search?q=Budapest%20Ferris%20Wheel%20Park%20Budapest&tbm=isch",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Budapest%20Ferris%20Wheel%20Park%20Budapest@47.4868,19.0633"
+    },
+    {
+      "id": "bp-fishermans-bastion",
+      "name": "Fisherman's Bastion",
+      "nameZh": "漁人堡",
+      "city": "Budapest",
+      "category": "heritage",
+      "coordinates": [
+        47.4812,
+        19.0343
+      ],
+      "rating": 4.7,
+      "pros": "白色童話城堡；俯瞰多瑙河與國會大廈；夜景超美",
+      "cons": "觀光客很多",
+      "cost": "免費（塔樓另€3）",
+      "bestTime": "日落時分",
+      "tips": "建議日落前到找好位置",
+      "photos": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Fisherman%27s%20Bastion%202014.jpg"
+      ],
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Fisherman%27s%20Bastion%202014.jpg",
+      "googleSearchUrl": "https://www.google.com/search?q=Fisherman%27s%20Bastion%20Budapest&tbm=isch",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Fisherman's%20Bastion%20Budapest@47.4812,19.0343"
+    },
+    {
+      "id": "bp-gul-baba",
+      "name": "Tomb of Gül Baba",
+      "nameZh": "古爾巴巴陵寢",
+      "city": "Budapest",
+      "category": "heritage",
+      "coordinates": [
+        47.4878,
+        19.0372
+      ],
+      "rating": 4.5,
+      "pros": "十六世紀伊斯蘭苦行僧陵寢；階梯式玫瑰花園；靜謐氛圍；遠眺Pest區",
+      "cons": "花園規模較小；歷史意義可能被忽視",
+      "cost": "免費",
+      "bestTime": "春季（玫瑰花季）",
+      "tips": "結合蓋勒特山健行一起行程；適合安靜閱讀",
+      "photos": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/G%C3%BCl_Baba_tomb.jpg"
+      ],
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/G%C3%BCl_Baba_tomb.jpg",
+      "googleSearchUrl": "https://www.google.com/search?q=Tomb+of+G%C3%BCl+Baba+Budapest&tbm=isch",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Tomb+of+G%C3%BCl+Baba+Budapest@47.4878,19.0372"
+    },
+    {
+      "id": "bp-hospital-rock",
+      "name": "Hospital in the Rock",
+      "nameZh": "岩中醫院",
+      "city": "Budapest",
+      "category": "museum",
+      "coordinates": [
+        47.4879,
+        19.0289
+      ],
+      "rating": 4.7,
+      "pros": "二戰秘密緊急醫院與核堡壘；導覽深入",
+      "cons": "需付費參加導覽；內容可能沉重",
+      "cost": "€14",
+      "bestTime": "預約上午場",
+      "tips": "務必預約導覽團",
+      "photos": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Budapest.%20I.%20Lovas%20%C3%BAt.%204.-%20Hospital%20in%20the%20Rock%20-%20Secret%20Military%20Hospital%20and%20Nuclear%20Bunker.JPG"
+      ],
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Budapest.%20I.%20Lovas%20%C3%BAt.%204.-%20Hospital%20in%20the%20Rock%20-%20Secret%20Military%20Hospital%20and%20Nuclear%20Bunker.JPG",
+      "googleSearchUrl": "https://www.google.com/search?q=Hospital%20in%20the%20Rock%20Budapest&tbm=isch",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Hospital%20in%20the%20Rock%20Budapest@47.4879,19.0289"
+    },
+    {
+      "id": "bp-house-terror",
+      "name": "House of Terror",
+      "nameZh": "恐怖之屋博物館",
+      "city": "Budapest",
+      "category": "museum",
+      "coordinates": [
+        47.5039,
+        19.0597
+      ],
+      "rating": 4.6,
+      "pros": "秘密警察總部改建；四層樓展區豐富",
+      "cons": "內容極度沉重；不適合小朋友；週一休館",
+      "cost": "€12",
+      "bestTime": "上午（避開週一）",
+      "tips": "可聆聽受害者第一手敘述",
+      "photos": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/House%20of%20Terror%2C%20Budapest.jpg"
+      ],
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/House%20of%20Terror%2C%20Budapest.jpg",
+      "googleSearchUrl": "https://www.google.com/search?q=House%20of%20Terror%20Budapest&tbm=isch",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=House%20of%20Terror%20Budapest@47.5039,19.0597"
+    },
+    {
+      "id": "bp-jewish-museum",
+      "name": "Hungarian Jewish Museum",
+      "nameZh": "匈牙利猶太博物館",
+      "city": "Budapest",
+      "category": "museum",
+      "coordinates": [
+        47.4962,
+        19.0636
+      ],
+      "rating": 4.4,
+      "pros": "猶太區核心；豐富歷史文物",
+      "cons": "門票不便宜",
+      "cost": "€10",
+      "bestTime": "上午",
+      "tips": "結合猶太教堂一起參觀",
+      "photos": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Dohany%20street%20Synagogue%20and%20the%20Hungarian%20Jewish%20Museum%20Budapest%20April%202016.jpg"
+      ],
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Dohany%20street%20Synagogue%20and%20the%20Hungarian%20Jewish%20Museum%20Budapest%20April%202016.jpg",
+      "googleSearchUrl": "https://www.google.com/search?q=Hungarian%20Jewish%20Museum%20Budapest&tbm=isch",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Hungarian%20Jewish%20Museum%20Budapest@47.4962,19.0636"
+    },
+    {
+      "id": "bp-karolyi-garden",
+      "name": "Károlyi Garden",
+      "nameZh": "卡羅利花園",
+      "city": "Budapest",
+      "category": "nature",
+      "coordinates": [
+        47.4945,
+        19.0665
+      ],
+      "rating": 4.3,
+      "pros": "布達佩斯最古老公共花園之一；遠離觀光客",
+      "cons": "位置稍微偏遠",
+      "cost": "免費",
+      "bestTime": "春季和秋季",
+      "tips": "當地人私藏慢旅行去處",
+      "photos": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Budapest%2C%20K%C3%A1rolyi%20Garden%20%28b%29.jpg"
+      ],
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Budapest%2C%20K%C3%A1rolyi%20Garden%20%28b%29.jpg",
+      "googleSearchUrl": "https://www.google.com/search?q=K%C3%A1rolyi%20Garden%20Budapest&tbm=isch",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=K%C3%A1rolyi%20Garden%20Budapest@47.4945,19.0665"
+    },
+    {
+      "id": "bp-kolodko",
+      "name": "Kolodko Small Statues",
+      "nameZh": "迷你雕像尋寶",
+      "city": "Budapest",
+      "category": "experience",
+      "coordinates": [
+        47.4965,
+        19.047
+      ],
+      "rating": 4.2,
+      "pros": "全市小雕像尋寶遊戲；自由橋上法蘭茲・斐迪南雕像",
+      "cons": "雕像極小容易錯過；無地圖",
+      "cost": "免費",
+      "bestTime": "任何時間",
+      "tips": "重點找自由橋上雕像",
+      "photos": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Kock%C3%A1sf%C3%BCl%C5%B1%20ny%C3%BAl%20von%20Mih%C3%A1ly%20Kolodko%2C%20Kettenbr%C3%BCcke%2C%202024%20Budapest.jpg"
+      ],
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Kock%C3%A1sf%C3%BCl%C5%B1%20ny%C3%BAl%20von%20Mih%C3%A1ly%20Kolodko%2C%20Kettenbr%C3%BCcke%2C%202024%20Budapest.jpg",
+      "googleSearchUrl": "https://www.google.com/search?q=Kolodko%20Small%20Statues%20Budapest&tbm=isch",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Kolodko%20Small%20Statues%20Budapest@47.4965,19.047"
+    },
+    {
+      "id": "bp-liberty-bridge",
+      "name": "Liberty Bridge",
+      "nameZh": "自由橋",
+      "city": "Budapest",
+      "category": "viewpoint",
+      "coordinates": [
+        47.4736,
+        19.0592
+      ],
+      "rating": 4.4,
+      "pros": "當地人橋上看書；夕陽絕美",
+      "cons": "爬上橋有安全疑慮；冬季不適合",
+      "cost": "免費",
+      "bestTime": "夏天日落",
+      "tips": "從皇宮方向走過橋視角最美",
+      "photos": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Most%20Svobody%2C%20Budape%C5%A1%C5%A5.jpg"
+      ],
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Most%20Svobody%2C%20Budape%C5%A1%C5%A5.jpg",
+      "googleSearchUrl": "https://www.google.com/search?q=Liberty%20Bridge%20Budapest&tbm=isch",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Liberty%20Bridge%20Budapest@47.4736,19.0592"
+    },
+    {
+      "id": "bp-library",
+      "name": "Metropolitan Ervin Szabó Library",
+      "nameZh": "薩博都會圖書館",
+      "city": "Budapest",
+      "category": "museum",
+      "coordinates": [
+        47.4977,
+        19.0633
+      ],
+      "rating": 4.5,
+      "pros": "四樓宮殿般閱讀空間；遊客少",
+      "cons": "外觀普通需上四樓",
+      "cost": "免費",
+      "bestTime": "平日下午",
+      "tips": "目標是四樓宮殿閱讀室",
+      "photos": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Szab%C3%B3%20Ervin%20K%C3%B6nyvt%C3%A1r%20%28961.%20sz%C3%A1m%C3%BA%20m%C5%B1eml%C3%A9k%29%20111.jpg"
+      ],
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Szab%C3%B3%20Ervin%20K%C3%B6nyvt%C3%A1r%20%28961.%20sz%C3%A1m%C3%BA%20m%C5%B1eml%C3%A9k%29%20111.jpg",
+      "googleSearchUrl": "https://www.google.com/search?q=Metropolitan%20Ervin%20Szab%C3%B3%20Library%20Budapest&tbm=isch",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Metropolitan%20Ervin%20Szab%C3%B3%20Library%20Budapest@47.4977,19.0633"
+    },
+    {
+      "id": "bp-margaret-island",
+      "name": "Margaret Island",
+      "nameZh": "瑪格麗特島",
+      "city": "Budapest",
+      "category": "nature",
+      "coordinates": [
+        47.5389,
+        19.0425
+      ],
+      "rating": 4.5,
+      "pros": "酒吧/餐廳/溫泉池/日式花園；可騎單車",
+      "cons": "完整走完需30分鐘以上",
+      "cost": "免費",
+      "bestTime": "早晨或傍晚",
+      "tips": "夏季晚間有音樂噴泉表演",
+      "photos": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Margaret%20Island%202014.jpg"
+      ],
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Margaret%20Island%202014.jpg",
+      "googleSearchUrl": "https://www.google.com/search?q=Margaret%20Island%20Budapest&tbm=isch",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Margaret%20Island%20Budapest@47.5389,19.0425"
+    },
+    {
+      "id": "bp-memento-park",
+      "name": "Memento Park",
+      "nameZh": "紀念品公園",
+      "city": "Budapest",
+      "category": "heritage",
+      "coordinates": [
+        47.4116,
+        18.993
+      ],
+      "rating": 4.3,
+      "pros": "共產時期雕像移葬公園；歷史教育意義",
+      "cons": "位置偏遠；建議參加導覽團",
+      "cost": "€10",
+      "bestTime": "春秋季",
+      "tips": "導覽團才能深入了解",
+      "photos": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Memento%20Park%2C%20Budapest%2004.jpg"
+      ],
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Memento%20Park%2C%20Budapest%2004.jpg",
+      "googleSearchUrl": "https://www.google.com/search?q=Memento%20Park%20Budapest&tbm=isch",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Memento%20Park%20Budapest@47.4116,18.993"
+    },
+    {
+      "id": "bp-metro1",
+      "name": "Metro Line 1",
+      "nameZh": "地鐵一號線（歐洲第一）",
+      "city": "Budapest",
+      "category": "heritage",
+      "coordinates": [
+        47.5,
+        19.08
+      ],
+      "rating": 4.3,
+      "pros": "歐洲大陸最早地鐵線；藝術風格車站",
+      "cons": "設備老舊；無障礙設施不足",
+      "cost": "€1.15/程",
+      "bestTime": "任何時間",
+      "tips": "英雄廣場到演唱會廣場站最完整",
+      "photos": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Museum%20metro%20line%201%20Budapest%2002.JPG"
+      ],
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Museum%20metro%20line%201%20Budapest%2002.JPG",
+      "googleSearchUrl": "https://www.google.com/search?q=Metro%20Line%201%20Budapest&tbm=isch",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Metro%20Line%201%20Budapest@47.5,19.08"
+    },
+    {
+      "id": "bp-new-york-cafe",
+      "name": "New York Café",
+      "nameZh": "新紐約咖啡館",
+      "city": "Budapest",
+      "category": "food",
+      "coordinates": [
+        47.4977,
+        19.0638
+      ],
+      "rating": 4.2,
+      "pros": "1890年代電影導演與文人匯聚地；金碧輝煌；水晶吊燈",
+      "cons": "價格昂貴；常需排隊",
+      "cost": "€15-30",
+      "bestTime": "平日下午",
+      "tips": "24K金卡布奇諾是招牌",
+      "photos": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Clocks%20in%20New%20York%20Caf%C3%A9%20Budapest%20%281%29.jpg"
+      ],
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Clocks%20in%20New%20York%20Caf%C3%A9%20Budapest%20%281%29.jpg",
+      "googleSearchUrl": "https://www.google.com/search?q=New%20York%20Caf%C3%A9%20Budapest&tbm=isch",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=New%20York%20Caf%C3%A9%20Budapest@47.4977,19.0638"
+    },
+    {
+      "id": "bp-rudas-bath",
+      "name": "Rudas Bath",
+      "nameZh": "魯達斯溫泉",
+      "city": "Budapest",
+      "category": "thermal",
+      "coordinates": [
+        47.4903,
+        19.0349
+      ],
+      "rating": 4.5,
+      "pros": "比塞切尼人少；水質優異",
+      "cons": "部分設施較舊；周末較擠",
+      "cost": "€18-30",
+      "bestTime": "平日早上",
+      "tips": "有飲用溫泉水可嚐",
+      "photos": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Budapest%2C%20Rudas%20f%C3%BCrd%C5%91%2C%20term%C3%A1l%20r%C3%A9szleg%2C%2030%20%C2%B0C-os%20medence.jpg"
+      ],
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Budapest%2C%20Rudas%20f%C3%BCrd%C5%91%2C%20term%C3%A1l%20r%C3%A9szleg%2C%2030%20%C2%B0C-os%20medence.jpg",
+      "googleSearchUrl": "https://www.google.com/search?q=Rudas%20Bath%20Budapest&tbm=isch",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Rudas%20Bath%20Budapest@47.4903,19.0349"
+    },
+    {
+      "id": "bp-ruin-pubs",
+      "name": "Ruin Pubs - Szimpla Kert",
+      "nameZh": "廢墟酒吧",
+      "city": "Budapest",
+      "category": "food",
+      "coordinates": [
+        47.4972,
+        19.068
+      ],
+      "rating": 4.2,
+      "pros": "布達佩斯獨特廢墟酒吧文化；Szimpla Kert最知名",
+      "cons": "戶外區域吸煙；氣味不佳；觀光客多",
+      "cost": "€5-15",
+      "bestTime": "晚上8點後",
+      "tips": "Auróra更地道",
+      "photos": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Szimpla%20Kert%20Budapest%201.jpg"
+      ],
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Szimpla%20Kert%20Budapest%201.jpg",
+      "googleSearchUrl": "https://www.google.com/search?q=Ruin%20Pubs%20-%20Szimpla%20Kert%20Budapest&tbm=isch",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Ruin%20Pubs%20-%20Szimpla%20Kert%20Budapest@47.4972,19.068"
+    },
+    {
+      "id": "bp-st-stephens",
+      "name": "St. Stephen's Basilica",
+      "nameZh": "聖史蒂芬教堂",
+      "city": "Budapest",
+      "category": "heritage",
+      "coordinates": [
+        47.5008,
+        19.0936
+      ],
+      "rating": 4.6,
+      "pros": "木乃伊手部聖髑；登頂俯瞰全市",
+      "cons": "登頂需額外付費；人潮擁擠",
+      "cost": "登頂€4",
+      "bestTime": "日落前1小時",
+      "tips": "從內部階梯登頂",
+      "photos": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Szent%20Istv%C3%A1n-bazilika%20-%2001.jpg"
+      ],
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Szent%20Istv%C3%A1n-bazilika%20-%2001.jpg",
+      "googleSearchUrl": "https://www.google.com/search?q=St.%20Stephen%27s%20Basilica%20Budapest&tbm=isch",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=St.%20Stephen's%20Basilica%20Budapest@47.5008,19.0936"
+    },
+    {
+      "id": "bp-street-art",
+      "name": "Jewish Quarter Street Art",
+      "nameZh": "猶太區街頭藝術",
+      "city": "Budapest",
+      "category": "experience",
+      "coordinates": [
+        47.4975,
+        19.065
+      ],
+      "rating": 4.2,
+      "pros": "彩色壁畫與創意塗鴉；開放藝術空間",
+      "cons": "藝術品可能消失",
+      "cost": "免費",
+      "bestTime": "任何時間",
+      "tips": "可參加街頭藝術導覽",
+      "photos": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Acrobats_in_Budapest_Street.jpg"
+      ],
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Acrobats_in_Budapest_Street.jpg",
+      "googleSearchUrl": "https://www.google.com/search?q=Jewish%20Quarter%20Street%20Art%20Budapest&tbm=isch",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Jewish%20Quarter%20Street%20Art%20Budapest@47.4975,19.065"
+    },
+    {
+      "id": "bp-synagogue",
+      "name": "Dohány Street Synagogue",
+      "nameZh": "多翰街猶太教堂",
+      "city": "Budapest",
+      "category": "heritage",
+      "coordinates": [
+        47.4962,
+        19.0636
+      ],
+      "rating": 4.6,
+      "pros": "歐洲最大猶太教堂；摩爾式建築；門票含導覽",
+      "cons": "需付費；周邊正在開發",
+      "cost": "€14",
+      "bestTime": "上午",
+      "tips": "門票含社區成員導覽",
+      "photos": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Dohany-Street-Synagogue-Budapest.jpg"
+      ],
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Dohany-Street-Synagogue-Budapest.jpg",
+      "googleSearchUrl": "https://www.google.com/search?q=Doh%C3%A1ny%20Street%20Synagogue%20Budapest&tbm=isch",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Doh%C3%A1ny%20Street%20Synagogue%20Budapest@47.4962,19.0636"
+    },
+    {
+      "id": "bp-szechenyi",
+      "name": "Széchenyi Baths",
+      "nameZh": "塞切尼溫泉",
+      "city": "Budapest",
+      "category": "thermal",
+      "coordinates": [
+        47.5186,
+        19.082
+      ],
+      "rating": 4.3,
+      "pros": "壯觀黃色建築群；多池+蒸氣；周六晚上派對",
+      "cons": "門票€30+；太觀光化",
+      "cost": "€30+",
+      "bestTime": "平日+週六派對",
+      "tips": "作者建議去魯達斯但週六派對不可錯過",
+      "photos": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Budapest%20Sz%C3%A9chenyi%20Baths%20R04.jpg"
+      ],
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Budapest%20Sz%C3%A9chenyi%20Baths%20R04.jpg",
+      "googleSearchUrl": "https://www.google.com/search?q=Sz%C3%A9chenyi%20Baths%20Budapest&tbm=isch",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Sz%C3%A9chenyi%20Baths%20Budapest@47.5186,19.082"
+    },
+    {
+      "id": "bp-three-borders",
+      "name": "Hármashatárhegy",
+      "nameZh": "三邊界山",
+      "city": "Budapest",
+      "category": "viewpoint",
+      "coordinates": [
+        47.5478,
+        18.9633
+      ],
+      "rating": 4.7,
+      "pros": "城市西北邊緣；極致俯瞰視野；當地攝影師首選；完全遠離塵囂",
+      "cons": "交通不便；無公共交通直達；需要健行裝備",
+      "cost": "免費",
+      "bestTime": "日出或日落",
+      "tips": "建議開車或計程車前往；穿舒適健行鞋",
+      "photos": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/H%C3%A1rmashat%C3%A1rhegy.jpg"
+      ],
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/H%C3%A1rmashat%C3%A1rhegy.jpg",
+      "googleSearchUrl": "https://www.google.com/search?q=H%C3%A1rmashat%C3%A1rhegy+Budapest&tbm=isch",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=H%C3%A1rmashat%C3%A1rhegy+Budapest@47.5478,18.9633"
+    },
+    {
+      "id": "bp-vajdahunyad",
+      "name": "Vajdahunyad Castle",
+      "nameZh": "Vajdahunyad城堡",
+      "city": "Budapest",
+      "category": "heritage",
+      "coordinates": [
+        47.5186,
+        19.082
+      ],
+      "rating": 4.6,
+      "pros": "比布達城堡更美；多種建築風格；免費進入",
+      "cons": "內部是農業博物館",
+      "cost": "免費（戶外）",
+      "bestTime": "日出日落",
+      "tips": "冬季變身溜冰場和聖誕市集",
+      "photos": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Vajdahunyad%20v%C3%A1ra%20Budapest%20September%202013.jpg"
+      ],
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Vajdahunyad%20v%C3%A1ra%20Budapest%20September%202013.jpg",
+      "googleSearchUrl": "https://www.google.com/search?q=Vajdahunyad%20Castle%20Budapest&tbm=isch",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Vajdahunyad%20Castle%20Budapest@47.5186,19.082"
+    },
+    {
+      "id": "bp-veli-bej",
+      "name": "Veli Bej Baths",
+      "nameZh": "維利貝溫泉",
+      "city": "Budapest",
+      "category": "thermal",
+      "coordinates": [
+        47.5316,
+        19.0519
+      ],
+      "rating": 4.8,
+      "pros": "十六世紀土耳其浴場；私人經營；嚴格控管人數；完全隔絕觀光客",
+      "cons": "知名度低；需要提前預約；不接待臨時訪客",
+      "cost": "€25-35",
+      "bestTime": "平日早上",
+      "tips": "務必預約； Irgalmasok Veli Bej 為正式名稱",
+      "photos": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Veli_Bej_F%C3%BCrd%C5%91.jpg"
+      ],
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Veli_Bej_F%C3%BCrd%C5%91.jpg",
+      "googleSearchUrl": "https://www.google.com/search?q=Veli+Bej+Baths+Budapest&tbm=isch",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Veli+Bej+Baths+Budapest@47.5316,19.0519"
+    },
+    {
+      "id": "bp-wekerletelep",
+      "name": "Wekerletelep",
+      "nameZh": "韋克勒特雷普住宅區",
+      "city": "Budapest",
+      "category": "heritage",
+      "coordinates": [
+        47.3982,
+        19.2612
+      ],
+      "rating": 4.3,
+      "pros": "花園城市規劃；匈牙利民族鄉村風格；時光倒流般視覺衝擊",
+      "cons": "位置偏遠（第十九區）；非傳統觀光景點；交通需靠開車",
+      "cost": "免費",
+      "bestTime": "春夏季",
+      "tips": "建議自駕或包車前往；與市中心古典主義街道完全對比",
+      "photos": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Wekerletelep.jpg"
+      ],
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Wekerletelep.jpg",
+      "googleSearchUrl": "https://www.google.com/search?q=Wekerletelep+Budapest&tbm=isch",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Wekerletelep+Budapest@47.3982,19.2612"
+    },
+    {
+      "id": "db-deri-museum",
+      "name": "Déri Museum",
+      "nameZh": "德瑞博物館",
+      "city": "Debrecen",
+      "category": "museum",
+      "coordinates": [
+        47.53,
+        21.6264
+      ],
+      "rating": 4.4,
+      "pros": "收藏豐富藝術品與歷史文物；米哈喬・蒙克展廳",
+      "cons": "需要購買門票",
+      "cost": "€5-8",
+      "bestTime": "上午",
+      "tips": "千萬不要錯過米哈喬・蒙克的展品",
+      "photos": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/D%C3%A9ri%20Museum%20Debrecen%20%28139310147%29.jpeg"
+      ],
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/D%C3%A9ri%20Museum%20Debrecen%20%28139310147%29.jpeg",
+      "googleSearchUrl": "https://www.google.com/search?q=D%C3%A9ri%20Museum%20Debrecen&tbm=isch",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=D%C3%A9ri%20Museum%20Debrecen@47.53,21.6264"
+    },
+    {
+      "id": "db-great-forest",
+      "name": "Great Forest Park",
+      "nameZh": "大森林公園",
+      "city": "Debrecen",
+      "category": "nature",
+      "coordinates": [
+        47.55,
+        21.6333
+      ],
+      "rating": 4.3,
+      "pros": "Debrecen最大綠地；有Fog Theater與水塔",
+      "cons": "腹地大需充足時間",
+      "cost": "免費",
+      "bestTime": "任何季節",
+      "tips": "當地人週末休閒首選",
+      "photos": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/The%20Great%20Forest%2C%20Debreczin%2C%20Hungary%20Austro-Hungary.jpg"
+      ],
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/The%20Great%20Forest%2C%20Debreczin%2C%20Hungary%20Austro-Hungary.jpg",
+      "googleSearchUrl": "https://www.google.com/search?q=Great%20Forest%20Park%20Debrecen&tbm=isch",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Great%20Forest%20Park%20Debrecen@47.55,21.6333"
+    },
+    {
+      "id": "db-reformed-college",
+      "name": "Debrecen Reformed College",
+      "nameZh": "德布勒森改革宗教會學院",
+      "city": "Debrecen",
+      "category": "heritage",
+      "coordinates": [
+        47.5316,
+        21.6241
+      ],
+      "rating": 4.5,
+      "pros": "成立於1538年；匈牙利文明搖籃；建築宏偉",
+      "cons": "不對外開放所有區域",
+      "cost": "免費",
+      "bestTime": "任何時間",
+      "tips": "參觀前先確認開放時間",
+      "photos": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Reformed%20College%20of%20Debrecen%20400%20Annual%2016f.jpg"
+      ],
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Reformed%20College%20of%20Debrecen%20400%20Annual%2016f.jpg",
+      "googleSearchUrl": "https://www.google.com/search?q=Debrecen%20Reformed%20College%20Debrecen&tbm=isch",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Debrecen%20Reformed%20College%20Debrecen@47.5316,21.6241"
+    },
+    {
+      "id": "gy-basilica",
+      "name": "Győr Basilica",
+      "nameZh": "艾爾大教堂",
+      "city": "Győr",
+      "category": "heritage",
+      "coordinates": [
+        47.6817,
+        17.6292
+      ],
+      "rating": 4.5,
+      "pros": "宏偉的教堂建築；位於市中心",
+      "cons": "廣場有時會舉辦活動",
+      "cost": "免費",
+      "bestTime": "任何時間",
+      "tips": "結合老城區一起遊覽",
+      "photos": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Gy%C5%91rbazilika%20l%C3%A9gifot%C3%B3.jpg"
+      ],
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Gy%C5%91rbazilika%20l%C3%A9gifot%C3%B3.jpg",
+      "googleSearchUrl": "https://www.google.com/search?q=Gy%C5%91r%20Basilica%20Gy%C5%91r&tbm=isch",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Gy%C5%91r%20Basilica%20Gy%C5%91r@47.6817,17.6292"
+    },
+    {
+      "id": "gy-bishops-castle",
+      "name": "Bishop's Castle",
+      "nameZh": "主教城堡",
+      "city": "Győr",
+      "category": "heritage",
+      "coordinates": [
+        47.6833,
+        17.63
+      ],
+      "rating": 4.3,
+      "pros": "中世紀城堡；保存狀況良好",
+      "cons": "部分區域不開放",
+      "cost": "€5-8",
+      "bestTime": "任何時間",
+      "tips": "是Győr的必遊景點",
+      "photos": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Gy%C5%91r%2C_N%C3%A1dorv%C3%A1ros%2C_K%C3%A1lv%C3%A1ria._Fortepan_27266.jpg"
+      ],
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Gy%C5%91r%2C_N%C3%A1dorv%C3%A1ros%2C_K%C3%A1lv%C3%A1ria._Fortepan_27266.jpg",
+      "googleSearchUrl": "https://www.google.com/search?q=Bishop%27s%20Castle%20Gy%C5%91r&tbm=isch",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Bishop's%20Castle%20Gy%C5%91r@47.6833,17.63"
+    },
+    {
+      "id": "hu-aggtelek-cave",
+      "name": "Aggtelek Karst and Baradla Cave",
+      "nameZh": "奧格泰萊克喀斯特與巴拉德拉洞穴",
+      "city": "Aggtelek",
+      "category": "nature",
+      "coordinates": [
+        48.4833,
+        20.4833
+      ],
+      "rating": 4.9,
+      "pros": "UNESCO世界遺產；橫跨匈牙利與斯洛伐克邊境；歐洲最壯觀鐘乳石洞穴之一",
+      "cons": "必須參加導覽團；洞穴內溫度低；部分區域需要步行體力",
+      "cost": "€15-25",
+      "bestTime": "全年（室內）",
+      "tips": "穿保暖衣物和舒適鞋；遵守導覽規定；提前預訂",
+      "photos": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Baradla_cave.jpg"
+      ],
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Baradla_cave.jpg",
+      "googleSearchUrl": "https://www.google.com/search?q=Aggtelek+Karst+Baradla+Cave&tbm=isch",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Aggtelek+Karst+Baradla+Cave+Hungary@48.4833,20.4833"
+    },
+    {
+      "id": "hu-bokodi-floating",
+      "name": "Bokodi Floating Village",
+      "nameZh": "波科迪浮動村莊",
+      "city": "Oroszlány",
+      "category": "experience",
+      "coordinates": [
+        47.4875,
+        18.4253
+      ],
+      "rating": 4.4,
+      "pros": "超現實視覺景觀；發電廠冷卻湖；漂浮木屋密集區",
+      "cons": "私人休憩場所；需要高度尊重當地人；不可干擾居民生活",
+      "cost": "免費（外觀）",
+      "bestTime": "冬季（非結冰）",
+      "tips": "保持低調和尊重；請勿進入私人住宅；最佳拍攝時間清晨",
+      "photos": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Bokodi_floating_village.jpg"
+      ],
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Bokodi_floating_village.jpg",
+      "googleSearchUrl": "https://www.google.com/search?q=Bokodi+Floating+Village+Hungary&tbm=isch",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Bokodi+Floating+Village+Oroszl%C3%A1ny+Hungary@47.4875,18.4253"
+    },
+    {
+      "id": "hu-ferto-lake",
+      "name": "Lake Fertő (Neusiedl)",
+      "nameZh": "新錫德爾湖",
+      "city": "Sopron",
+      "category": "nature",
+      "coordinates": [
+        47.7692,
+        16.7258
+      ],
+      "rating": 4.5,
+      "pros": "自行車環湖勝地；鳥類觀察；與奧地利共享邊境湖",
+      "cons": "淺水湖泊，某些區域需要涉水；氣候變化影響水位的風險",
+      "cost": "免費",
+      "bestTime": "5-9月",
+      "tips": "建議租自行車；帶蚊蟲驅蚊液；保護區內遵守指示",
+      "photos": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Neusiedler_See.jpg"
+      ],
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Neusiedler_See.jpg",
+      "googleSearchUrl": "https://www.google.com/search?q=Lake+Fert%C3%B3+Neusiedl&tbm=isch",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Lake+Fert%C3%B3+Neusiedl@47.7692,16.7258"
+    },
+    {
+      "id": "hu-holloko",
+      "name": "Hollókő",
+      "nameZh": "霍洛克",
+      "city": "Nógrád",
+      "category": "heritage",
+      "coordinates": [
+        47.9942,
+        19.5694
+      ],
+      "rating": 4.8,
+      "pros": "UNESCO世界遺產活體村落；17世紀傳統帕洛茨建築；居民真實生活在其中",
+      "cons": "交通不便；需要安排足夠時間；旅遊旺季可能人多",
+      "cost": "免費（村區）",
+      "bestTime": "春季和秋季（避開假日）",
+      "tips": "建議過夜以體驗清晨無遊客的氛圍；購買當地手工藝品",
+      "photos": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Holl%C3%B3k%C5%91.jpg"
+      ],
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Holl%C3%B3k%C5%91.jpg",
+      "googleSearchUrl": "https://www.google.com/search?q=Holl%C3%B3k%C5%91+Hungary&tbm=isch",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Holl%C3%B3k%C5%91+Hungary@47.9942,19.5694"
+    },
+    {
+      "id": "hu-hortobagy",
+      "name": "Hortobágy National Park",
+      "nameZh": "霍爾托巴吉國家公園",
+      "city": "Hortobágy",
+      "category": "nature",
+      "coordinates": [
+        47.5833,
+        21.1167
+      ],
+      "rating": 4.7,
+      "pros": "國際暗天公園認證；歐洲最大連續性鹼性草原；匈牙利灰牛與候鳥棲息地",
+      "cons": "非常偏遠；需要自駕；光污染低但交通不便",
+      "cost": "免費（國家公園）",
+      "bestTime": "9-11月（候鳥遷徙）/ 全年（星空）",
+      "tips": "攜帶雙筒望遠鏡賞鳥；帶外套（晝夜溫差大）；冬季可看星空",
+      "photos": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Hortob%C3%A1gy.jpg"
+      ],
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Hortob%C3%A1gy.jpg",
+      "googleSearchUrl": "https://www.google.com/search?q=Hortob%C3%A1gy+National+Park&tbm=isch",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Hortob%C3%A1gy+National+Park+Hungary@47.5833,21.1167"
+    },
+    {
+      "id": "hu-megyer-tengerszem",
+      "name": "Megyer-hegyi Tengerszem",
+      "nameZh": "梅杰爾山冰斗湖",
+      "city": "Sárospatak",
+      "category": "nature",
+      "coordinates": [
+        48.3133,
+        21.5833
+      ],
+      "rating": 4.8,
+      "pros": "2011年匈牙利最美自然奇觀；採石場廢坑形成；垂直岩壁深潭",
+      "cons": "偏遠森林深處；需要健行抵達；手機訊號不佳",
+      "cost": "免費",
+      "bestTime": "6-9月",
+      "tips": "穿健行鞋；帶足水和食物；享受孤絕氛圍",
+      "photos": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Megyer_tengerszem.jpg"
+      ],
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Megyer_tengerszem.jpg",
+      "googleSearchUrl": "https://www.google.com/search?q=Megyer-hegyi+Tengerszem&tbm=isch",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Megyer-hegyi+Tengerszem+Hungary@48.3133,21.5833"
+    },
+    {
+      "id": "hu-sopron",
+      "name": "Sopron",
+      "nameZh": "肖普朗",
+      "city": "Sopron",
+      "category": "heritage",
+      "coordinates": [
+        47.6817,
+        16.5906
+      ],
+      "rating": 4.6,
+      "pros": "羅馬帝國遺址中世紀古城；第一次世界大戰後公投選擇留在匈牙利；火警塔标志；新錫德爾湖門戶",
+      "cons": "從布達佩斯需要1.5-2小時交通；適合過夜停留",
+      "cost": "免費（城區）",
+      "bestTime": "夏秋季",
+      "tips": "一日遊可從維也納或布達佩斯出發；火警塔可登頂",
+      "photos": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Sopron_June_2012-13.jpg"
+      ],
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Sopron_June_2012-13.jpg",
+      "googleSearchUrl": "https://www.google.com/search?q=Sopron+Hungary&tbm=isch",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Sopron+Hungary@47.6817,16.5906"
+    },
+    {
+      "id": "hu-tapolca-cave",
+      "name": "Tapolca Lake Cave (Tavasbarlang)",
+      "nameZh": "塔波爾曹湖洞",
+      "city": "Tapolca",
+      "category": "nature",
+      "coordinates": [
+        46.8819,
+        17.4439
+      ],
+      "rating": 4.7,
+      "pros": "地下湖泊划艇體驗；1370萬年喀斯特地質；迷幻藍綠色照明",
+      "cons": "需要提前預約導覽；洞穴內低溫潮濕",
+      "cost": "€12-18",
+      "bestTime": "全年（室內洞穴）",
+      "tips": "穿保暖衣物；配合景區規定；在遊客中心了解地質背景",
+      "photos": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Tapolcai_tavasbarlang.jpg"
+      ],
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Tapolcai_tavasbarlang.jpg",
+      "googleSearchUrl": "https://www.google.com/search?q=Tapolca+Lake+Cave+Tavasbarlang&tbm=isch",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Tapolca+Lake+Cave+Hungary@46.8819,17.4439"
+    },
+    {
+      "id": "lb-badacsony",
+      "name": "Badacsony",
+      "nameZh": "巴達克尼山",
+      "city": "Lake Balaton",
+      "category": "nature",
+      "coordinates": [
+        46.8075,
+        17.5322
+      ],
+      "rating": 4.6,
+      "pros": "火山丘；森林覆蓋；玄武岩柱狀節理；葡萄酒產區",
+      "cons": "需要開車或搭公共交通",
+      "cost": "免費",
+      "bestTime": "5-10月",
+      "tips": "火山丘葡萄酒很出名",
+      "photos": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Balaton%20and%20Badacsony%20-%20June%202025.jpg"
+      ],
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Balaton%20and%20Badacsony%20-%20June%202025.jpg",
+      "googleSearchUrl": "https://www.google.com/search?q=Badacsony%20Lake%20Balaton&tbm=isch",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Badacsony%20Lake%20Balaton@46.8075,17.5322"
+    },
+    {
+      "id": "lb-keszthely",
+      "name": "Festetics-kastály",
+      "nameZh": "費斯提提茲宮",
+      "city": "Lake Balaton",
+      "category": "heritage",
+      "coordinates": [
+        46.6739,
+        17.2486
+      ],
+      "rating": 4.4,
+      "pros": "壯觀的巴洛克宮殿；花園很美",
+      "cons": "門票不便宜",
+      "cost": "€10",
+      "bestTime": "任何時間",
+      "tips": "花園和宮殿內部都值得看",
+      "photos": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Keszthely%20-%20Festetics%20Castle.jpg"
+      ],
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Keszthely%20-%20Festetics%20Castle.jpg",
+      "googleSearchUrl": "https://www.google.com/search?q=Festetics-kast%C3%A1ly%20Lake%20Balaton&tbm=isch",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Festetics-kast%C3%A1ly%20Lake%20Balaton@46.6739,17.2486"
+    },
+    {
+      "id": "lb-tihany",
+      "name": "Tihany Abbey",
+      "nameZh": "蒂豪尼修道院",
+      "city": "Lake Balaton",
+      "category": "heritage",
+      "coordinates": [
+        46.9103,
+        17.8856
+      ],
+      "rating": 4.5,
+      "pros": "可追溯至中世紀的修道院；遠眺湖景很美",
+      "cons": "旺季時遊客很多",
+      "cost": "€6-10",
+      "bestTime": "任何時間",
+      "tips": "周邊的薰衣草田很有名",
+      "photos": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Benedictine%20Abbey%20on%20Tihany%20Peninsula%20-%20july%202007.jpg"
+      ],
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Benedictine%20Abbey%20on%20Tihany%20Peninsula%20-%20july%202007.jpg",
+      "googleSearchUrl": "https://www.google.com/search?q=Tihany%20Abbey%20Lake%20Balaton&tbm=isch",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Tihany%20Abbey%20Lake%20Balaton@46.9103,17.8856"
+    },
+    {
+      "id": "pc-cathedral",
+      "name": "Pécs Cathedral",
+      "nameZh": "佩奇大教堂",
+      "city": "Pécs",
+      "category": "heritage",
+      "coordinates": [
+        46.0761,
+        18.1056
+      ],
+      "rating": 4.5,
+      "pros": "11世紀起造；壁畫與雙塔主宰天際線",
+      "cons": "有時不對外開放",
+      "cost": "免費外觀",
+      "bestTime": "上午",
+      "tips": "是佩奇的地標建築",
+      "photos": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/P%C3%A9cs%20Cathedral%20Roman%20art%20era%20-%20Hungary.jpg"
+      ],
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/P%C3%A9cs%20Cathedral%20Roman%20art%20era%20-%20Hungary.jpg",
+      "googleSearchUrl": "https://www.google.com/search?q=P%C3%A9cs%20Cathedral%20P%C3%A9cs&tbm=isch",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=P%C3%A9cs%20Cathedral%20P%C3%A9cs@46.0761,18.1056"
+    },
+    {
+      "id": "pc-mecsek",
+      "name": "Mecsek Hills",
+      "nameZh": "梅切克山丘",
+      "city": "Pécs",
+      "category": "nature",
+      "coordinates": [
+        46.0833,
+        18.0833
+      ],
+      "rating": 4.4,
+      "pros": "健行步道與觀景點；環繞城市；遠眺美麗風景",
+      "cons": "需要體力",
+      "cost": "免費",
+      "bestTime": "春季和秋季",
+      "tips": "建議穿舒適的鞋子",
+      "photos": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Jacab_Hill%27_s_Clastrum_-_Mecsek,_South-Hungary.jpg"
+      ],
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Jacab_Hill%27_s_Clastrum_-_Mecsek,_South-Hungary.jpg",
+      "googleSearchUrl": "https://www.google.com/search?q=Mecsek%20Hills%20P%C3%A9cs&tbm=isch",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Mecsek%20Hills%20P%C3%A9cs@46.0833,18.0833"
+    },
+    {
+      "id": "pc-necropolis",
+      "name": "Early Christian Necropolis",
+      "nameZh": "早期基督教墓窟",
+      "city": "Pécs",
+      "category": "heritage",
+      "coordinates": [
+        46.0783,
+        18.1033
+      ],
+      "rating": 4.7,
+      "pros": "UNESCO世界文化遺產；早期基督教藝術瑰寶",
+      "cons": "需要購票進入",
+      "cost": "€8",
+      "bestTime": "任何時間",
+      "tips": "建議參加導覽團深入了解",
+      "photos": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/P%C3%A9cs%20-%20Early%20Christian%20Mausoleum%2002.JPG"
+      ],
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/P%C3%A9cs%20-%20Early%20Christian%20Mausoleum%2002.JPG",
+      "googleSearchUrl": "https://www.google.com/search?q=Early%20Christian%20Necropolis%20P%C3%A9cs&tbm=isch",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Early%20Christian%20Necropolis%20P%C3%A9cs@46.0783,18.1033"
+    },
+    {
+      "id": "pc-zsolnay",
+      "name": "Zsolnay Cultural Quarter",
+      "nameZh": "Zsolnay文化區",
+      "city": "Pécs",
+      "category": "heritage",
+      "coordinates": [
+        46.0783,
+        18.095
+      ],
+      "rating": 4.5,
+      "pros": "以彩色瓷磚聞名；許多博物館與藝廊",
+      "cons": "腹地大需要大半天時間",
+      "cost": "免費遊覽戶外",
+      "bestTime": "任何時間",
+      "tips": "彩色瓷磚是佩奇的驕傲",
+      "photos": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Zsolnay%20quarter%20building.JPG"
+      ],
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Zsolnay%20quarter%20building.JPG",
+      "googleSearchUrl": "https://www.google.com/search?q=Zsolnay%20Cultural%20Quarter%20P%C3%A9cs&tbm=isch",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Zsolnay%20Cultural%20Quarter%20P%C3%A9cs@46.0783,18.095"
+    },
+    {
+      "id": "sg-napfenyfurdo",
+      "name": "Napfényfürdő Aquapolis",
+      "nameZh": "日光水療水上樂園",
+      "city": "Szeged",
+      "category": "thermal",
+      "coordinates": [
+        46.2433,
+        20.145
+      ],
+      "rating": 4.4,
+      "pros": "大型室內/室外溫水樂園；全年開放",
+      "cons": "夏季可能太熱",
+      "cost": "€15-20",
+      "bestTime": "冬季",
+      "tips": "全年開放是當地人喜愛的水上樂園",
+      "photos": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Napf%C3%A9nyf%C3%BCrd%C5%91%20Aquapolis%20Wasserrutschen-Turm%2C%202023%20Szeged.jpg"
+      ],
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Napf%C3%A9nyf%C3%BCrd%C5%91%20Aquapolis%20Wasserrutschen-Turm%2C%202023%20Szeged.jpg",
+      "googleSearchUrl": "https://www.google.com/search?q=Napf%C3%A9nyf%C3%BCrd%C5%91%20Aquapolis%20Szeged&tbm=isch",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Napf%C3%A9nyf%C3%BCrd%C5%91%20Aquapolis%20Szeged@46.2433,20.145"
+    },
+    {
+      "id": "sg-reok-palace",
+      "name": "Reök Palace",
+      "nameZh": "雷奧克宮殿",
+      "city": "Szeged",
+      "category": "heritage",
+      "coordinates": [
+        46.2531,
+        20.1466
+      ],
+      "rating": 4.3,
+      "pros": "新藝術風格建築；室內裝飾華麗",
+      "cons": "開放時間不固定",
+      "cost": "免費外觀",
+      "bestTime": "任何時間",
+      "tips": "經常舉辦藝術展覽",
+      "photos": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Re%C3%B6k%20Palace.jpg"
+      ],
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Re%C3%B6k%20Palace.jpg",
+      "googleSearchUrl": "https://www.google.com/search?q=Re%C3%B6k%20Palace%20Szeged&tbm=isch",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Re%C3%B6k%20Palace%20Szeged@46.2531,20.1466"
+    },
+    {
+      "id": "sg-votive-church",
+      "name": "Szeged Votive Church",
+      "nameZh": "塞格德大教堂",
+      "city": "Szeged",
+      "category": "heritage",
+      "coordinates": [
+        46.253,
+        20.1482
+      ],
+      "rating": 4.6,
+      "pros": "新羅馬式建築；雙塔高達100公尺；匈牙利最高教堂之一",
+      "cons": "旺季時遊客不少",
+      "cost": "免費參觀",
+      "bestTime": "任何時間",
+      "tips": "大教堂廣場常舉辦戶外音樂會",
+      "photos": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Szeged%20Cathedral%20fragment.jpg"
+      ],
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Szeged%20Cathedral%20fragment.jpg",
+      "googleSearchUrl": "https://www.google.com/search?q=Szeged%20Votive%20Church%20Szeged&tbm=isch",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Szeged%20Votive%20Church%20Szeged@46.253,20.1482"
+    },
+    {
+      "id": "vn-albertina-modern",
+      "name": "Albertina Modern",
+      "nameZh": "阿爾貝蒂娜現代美術館",
+      "city": "Vienna",
+      "category": "museum",
+      "coordinates": [
+        48.2089,
+        16.3669
+      ],
+      "rating": 4.5,
+      "pros": "現代藝術愛好者不要錯過；新展覽品質高",
+      "cons": "部分展覽可能過於前衛",
+      "cost": "€14",
+      "bestTime": "下午",
+      "tips": "屋頂陽台可俯瞰國立圖書館",
+      "photos": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Albertina-Modern-Vienna-October-2024.jpg"
+      ],
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Albertina-Modern-Vienna-October-2024.jpg",
+      "googleSearchUrl": "https://www.google.com/search?q=Albertina%20Modern%20Vienna&tbm=isch",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Albertina%20Modern%20Vienna@48.2089,16.3669"
+    },
+    {
+      "id": "vn-augarten",
+      "name": "Augarten Porcelain Factory",
+      "nameZh": "Augarten瓷器工廠",
+      "city": "Vienna",
+      "category": "museum",
+      "coordinates": [
+        48.2206,
+        16.3789
+      ],
+      "rating": 4.2,
+      "pros": "歐洲最古老瓷器廠之一；可觀賞工匠現場製作",
+      "cons": "工廠不總是開放參觀",
+      "cost": "免費參觀",
+      "bestTime": "預約參觀",
+      "tips": "參觀前先預約",
+      "photos": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Augarten%20Porzellan%2003.jpg"
+      ],
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Augarten%20Porzellan%2003.jpg",
+      "googleSearchUrl": "https://www.google.com/search?q=Augarten%20Porcelain%20Factory%20Vienna&tbm=isch",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Augarten%20Porcelain%20Factory%20Vienna@48.2206,16.3789"
+    },
+    {
+      "id": "vn-belvedere",
+      "name": "Belvedere Palace",
+      "nameZh": "貝維德雷宮",
+      "city": "Vienna",
+      "category": "heritage",
+      "coordinates": [
+        48.2011,
+        16.3768
+      ],
+      "rating": 4.7,
+      "pros": "巴洛克宮殿建築群；收藏克林姆《吻》；花園免費",
+      "cons": "門票不便宜",
+      "cost": "花園免費；宮殿€15",
+      "bestTime": "早晨或傍晚",
+      "tips": "下宮現在是奧地利外交部",
+      "photos": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Palacio%20Belvedere%2C%20Viena%2C%20Austria%2C%202020-02-01%2C%20DD%2093-95%20HDR.jpg"
+      ],
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Palacio%20Belvedere%2C%20Viena%2C%20Austria%2C%202020-02-01%2C%20DD%2093-95%20HDR.jpg",
+      "googleSearchUrl": "https://www.google.com/search?q=Belvedere%20Palace%20Vienna&tbm=isch",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Belvedere%20Palace%20Vienna@48.2011,16.3768"
+    },
+    {
+      "id": "vn-botanical-garden",
+      "name": "Vienna University Botanical Garden",
+      "nameZh": "維也納大學植物園",
+      "city": "Vienna",
+      "category": "nature",
+      "coordinates": [
+        48.1875,
+        16.3528
+      ],
+      "rating": 4.3,
+      "pros": "18世紀建立；超12,000種植物；春季最美",
+      "cons": "離市中心較遠",
+      "cost": "€4",
+      "bestTime": "4-6月春季",
+      "tips": "結合美泉宮一起遊覽",
+      "photos": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Botanicum%20in%20the%20Botanical%20Garden%20of%20the%20University%20of%20Vienna%20in%20Vienna%2C%20Austria-oblique%20PNr%C2%B01057.jpg"
+      ],
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Botanicum%20in%20the%20Botanical%20Garden%20of%20the%20University%20of%20Vienna%20in%20Vienna%2C%20Austria-oblique%20PNr%C2%B01057.jpg",
+      "googleSearchUrl": "https://www.google.com/search?q=Vienna%20University%20Botanical%20Garden%20Vienna&tbm=isch",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Vienna%20University%20Botanical%20Garden%20Vienna@48.1875,16.3528"
+    },
+    {
+      "id": "vn-cafe-central",
+      "name": "Café Central",
+      "nameZh": "中央咖啡館",
+      "city": "Vienna",
+      "category": "food",
+      "coordinates": [
+        48.209,
+        16.3615
+      ],
+      "rating": 4.3,
+      "pros": "百年歷史咖啡館；維也納咖啡館文化代表",
+      "cons": "觀光客多；有時需排隊",
+      "cost": "€8-15",
+      "bestTime": "下午",
+      "tips": "一定要來體驗維也納咖啡館文化",
+      "photos": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Wien%2C%20Caf%C3%A9%20Central%20--%202018%20--%203135.jpg"
+      ],
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Wien%2C%20Caf%C3%A9%20Central%20--%202018%20--%203135.jpg",
+      "googleSearchUrl": "https://www.google.com/search?q=Caf%C3%A9%20Central%20Vienna&tbm=isch",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Caf%C3%A9%20Central%20Vienna@48.209,16.3615"
+    },
+    {
+      "id": "vn-fasanviertel",
+      "name": "Fasanviertel",
+      "nameZh": "法桑維爾特社區",
+      "city": "Vienna",
+      "category": "experience",
+      "coordinates": [
+        48.195,
+        16.35
+      ],
+      "rating": 4.2,
+      "pros": "迷人住宅區；有咖啡館/獨立畫廊/隱藏花園；遠離觀光客",
+      "cons": "沒有明顯地標",
+      "cost": "免費",
+      "bestTime": "任何時間",
+      "tips": "適合想要深度探索維也納的旅客",
+      "photos": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Landstrasser%20Guertel%2033%20DSC%209043w.jpg"
+      ],
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Landstrasser%20Guertel%2033%20DSC%209043w.jpg",
+      "googleSearchUrl": "https://www.google.com/search?q=Fasanviertel%20Vienna&tbm=isch",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Fasanviertel%20Vienna@48.195,16.35"
+    },
+    {
+      "id": "vn-grinzing",
+      "name": "Grinzing Heuriger",
+      "nameZh": "格林沁小酒館區",
+      "city": "Vienna",
+      "category": "food",
+      "coordinates": [
+        48.2333,
+        16.3333
+      ],
+      "rating": 4.5,
+      "pros": "傳統 Austrian heuriger 酒館；品嚐 Grüner Veltliner 葡萄酒",
+      "cons": "需要搭車或開車前往",
+      "cost": "€20-40",
+      "bestTime": "傍晚",
+      "tips": "從市中心驅車20分鐘",
+      "photos": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Himmelstr7.jpg"
+      ],
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Himmelstr7.jpg",
+      "googleSearchUrl": "https://www.google.com/search?q=Grinzing%20Heuriger%20Vienna&tbm=isch",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Grinzing%20Heuriger%20Vienna@48.2333,16.3333"
+    },
+    {
+      "id": "vn-hofburg",
+      "name": "Hofburg Palace",
+      "nameZh": "霍夫堡皇宮",
+      "city": "Vienna",
+      "category": "heritage",
+      "coordinates": [
+        48.2085,
+        16.3644
+      ],
+      "rating": 4.6,
+      "pros": "哈布斯堡王朝心臟地帶；茜茜公主博物館",
+      "cons": "範圍大需充足時間",
+      "cost": "€16（Imperial Tour）",
+      "bestTime": "上午",
+      "tips": "建議購買聯票",
+      "photos": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Monumento%20al%20emperador%20Francisco%20I%20y%20Amalienburg%2C%20Hofburg%2C%20Viena%2C%20Austria%2C%202020-01-31%2C%20DD%20134-136%20HDR.jpg"
+      ],
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Monumento%20al%20emperador%20Francisco%20I%20y%20Amalienburg%2C%20Hofburg%2C%20Viena%2C%20Austria%2C%202020-01-31%2C%20DD%20134-136%20HDR.jpg",
+      "googleSearchUrl": "https://www.google.com/search?q=Hofburg%20Palace%20Vienna&tbm=isch",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Hofburg%20Palace%20Vienna@48.2085,16.3644"
+    },
+    {
+      "id": "vn-hundertwasserhaus",
+      "name": "Hundertwasserhaus",
+      "nameZh": "百水公寓",
+      "city": "Vienna",
+      "category": "heritage",
+      "coordinates": [
+        48.2082,
+        16.4212
+      ],
+      "rating": 4.4,
+      "pros": "藝術家彩色曲面建築；屋頂花園從建築物中長出樹木",
+      "cons": "不能進入公寓內部",
+      "cost": "免費",
+      "bestTime": "任何時間",
+      "tips": "對面商場可以拍到全景",
+      "photos": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Wien%2C%20Hundertwasserhaus%20--%202018%20--%203178.jpg"
+      ],
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Wien%2C%20Hundertwasserhaus%20--%202018%20--%203178.jpg",
+      "googleSearchUrl": "https://www.google.com/search?q=Hundertwasserhaus%20Vienna&tbm=isch",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Hundertwasserhaus%20Vienna@48.2082,16.4212"
+    },
+    {
+      "id": "vn-karlskirche",
+      "name": "Karlskirche",
+      "nameZh": "卡默萊特教堂",
+      "city": "Vienna",
+      "category": "heritage",
+      "coordinates": [
+        48.1958,
+        16.3566
+      ],
+      "rating": 4.6,
+      "pros": "小眾巴洛克建築；圓頂壁畫非常壯觀",
+      "cons": "開放時間有限",
+      "cost": "€6",
+      "bestTime": "上午",
+      "tips": "爬到圓頂看的壁畫視角很震撼",
+      "photos": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Iglesia%20de%20San%20Carlos%20Borromeo%2C%20Viena%2C%20Austria%2C%202020-01-31%2C%20DD%20164-166%20HDR.jpg"
+      ],
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Iglesia%20de%20San%20Carlos%20Borromeo%2C%20Viena%2C%20Austria%2C%202020-01-31%2C%20DD%20164-166%20HDR.jpg",
+      "googleSearchUrl": "https://www.google.com/search?q=Karlskirche%20Vienna&tbm=isch",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Karlskirche%20Vienna@48.1958,16.3566"
+    },
+    {
+      "id": "vn-naschmarkt",
+      "name": "Naschmarkt",
+      "nameZh": "納旭市場",
+      "city": "Vienna",
+      "category": "food",
+      "coordinates": [
+        48.199,
+        16.3605
+      ],
+      "rating": 4.4,
+      "pros": "維也納最大露天市場；在地美食集中地",
+      "cons": "週末很觀光化",
+      "cost": "免費參觀",
+      "bestTime": "週六上午",
+      "tips": "二樓古董市場千萬不要錯過",
+      "photos": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Wien%2C%20Naschmarkt%20--%202018%20--%203109.jpg"
+      ],
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Wien%2C%20Naschmarkt%20--%202018%20--%203109.jpg",
+      "googleSearchUrl": "https://www.google.com/search?q=Naschmarkt%20Vienna&tbm=isch",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Naschmarkt%20Vienna@48.199,16.3605"
+    },
+    {
+      "id": "vn-palais-ferstel",
+      "name": "Palais Ferstel",
+      "nameZh": "費斯特爾宮",
+      "city": "Vienna",
+      "category": "heritage",
+      "coordinates": [
+        48.208,
+        16.3605
+      ],
+      "rating": 4.3,
+      "pros": "19世紀拱廊；有噴泉咖啡館；適合平日下午漫步",
+      "cons": "有時太過擁擠",
+      "cost": "免費參觀",
+      "bestTime": "平日下午",
+      "tips": "和中央咖啡館很近可一起安排",
+      "photos": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Wien%2C%20Ferstel-Passage%20--%202018%20--%203136.jpg"
+      ],
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Wien%2C%20Ferstel-Passage%20--%202018%20--%203136.jpg",
+      "googleSearchUrl": "https://www.google.com/search?q=Palais%20Ferstel%20Vienna&tbm=isch",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Palais%20Ferstel%20Vienna@48.208,16.3605"
+    },
+    {
+      "id": "vn-prater",
+      "name": "Prater Park",
+      "nameZh": "普拉特公園",
+      "city": "Vienna",
+      "category": "experience",
+      "coordinates": [
+        48.2159,
+        16.4147
+      ],
+      "rating": 4.5,
+      "pros": "大型主題公園；經典大摩天輪；當地人休閒去處",
+      "cons": "遊樂設施需另外付費",
+      "cost": "免費入園",
+      "bestTime": "下午到傍晚",
+      "tips": "建議下午去傍晚搭摩天輪看夕陽",
+      "photos": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Wien%2002%20Prater%20Madame%20Tussauds%2001.jpg"
+      ],
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Wien%2002%20Prater%20Madame%20Tussauds%2001.jpg",
+      "googleSearchUrl": "https://www.google.com/search?q=Prater%20Park%20Vienna&tbm=isch",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Prater%20Park%20Vienna@48.2159,16.4147"
+    },
+    {
+      "id": "vn-schonbrunn",
+      "name": "Schönbrunn Palace",
+      "nameZh": "美泉宮",
+      "city": "Vienna",
+      "category": "heritage",
+      "coordinates": [
+        48.1847,
+        16.3122
+      ],
+      "rating": 4.8,
+      "pros": "哈布斯堡王朝夏宮；花園免費；世界文化遺產",
+      "cons": "旺季遊客很多",
+      "cost": "花園免費；宮殿€16",
+      "bestTime": "早晨或傍晚",
+      "tips": "迷宮和動物園是亮點",
+      "photos": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Palacio%20de%20Sch%C3%B6nbrunn%2C%20Viena%2C%20Austria%2C%202020-02-02%2C%20DD%2010.jpg"
+      ],
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Palacio%20de%20Sch%C3%B6nbrunn%2C%20Viena%2C%20Austria%2C%202020-02-02%2C%20DD%2010.jpg",
+      "googleSearchUrl": "https://www.google.com/search?q=Sch%C3%B6nbrunn%20Palace%20Vienna&tbm=isch",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Sch%C3%B6nbrunn%20Palace%20Vienna@48.1847,16.3122"
+    },
+    {
+      "id": "vn-st-stephens",
+      "name": "St. Stephen's Cathedral",
+      "nameZh": "聖斯特凡大教堂",
+      "city": "Vienna",
+      "category": "heritage",
+      "coordinates": [
+        48.2086,
+        16.3734
+      ],
+      "rating": 4.6,
+      "pros": "維也納地標；可登頂看市景",
+      "cons": "觀光客很多",
+      "cost": "€5-10",
+      "bestTime": "上午",
+      "tips": "感受音樂之都的靈魂",
+      "photos": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Stephansdom%20Barbarakapelle%20Gew%C3%B6lbe%2001.JPG"
+      ],
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Stephansdom%20Barbarakapelle%20Gew%C3%B6lbe%2001.JPG",
+      "googleSearchUrl": "https://www.google.com/search?q=St.%20Stephen%27s%20Cathedral%20Vienna&tbm=isch",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=St.%20Stephen's%20Cathedral%20Vienna@48.2086,16.3734"
+    },
+    {
+      "id": "vn-state-opera",
+      "name": "Vienna State Opera",
+      "nameZh": "維也納國家歌劇院",
+      "city": "Vienna",
+      "category": "heritage",
+      "coordinates": [
+        48.2029,
+        16.3682
+      ],
+      "rating": 4.7,
+      "pros": "世界級歌劇院；演出水準極高",
+      "cons": "門票不便宜",
+      "cost": "€20-200",
+      "bestTime": "晚上演出",
+      "tips": "提前官網買票性價比高",
+      "photos": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/20180109%20Vienna%20State%20Opera%20at%20blue%20hour%20850%209387.jpg"
+      ],
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/20180109%20Vienna%20State%20Opera%20at%20blue%20hour%20850%209387.jpg",
+      "googleSearchUrl": "https://www.google.com/search?q=Vienna%20State%20Opera%20Vienna&tbm=isch",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Vienna%20State%20Opera%20Vienna@48.2029,16.3682"
+    },
+    {
+      "id": "vn-tuerkenschanzpark",
+      "name": "Türkenschanzpark",
+      "nameZh": "圖爾肯斯坎茲公園",
+      "city": "Vienna",
+      "category": "nature",
+      "coordinates": [
+        48.2333,
+        16.2833
+      ],
+      "rating": 4.3,
+      "pros": "Währing區；寧靜綠地；有玫瑰園/池塘；可遠眺維也納森林",
+      "cons": "離市中心較遠",
+      "cost": "免費",
+      "bestTime": "春季和秋季",
+      "tips": "當地人私藏的公園",
+      "photos": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/T%C3%BCrkenschanzpark%20RST4617.jpg"
+      ],
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/T%C3%BCrkenschanzpark%20RST4617.jpg",
+      "googleSearchUrl": "https://www.google.com/search?q=T%C3%BCrkenschanzpark%20Vienna&tbm=isch",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=T%C3%BCrkenschanzpark%20Vienna@48.2333,16.2833"
+    },
+    {
+      "id": "vn-wachau-valley",
+      "name": "Wachau Valley",
+      "nameZh": "瓦豪河谷",
+      "city": "Vienna",
+      "category": "nature",
+      "coordinates": [
+        48.4111,
+        15.4317
+      ],
+      "rating": 4.8,
+      "pros": "多瑙河沿岸世界文化遺產；葡萄酒產區；健行勝地",
+      "cons": "需火車或租車前往",
+      "cost": "火車€20-40",
+      "bestTime": "5-10月",
+      "tips": "梅爾克修道院到杜倫施坦健行路線很經典",
+      "photos": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Castle%20Ruins%20and%20Vineyard%20-%20Durnstein%20-%20Wachau%20Valley%20-%20Austria%20-%20image%20by%20Scott%20Williams.jpg"
+      ],
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Castle%20Ruins%20and%20Vineyard%20-%20Durnstein%20-%20Wachau%20Valley%20-%20Austria%20-%20image%20by%20Scott%20Williams.jpg",
+      "googleSearchUrl": "https://www.google.com/search?q=Wachau%20Valley%20Vienna&tbm=isch",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Wachau%20Valley%20Vienna@48.4111,15.4317"
+    },
+    {
+      "id": "vn-zentralfriedhof",
+      "name": "Zentralfriedhof",
+      "nameZh": "中央公墓",
+      "city": "Vienna",
+      "category": "heritage",
+      "coordinates": [
+        48.1491,
+        16.42
+      ],
+      "rating": 4.4,
+      "pros": "2.5平方公里；貝多芬/舒伯特/莫札特長眠之地",
+      "cons": "範圍很大需要地圖",
+      "cost": "免費",
+      "bestTime": "任何時間",
+      "tips": "可參加導覽團",
+      "photos": [
+        "https://commons.wikimedia.org/wiki/Special:FilePath/Wien%20Zentralfriedhof%20Allee%20A%2020221111%2001.jpg"
+      ],
+      "photoUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Wien%20Zentralfriedhof%20Allee%20A%2020221111%2001.jpg",
+      "googleSearchUrl": "https://www.google.com/search?q=Zentralfriedhof%20Vienna&tbm=isch",
+      "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Zentralfriedhof%20Vienna@48.1491,16.42"
+    }
+  ],
+  "itinerary": [
+    {
+      "day": 1,
+      "date": "2026-08-30",
+      "theme": "抵達布達佩斯",
+      "places": [
+        "bp-new-york-cafe",
+        "bp-buda-castle",
+        "bp-fishermans-bastion"
+      ]
+    },
+    {
+      "day": 2,
+      "date": "2026-08-31",
+      "theme": "布達佩斯經典",
+      "places": [
+        "bp-szechenyi",
+        "bp-city-park",
+        "bp-vajdahunyad"
+      ]
+    },
+    {
+      "day": 3,
+      "date": "2026-09-01",
+      "theme": "多瑙河畔",
+      "places": [
+        "bp-liberty-bridge",
+        "bp-central-market",
+        "bp-st-stephens"
+      ]
+    },
+    {
+      "day": 4,
+      "date": "2026-09-02",
+      "theme": "布達佩斯深度",
+      "places": [
+        "bp-rudas-bath",
+        "bp-cave-church",
+        "bp-hospital-rock"
+      ]
+    },
+    {
+      "day": 5,
+      "date": "2026-09-03",
+      "theme": "歷史探索",
+      "places": [
+        "bp-house-terror",
+        "bp-synagogue",
+        "bp-street-art"
+      ]
+    },
+    {
+      "day": 6,
+      "date": "2026-09-04",
+      "theme": "近郊健行",
+      "places": [
+        "bp-chairlift",
+        "bp-castle-caves",
+        "bp-margaret-island"
+      ]
+    },
+    {
+      "day": 7,
+      "date": "2026-09-05",
+      "theme": "休閒日",
+      "places": [
+        "bp-ruin-pubs",
+        "bp-a38",
+        "bp-ferris-wheel"
+      ]
+    },
+    {
+      "day": 8,
+      "date": "2026-09-06",
+      "theme": "匈牙利其他城市",
+      "places": [
+        "lb-badacsony",
+        "lb-tihany"
+      ]
+    },
+    {
+      "day": 9,
+      "date": "2026-09-07",
+      "theme": "佩奇/塞格德",
+      "places": [
+        "pc-necropolis",
+        "pc-zsolnay",
+        "pc-cathedral"
+      ]
+    },
+    {
+      "day": 10,
+      "date": "2026-09-08",
+      "theme": "移動至維也納",
+      "places": [
+        "vn-schonbrunn",
+        "vn-prater",
+        "vn-cafe-central"
+      ]
+    },
+    {
+      "day": 11,
+      "date": "2026-09-09",
+      "theme": "維也納經典",
+      "places": [
+        "vn-st-stephens",
+        "vn-state-opera",
+        "vn-hofburg"
+      ]
+    },
+    {
+      "day": 12,
+      "date": "2026-09-10",
+      "theme": "維也納深度",
+      "places": [
+        "vn-belvedere",
+        "vn-albertina-modern",
+        "vn-hundertwasserhaus"
+      ]
+    },
+    {
+      "day": 13,
+      "date": "2026-09-11",
+      "theme": "維也納自然",
+      "places": [
+        "vn-wachau-valley",
+        "vn-grinzing",
+        "vn-tuerkenschanzpark"
+      ]
+    },
+    {
+      "day": 14,
+      "date": "2026-09-12",
+      "theme": "離開維也納",
+      "places": [
+        "vn-zentralfriedhof",
+        "vn-palais-ferstel",
+        "vn-augarten"
+      ]
+    }
+  ],
+  "transport": {
+    "flight": {
+      "to": "維也納國際機場 (VIE)",
+      "from": "台灣"
+    },
+    "train": {
+      "viennaToBudapest": {
+        "duration": "2.5小時",
+        "operator": "OBB",
+        "cost": "€29-50",
+        "bookingUrl": "https://www.oebb.at"
+      }
+    },
+    "localTransport": {
+      "budapest": "地鐵+電車（€1.15/程，或購買24小時券€15）",
+      "vienna": "地鐵+電車（€2.40/程，或購買48小時券€14.10）"
+    },
+    "carRental": {
+      "recommended": false,
+      "reason": "布達佩斯和維也納市區停車費用昂貴，建議使用大眾交通"
+    }
+  },
+  "budget": {
+    "currency": "歐元 (EUR)",
+    "estimatedTotal": "€2,500-3,500",
+    "categories": {
+      "flights": {
+        "estimated": "€800-1200",
+        "notes": "商務艙或豪華經濟"
+      },
+      "accommodation": {
+        "estimated": "€800-1200",
+        "notes": "€100-150/晚 x 13晚"
+      },
+      "food": {
+        "estimated": "€400-600",
+        "notes": "€30-50/天"
+      },
+      "transport": {
+        "estimated": "€150-250",
+        "notes": "火車+市內交通"
+      },
+      "attractions": {
+        "estimated": "€200-350",
+        "notes": "門票+導覽"
+      },
+      "misc": {
+        "estimated": "€150-200",
+        "notes": "紀念品+意外"
+      }
+    }
+  },
+  "food": [
+    {
+      "name": "匈牙利紅椒雞 (Paprikás Csirke)",
+      "type": "main",
+      "country": "Hungary",
+      "description": "匈牙利經典料理，用紅椒粉燉煮的雞肉"
+    },
+    {
+      "name": "匈牙利魚湯",
+      "type": "main",
+      "country": "Hungary",
+      "description": "塞格德最出名，濃郁的魚湯"
+    },
+    {
+      "name": "鵝肝 (Libamáj)",
+      "type": "appetizer",
+      "country": "Hungary",
+      "description": "匈牙利特產，配麵包或蘋果片"
+    },
+    {
+      "name": "Goulash (匈牙利燉肉)",
+      "type": "main",
+      "country": "Hungary",
+      "description": "匈牙利國菜，牛肉燉紅椒"
+    },
+    {
+      "name": "炸肉排 (Wiener Schnitzel)",
+      "type": "main",
+      "country": "Vienna",
+      "description": "維也納經典，外酥內嫩的小牛肉排"
+    },
+    {
+      "name": "薩赫蛋糕 (Sachertorte)",
+      "type": "dessert",
+      "country": "Vienna",
+      "description": "維也納最著名的巧克力蛋糕"
+    },
+    {
+      "name": "維也納咖啡 (Wiener Melange)",
+      "type": "drink",
+      "country": "Vienna",
+      "description": "維也納咖啡館文化代表作"
+    },
+    {
+      "name": "Grüner Veltliner 白酒",
+      "type": "drink",
+      "country": "Vienna",
+      "description": "奧地利代表性白酒"
+    }
+  ],
+  "todo": [
+    {
+      "item": "護照確認有效期限（需6個月以上）",
+      "done": false
+    },
+    {
+      "item": "申請申根簽證或確認免簽狀況",
+      "done": false
+    },
+    {
+      "item": "旅遊不便險（航班延誤/取消）",
+      "done": false
+    },
+    {
+      "item": "國際駕照（若租車）",
+      "done": false
+    },
+    {
+      "item": "歐洲通用轉接頭",
+      "done": false
+    },
+    {
+      "item": "歐元現金（匈牙利福林可在當地換）",
+      "done": false
+    },
+    {
+      "item": "OBB 火車票提前預購（維也納-布達佩斯）",
+      "done": false
+    },
+    {
+      "item": "布達佩斯溫泉提前預約（魯達斯/塞切尼）",
+      "done": false
+    },
+    {
+      "item": "美泉宮門票預購（避免排隊）",
+      "done": false
+    },
+    {
+      "item": "下載離線地圖（Maps.me）",
+      "done": false
+    },
+    {
+      "item": "航空公司貴賓室預約（長程航班）",
+      "done": false
+    },
+    {
+      "item": "緊急聯絡電話（中華民國駐奧地利代表處）",
+      "done": false
+    }
+  ]
+}

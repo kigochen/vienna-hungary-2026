@@ -31,7 +31,7 @@
             mediumGray: '#646464',
             lightGray: '#b4b8b4',
             dark: { DEFAULT: '#1f1f29', lighter: '#282834', card: '#2c2c2c' },
-            amber: { DEFAULT: '#d4a017', light: '#f0c040', glow: '#ffdd6620' }
+            
           },
           borderRadius: {
             'buttons': '4px',
@@ -129,21 +129,21 @@
 
 <!-- ========== FILTERS ========== -->
 <section class="max-w-7xl mx-auto px-4 mb-10">
-  <div class="bg-dark-card rounded-2xl p-6 border border-amber/10">
-    <h2 class="text-lg font-semibold mb-4 text-amber">🎯 景點篩選</h2>
+  <div class="bg-dark-card rounded-2xl p-6 border border-steelGray">
+    <h2 class="text-lg font-semibold mb-4 text-cofounderBlue">🎯 景點篩選</h2>
 
     <!-- Category Filters -->
     <div class="mb-4">
       <p class="text-xs text-gray-500 uppercase tracking-wider mb-2">分類</p>
       <div class="flex flex-wrap gap-2" id="category-filters">
-        <button class="filter-btn active px-4 py-1.5 rounded-full text-sm bg-dark-lighter border border-amber/20" data-category="all">全部</button>
-        <button class="filter-btn px-4 py-1.5 rounded-full text-sm bg-dark-lighter border border-amber/20" data-category="heritage">古蹟</button>
-        <button class="filter-btn px-4 py-1.5 rounded-full text-sm bg-dark-lighter border border-amber/20" data-category="nature">自然</button>
-        <button class="filter-btn px-4 py-1.5 rounded-full text-sm bg-dark-lighter border border-amber/20" data-category="food">美食</button>
-        <button class="filter-btn px-4 py-1.5 rounded-full text-sm bg-dark-lighter border border-amber/20" data-category="experience">體驗</button>
-        <button class="filter-btn px-4 py-1.5 rounded-full text-sm bg-dark-lighter border border-amber/20" data-category="museum">博物館</button>
-        <button class="filter-btn px-4 py-1.5 rounded-full text-sm bg-dark-lighter border border-amber/20" data-category="thermal">溫泉</button>
-        <button class="filter-btn px-4 py-1.5 rounded-full text-sm bg-dark-lighter border border-amber/20" data-category="viewpoint">觀景台</button>
+        <button class="filter-btn active px-4 py-1.5 rounded-full text-sm bg-dark-lighter border border-steelGray" data-category="all">全部</button>
+        <button class="filter-btn px-4 py-1.5 rounded-full text-sm bg-dark-lighter border border-steelGray" data-category="heritage">古蹟</button>
+        <button class="filter-btn px-4 py-1.5 rounded-full text-sm bg-dark-lighter border border-steelGray" data-category="nature">自然</button>
+        <button class="filter-btn px-4 py-1.5 rounded-full text-sm bg-dark-lighter border border-steelGray" data-category="food">美食</button>
+        <button class="filter-btn px-4 py-1.5 rounded-full text-sm bg-dark-lighter border border-steelGray" data-category="experience">體驗</button>
+        <button class="filter-btn px-4 py-1.5 rounded-full text-sm bg-dark-lighter border border-steelGray" data-category="museum">博物館</button>
+        <button class="filter-btn px-4 py-1.5 rounded-full text-sm bg-dark-lighter border border-steelGray" data-category="thermal">溫泉</button>
+        <button class="filter-btn px-4 py-1.5 rounded-full text-sm bg-dark-lighter border border-steelGray" data-category="viewpoint">觀景台</button>
       </div>
     </div>
 
@@ -151,10 +151,10 @@
     <div>
       <p class="text-xs text-gray-500 uppercase tracking-wider mb-2">城市</p>
       <div class="flex flex-wrap gap-2" id="city-filters">
-        <button class="filter-btn active px-4 py-1.5 rounded-full text-sm bg-dark-lighter border border-amber/20" data-city="all">全部城市</button>
-        <button class="filter-btn px-4 py-1.5 rounded-full text-sm bg-dark-lighter border border-amber/20" data-city="Budapest">布達佩斯</button>
-        <button class="filter-btn px-4 py-1.5 rounded-full text-sm bg-dark-lighter border border-amber/20" data-city="Vienna">維也納</button>
-        <button class="filter-btn px-4 py-1.5 rounded-full text-sm bg-dark-lighter border border-amber/20" data-city="other">其他城市</button>
+        <button class="filter-btn active px-4 py-1.5 rounded-full text-sm bg-dark-lighter border border-steelGray" data-city="all">全部城市</button>
+        <button class="filter-btn px-4 py-1.5 rounded-full text-sm bg-dark-lighter border border-steelGray" data-city="Budapest">布達佩斯</button>
+        <button class="filter-btn px-4 py-1.5 rounded-full text-sm bg-dark-lighter border border-steelGray" data-city="Vienna">維也納</button>
+        <button class="filter-btn px-4 py-1.5 rounded-full text-sm bg-dark-lighter border border-steelGray" data-city="other">其他城市</button>
       </div>
     </div>
   </div>
@@ -170,15 +170,15 @@
 
 <!-- ========== MAP ========== -->
 <section id="map" class="max-w-7xl mx-auto px-4 mb-16">
-  <h2 class="text-2xl font-bold mb-6 text-amber amber-glow">🗺️ 景點地圖</h2>
-  <div id="map-container" class="h-[500px] rounded-2xl border border-amber/20"></div>
+  <h2 class="text-2xl font-bold mb-6 text-cofounderBlue">🗺️ 景點地圖</h2>
+  <div id="map-container" class="h-[500px] rounded-2xl border border-steelGray"></div>
 </section>
 
 <!-- ========== ITINERARY TIMELINE ========== -->
 <section id="itinerary" class="max-w-7xl mx-auto px-4 mb-16">
-  <h2 class="text-2xl font-bold mb-6 text-amber amber-glow">📅 14 天行程時間線</h2>
+  <h2 class="text-2xl font-bold mb-6 text-cofounderBlue">📅 14 天行程時間線</h2>
   <div class="relative">
-    <div class="absolute left-8 top-0 bottom-0 w-0.5 bg-gradient-to-b from-amber via-amber-light to-amber/20"></div>
+    <div class="absolute left-8 top-0 bottom-0 w-0.5 bg-gradient-to-b from-cofounderBlue via-actionAzure to-coolGray"></div>
     <div class="space-y-6" id="timeline">
       <!-- Dynamically rendered -->
     </div>
@@ -187,30 +187,30 @@
 
 <!-- ========== TRANSPORT ========== -->
 <section id="transport" class="max-w-7xl mx-auto px-4 mb-16">
-  <h2 class="text-2xl font-bold mb-6 text-amber amber-glow">🚆 交通攻略</h2>
+  <h2 class="text-2xl font-bold mb-6 text-cofounderBlue">🚆 交通攻略</h2>
   <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
     <!-- Flight -->
-    <div class="bg-dark-card rounded-2xl p-6 border border-amber/20">
+    <div class="bg-dark-card rounded-2xl p-6 border border-steelGray">
       <div class="text-3xl mb-3">✈️</div>
       <h3 class="text-lg font-semibold mb-2">航班</h3>
       <div class="space-y-2 text-sm">
-        <p><span class="text-gray-500">目的地：</span><span class="text-amber">維也納國際機場 (VIE)</span></p>
+        <p><span class="text-gray-500">目的地：</span><span class="text-cofounderBlue">維也納國際機場 (VIE)</span></p>
         <p><span class="text-gray-500">出發地：</span>台灣</p>
         <p class="text-gray-400">長程航班，建議商務艙或豪華經濟</p>
       </div>
     </div>
     <!-- Train -->
-    <div class="bg-dark-card rounded-2xl p-6 border border-amber/20">
+    <div class="bg-dark-card rounded-2xl p-6 border border-steelGray">
       <div class="text-3xl mb-3">🚂</div>
       <h3 class="text-lg font-semibold mb-2">火車（OBB）</h3>
       <div class="space-y-2 text-sm">
         <p><span class="text-gray-500">維也納 → 布達佩斯</span></p>
-        <p><span class="text-amber">2.5 小時</span> · <span class="text-amber">€29-50</span></p>
-        <a href="https://www.oebb.at" target="_blank" rel="noopener" class="inline-block mt-2 px-3 py-1.5 bg-amber text-dark text-xs rounded-lg hover:bg-amber-light transition">提前預購 →</a>
+        <p><span class="text-cofounderBlue">2.5 小時</span> · <span class="text-cofounderBlue">€29-50</span></p>
+        <a href="https://www.oebb.at" target="_blank" rel="noopener" class="inline-block mt-2 px-3 py-1.5 bg-cofounderBlue text-white text-xs rounded-lg hover:bg-actionAzure transition">提前預購 →</a>
       </div>
     </div>
     <!-- Local -->
-    <div class="bg-dark-card rounded-2xl p-6 border border-amber/20">
+    <div class="bg-dark-card rounded-2xl p-6 border border-steelGray">
       <div class="text-3xl mb-3">🚇</div>
       <h3 class="text-lg font-semibold mb-2">市內交通</h3>
       <div class="space-y-2 text-sm">
@@ -224,7 +224,7 @@
 
 <!-- ========== FOOD ========== -->
 <section id="food" class="max-w-7xl mx-auto px-4 mb-16">
-  <h2 class="text-2xl font-bold mb-6 text-amber amber-glow">🍽️ 美食推薦</h2>
+  <h2 class="text-2xl font-bold mb-6 text-cofounderBlue">🍽️ 美食推薦</h2>
   <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4" id="food-grid">
     <!-- Dynamically rendered -->
   </div>
@@ -232,15 +232,15 @@
 
 <!-- ========== BUDGET ========== -->
 <section id="budget" class="max-w-7xl mx-auto px-4 mb-16">
-  <h2 class="text-2xl font-bold mb-6 text-amber amber-glow">💰 預算追蹤（€2,500-3,500）</h2>
-  <div class="bg-dark-card rounded-2xl p-6 border border-amber/20">
+  <h2 class="text-2xl font-bold mb-6 text-cofounderBlue">💰 預算追蹤（€2,500-3,500）</h2>
+  <div class="bg-dark-card rounded-2xl p-6 border border-steelGray">
     <div class="grid grid-cols-2 md:grid-cols-3 gap-6" id="budget-grid">
       <!-- Dynamically rendered -->
     </div>
-    <div class="mt-6 pt-6 border-t border-amber/10">
+    <div class="mt-6 pt-6 border-t border-coolGray">
       <div class="flex justify-between items-center">
         <span class="text-gray-400">總計預估</span>
-        <span class="text-2xl font-bold text-amber amber-glow">€2,500 — €3,500</span>
+        <span class="text-2xl font-bold text-cofounderBlue">€2,500 — €3,500</span>
       </div>
     </div>
   </div>
@@ -248,20 +248,20 @@
 
 <!-- ========== TODO ========== -->
 <section id="todo" class="max-w-7xl mx-auto px-4 mb-20">
-  <h2 class="text-2xl font-bold mb-6 text-amber amber-glow">✅ 行前待辦清單</h2>
-  <div class="bg-dark-card rounded-2xl p-6 border border-amber/20">
+  <h2 class="text-2xl font-bold mb-6 text-cofounderBlue">✅ 行前待辦清單</h2>
+  <div class="bg-dark-card rounded-2xl p-6 border border-steelGray">
     <div class="grid grid-cols-1 md:grid-cols-2 gap-4" id="todo-grid">
       <!-- Dynamically rendered -->
     </div>
     <div class="mt-6 flex gap-4">
-      <button id="mark-all-done" class="px-4 py-2 bg-amber text-dark text-sm rounded-lg hover:bg-amber-light transition">全部標記完成</button>
-      <button id="reset-todo" class="px-4 py-2 bg-dark-lighter text-gray-300 text-sm rounded-lg border border-amber/20 hover:border-amber/40 transition">重置</button>
+      <button id="mark-all-done" class="px-4 py-2 bg-cofounderBlue text-white text-sm rounded-lg hover:bg-actionAzure transition">全部標記完成</button>
+      <button id="reset-todo" class="px-4 py-2 bg-dark-lighter text-gray-300 text-sm rounded-lg border border-steelGray hover:border-coolGray transition">重置</button>
     </div>
   </div>
 </section>
 
 <!-- ========== FOOTER ========== -->
-<footer class="bg-dark-lighter border-t border-amber/10 py-8 text-center">
+<footer class="bg-dark-lighter border-t border-coolGray py-8 text-center">
   <p class="text-gray-500 text-sm">維也納 + 匈牙利之旅 2026 · 8/30 — 9/12</p>
   <p class="text-gray-600 text-xs mt-2">布達佩斯定點深度遊 · 維也納 4 天</p>
 </footer>
@@ -324,21 +324,21 @@ function renderPlaces() {
   noResults.classList.add('hidden');
 
   grid.innerHTML = filtered.map(p => `
-    <article class="bg-dark-card rounded-2xl overflow-hidden border border-amber/10 card-hover">
+    <article class="bg-dark-card rounded-2xl overflow-hidden border border-coolGray card-hover">
       <div class="aspect-video overflow-hidden">
         <img src="${p.photoUrl || p.photos?.[0] || FALLBACK_IMG}" alt="${p.nameZh}" class="w-full h-full object-cover" loading="lazy" onerror="this.src='${FALLBACK_IMG}'" />
       </div>
       <div class="p-4">
         <div class="flex items-start justify-between mb-2">
           <h3 class="font-semibold text-sm">${p.nameZh}</h3>
-          <span class="flex items-center gap-1 text-amber text-xs font-medium">⭐ ${p.rating}</span>
+          <span class="flex items-center gap-1 text-cofounderBlue text-xs font-medium">⭐ ${p.rating}</span>
         </div>
         <p class="text-xs text-gray-500 mb-3">${p.city} · ${categoryLabel(p.category)}</p>
         <div class="space-y-1 text-xs">
           <p class="text-green-400">✓ ${p.pros}</p>
           <p class="text-red-400/80">✗ ${p.cons}</p>
         </div>
-        <div class="mt-3 pt-3 border-t border-amber/10 flex justify-between items-center text-xs text-gray-400">
+        <div class="mt-3 pt-3 border-t border-coolGray flex justify-between items-center text-xs text-gray-400">
           <div class="flex gap-3">
             <span>💰 ${p.cost}</span>
             <span>🕐 ${p.bestTime}</span>
@@ -351,7 +351,7 @@ function renderPlaces() {
               地圖
             </a>
             <a href="${p.googleSearchUrl}" target="_blank" rel="noopener"
-               class="flex items-center gap-1 px-2 py-1 rounded-lg bg-amber/20 text-amber hover:bg-amber/30 transition text-xs"
+               class="flex items-center gap-1 px-2 py-1 rounded-lg bg-cofounderBlue/20 text-cofounderBlue hover:bg-cofounderBlue/30 transition text-xs"
                title="搜尋照片">
               <svg class="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 24 24"><path d="M21 19V5c0-1.1-.9-2-2-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2zM8.5 13.5l2.5 3.01L14.5 12l4.5 6H5l3.5-4.5z"/></svg>
               照片
@@ -431,22 +431,22 @@ function renderTimeline() {
   tl.innerHTML = placesData.itinerary.map(day => {
     const dayPlaces = day.places.map(pid => placesData.places.find(p => p.id === pid)).filter(Boolean);
     const isVienna = day.day >= 10;
-    const bgClass = isVienna ? 'border-amber/40 bg-amber/5' : 'border-gray-600 bg-dark-lighter';
+    const bgClass = isVienna ? 'border-cofounderBlue bg-coolGray' : 'border-gray-600 bg-dark-lighter';
     return `
       <div class="relative pl-16">
-        <div class="absolute left-5 -translate-x-1/2 w-7 h-7 rounded-full ${isVienna ? 'bg-amber text-dark' : 'bg-amber-light text-dark'} flex items-center justify-center text-xs font-bold shadow-lg">${day.day}</div>
+        <div class="absolute left-5 -translate-x-1/2 w-7 h-7 rounded-full ${isVienna ? 'bg-cofounderBlue text-white' : 'bg-actionAzure text-white'} flex items-center justify-center text-xs font-bold shadow-lg">${day.day}</div>
         <div class="${bgClass} rounded-xl p-4 border">
           <div class="flex justify-between items-start mb-2">
             <div>
               <p class="text-xs text-gray-500">${day.date}</p>
-              <h3 class="font-semibold text-amber">${day.theme}</h3>
+              <h3 class="font-semibold text-cofounderBlue">${day.theme}</h3>
             </div>
-            <span class="text-xs px-2 py-1 rounded-full ${isVienna ? 'bg-amber/20 text-amber' : 'bg-dark-lighter text-gray-400'}">${day.day <= 9 ? '匈牙利' : '維也納'}</span>
+            <span class="text-xs px-2 py-1 rounded-full ${isVienna ? 'bg-cofounderBlue/20 text-cofounderBlue' : 'bg-dark-lighter text-gray-400'}">${day.day <= 9 ? '匈牙利' : '維也納'}</span>
           </div>
           <div class="flex flex-wrap gap-2 mt-2">
             ${dayPlaces.map(p => `
-              <span class="text-xs px-2 py-1 bg-dark rounded-lg border border-amber/10">
-                ${p.nameZh} <span class="text-amber ml-1">⭐${p.rating}</span>
+              <span class="text-xs px-2 py-1 bg-dark rounded-lg border border-coolGray">
+                ${p.nameZh} <span class="text-cofounderBlue ml-1">⭐${p.rating}</span>
               </span>
             `).join('')}
           </div>
@@ -460,10 +460,10 @@ function renderTimeline() {
 function renderFood() {
   const grid = document.getElementById('food-grid');
   grid.innerHTML = placesData.food.map(f => `
-    <div class="bg-dark-card rounded-xl p-4 border border-amber/10">
+    <div class="bg-dark-card rounded-xl p-4 border border-coolGray">
       <div class="flex items-center gap-2 mb-2">
         <span class="text-lg">${f.type === 'dessert' ? '🍰' : f.type === 'drink' ? '🍷' : '🍖'}</span>
-        <span class="text-xs text-amber">${f.country === 'Hungary' ? '🇭🇺' : '🇦🇹'}</span>
+        <span class="text-xs text-cofounderBlue">${f.country === 'Hungary' ? '🇭🇺' : '🇦🇹'}</span>
       </div>
       <h4 class="font-medium text-sm mb-1">${f.name}</h4>
       <p class="text-xs text-gray-400">${f.description}</p>
@@ -495,7 +495,7 @@ function renderTodo() {
   const grid = document.getElementById('todo-grid');
   grid.innerHTML = placesData.todo.map((t, i) => `
     <label class="flex items-start gap-3 p-3 bg-dark-lighter rounded-xl cursor-pointer hover:bg-dark-lighter/80 transition">
-      <input type="checkbox" class="todo-check mt-1 accent-amber" data-index="${i}" ${t.done ? 'checked' : ''} />
+      <input type="checkbox" class="todo-check mt-1 accent-cofounderBlue" data-index="${i}" ${t.done ? 'checked' : ''} />
       <span class="text-sm ${t.done ? 'line-through text-gray-500' : 'text-gray-200'}">${t.item}</span>
     </label>
   `).join('');

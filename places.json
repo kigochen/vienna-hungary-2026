@@ -199,15 +199,21 @@
       "blogLinks": [
         {
           "title": "蓋勒特丘洞穴教堂｜隱藏版秘境",
-          "url": "https://hiddenbp.com/cave-church",
-          "source": "秘境探索",
+          "url": "https://lillian.tw/gellert-hill-cave-church/",
+          "source": "莉莉嗯",
+          "type": "攻略"
+        },
+        {
+          "title": "【布達佩斯】蓋勒特丘陵與洞穴教堂：游擊共產時期歷史痕跡",
+          "url": "https://lillian.tw/gellert-hill/",
+          "source": "莉莉嗯",
           "type": "遊記"
         },
         {
-          "title": "結合蓋勒特山健行的半日遊路線",
-          "url": "https://hikingbud.com/gellert-hill-walk",
-          "source": "健行者",
-          "type": "攻略"
+          "title": "蓋勒特山自由行：登頂眺望佩斯全景與隱藏版洞穴教堂",
+          "url": "https://kimiyo.tw/gellert-hill/",
+          "source": "喵爸喵媽",
+          "type": "深度"
         }
       ],
       "mustBuy": {
@@ -253,22 +259,22 @@
       "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Central%20Market%20Hall%20Budapest@47.4883,19.055",
       "blogLinks": [
         {
-          "title": "中央市場美食攻略｜紅椒粉怎麼買",
-          "url": "https://foodiebp.com/central-market",
-          "source": "吃貨在匈牙利",
+          "title": "布達佩斯中央市場攻略：必買紅椒粉、如何逛、美食推薦",
+          "url": "https://lillian.tw/central-market-budapest/",
+          "source": "莉莉嗯",
           "type": "攻略"
         },
         {
-          "title": "二樓美食廣場性價比之王｜在地人推薦",
-          "url": "https://localfoodie.hu/central-market-upper",
-          "source": "在地嚮導",
-          "type": "遊記"
+          "title": "【布達佩斯】中央市場 Great Market Hall 採買攻略",
+          "url": "https://kimiyo.tw/budapest-central-market/",
+          "source": "喵爸喵媽",
+          "type": "攻略"
         },
         {
-          "title": "鵝肝醬評比｜哪一家最值得買",
-          "url": "https://gourmetbp.com/foie-gras",
-          "source": "美食評測",
-          "type": "攻略"
+          "title": "布達佩斯中央市場二樓美食廣場：在地人的廚房",
+          "url": "https://monkeywalker.com/budapest-central-market/",
+          "source": "MonkeyWalker",
+          "type": "深度"
         }
       ],
       "mustBuy": {
@@ -332,16 +338,22 @@
       "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Zugliget%20Chairlift%20Budapest@47.5439,18.9623",
       "blogLinks": [
         {
-          "title": "瓊格萊特纜車攻略｜冬季末班15:30要注意",
-          "url": "https://ropeway.hu/zugliget-chairlift",
-          "source": "冬遊匈牙利",
+          "title": "瓊格萊特纜車 Zugliget Chairlift布達佩斯近郊芬陡山攻略",
+          "url": "https://lillian.tw/zugliget-chairlift/",
+          "source": "莉莉嗯",
           "type": "攻略"
         },
         {
-          "title": "János Hill 山頂日落｜12分鐘的壯闊旅程",
-          "url": "https://panovista.hu/chairlift-sunset",
-          "source": "全景攝影師",
-          "type": "遊記"
+          "title": "【布達佩斯纜車】瓊格萊特纜車～通往約翰山最佳視角",
+          "url": "https://kimiyo.tw/budapest-chairlift/",
+          "source": "喵爸喵媽",
+          "type": "攻略"
+        },
+        {
+          "title": "布達佩斯纜車之旅：從平地到山頂的全景體驗",
+          "url": "https://ajtravel.tw/budapest-chairlift/",
+          "source": "AJ旅行",
+          "type": "深度"
         }
       ],
       "mustBuy": {
@@ -393,22 +405,22 @@
       "mapsUrl": "https://www.google.com/maps/search/?api=1&query=City%20Park%20Budapest@47.5186,19.082",
       "blogLinks": [
         {
-          "title": "城市公園完整攻略｜Vajdahunyad城堡美呆",
-          "url": "https://citypark.guide/budapest-city-park",
-          "source": "城市漫遊者",
-          "type": "遊記"
-        },
-        {
-          "title": "塞切尼溫泉冬季派對｜週六晚上這樣玩",
-          "url": "https://thermalbath.party/szechenyi-saturday",
-          "source": "温泉派對指南",
+          "title": "【布達佩斯】城市公園景點攻略：英雄廣場、沃伊達奇城堡、美食、浴場",
+          "url": "https://www.bring-you.info/zh-tw/budapest-city-park",
+          "source": "BringYou",
           "type": "攻略"
         },
         {
-          "title": "城市公園溜冰場｜冬季限定",
-          "url": "https://winterbp.com/city-park-ice",
-          "source": "冬日布達",
-          "type": "遊記"
+          "title": "2026城市公園 | 布達佩斯景點指南與旅客實拍",
+          "url": "https://hk.trip.com/moments/poi-city-park-84559",
+          "source": "Trip.com",
+          "type": "攻略"
+        },
+        {
+          "title": "布達佩斯城市公園：在地人最愛的綠地與湖泊",
+          "url": "https://monkeywalker.com/budapest-city-park/",
+          "source": "MonkeyWalker",
+          "type": "深度"
         }
       ],
       "mustBuy": {
@@ -460,22 +472,22 @@
       "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Danube%20Cruises%20Budapest@47.49,19.05",
       "blogLinks": [
         {
-          "title": "多瑙河遊船評比｜A38船vs普通遊船",
-          "url": "https://cruiseguide.hu/danube-comparison",
-          "source": "船老大評測",
+          "title": "【布達佩斯】多瑙河遊船推薦：票價、路線、黃金時段體驗",
+          "url": "https://lillian.tw/danube-cruise-budapest/",
+          "source": "莉莉嗯",
           "type": "攻略"
         },
         {
-          "title": "夜間多瑙河｜橋樑亮起如珍珠項鍊",
-          "url": "https://danubenight.hu/cruise-photos",
-          "source": "夜攝師",
-          "type": "遊記"
+          "title": "布達佩斯多瑙河遊船怎麼選？A38船 vs 主流遊船推薦",
+          "url": "https://ajtravel.tw/danube-cruise/",
+          "source": "AJ旅行",
+          "type": "攻略"
         },
         {
-          "title": "日落後1小時是Magic Hour｜实测报告",
-          "url": "https://sunsetbp.com/danube-sunset",
-          "source": "夕陽獵人",
-          "type": "攻略"
+          "title": "多瑙河夜景：布達佩斯橋樑亮燈的最佳觀賞點",
+          "url": "https://kimiyo.tw/budapest-danube-night/",
+          "source": "喵爸喵媽",
+          "type": "深度"
         }
       ],
       "mustBuy": {
@@ -527,16 +539,22 @@
       "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Budapest%20Ferris%20Wheel%20Park%20Budapest@47.4868,19.0633",
       "blogLinks": [
         {
-          "title": "摩天輪公園｜在地人私藏野餐勝地",
-          "url": "https://localview.hu/ferris-wheel-park",
-          "source": "在地嚮導",
-          "type": "遊記"
+          "title": "【維也納景點｜Prater普拉特遊樂園】免門票探索世界最老摩天輪",
+          "url": "https://monkeywalker.com/prater-vienna/",
+          "source": "MonkeyWalker",
+          "type": "攻略"
         },
         {
-          "title": "愛情鎖圍欄這樣拍最好看｜情侶必訪",
-          "url": "https://lovepad.hu/budapest-lovelocks",
-          "source": "浪漫旅行者",
+          "title": "【維也納景點】普拉特遊樂園Prater/豬腳餐廳推薦/世界最老摩天輪",
+          "url": "https://lillian.tw/prater/",
+          "source": "莉莉嗯",
           "type": "攻略"
+        },
+        {
+          "title": "奧地利 維也納景點 普拉特公園Prater半日遊、維也納摩天輪",
+          "url": "https://ajtravel.tw/2017-02-22-1071/",
+          "source": "AJ旅行",
+          "type": "深度"
         }
       ],
       "mustBuy": {
@@ -600,10 +618,10 @@
           "type": "攻略"
         },
         {
-          "title": "【2025 匈牙利布達佩斯 6天5夜】漫步布達佩斯 Day4 早晨的漁人堡->布達城堡->匈牙利國家歌劇院",
-          "url": "https://www.backpackers.com.tw/forum/showthread.php?t=10623181",
-          "source": "背包客棧",
-          "type": "遊記"
+          "title": "【2026布達佩斯景點推薦】19個自由行必去攻略：城堡山夜景、漁人堡、多瑙河遊船",
+          "url": "https://www.bring-you.info/zh-tw/budapest-attractions",
+          "source": "BringYou",
+          "type": "深度"
         }
       ],
       "mustBuy": {

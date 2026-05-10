@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="Content-Security-Policy" content="frame-ancestors 'none';">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>維也納+匈牙利之旅 2026</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            dark: {  DEFAULT: '#0f0f14', lighter: '#1a1a24', card: '#1e1e2a' },
+            amber: { DEFAULT: '#d4a017', light: '#f0c040', glow: '#ffdd6620' }
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    body { background: #0f0f14; color: #e8e4dc; font-family: system-ui, sans-serif; }
+    .amber-glow { text-shadow: 0 0 12px #d4a01760; }
+    .card-hover { transition: all 0.3s ease; }
+    .card-hover:hover { transform: translateY(-4px); box-shadow: 0 8px 30px #d4a01730; }
+    .filter-btn.active { background: #d4a017; color: #0f0f14; }
+    .leaflet-container { background: #1a1a24; border-radius: 12px; }
+    ::-webkit-scrollbar { width: 8px; }
+    ::-webkit-scrollbar-track { background: #1a1a24; }
+    ::-webkit-scrollbar-thumb { background: #d4a01760; border-radius: 4px; }
+  </style>
+</head>
+<body>
+
+<!-- ========== NAV ========== -->
+<nav class="fixed top-0 w-full bg-dark/90 backdrop-blur-md border-b border-amber/20 z-50">
+  <div class="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
+    <span class="text-amber font-bold text-lg amber-glow">🇭🇺🇦🇹 維也納+匈牙利 2026</span>
+    <div class="flex gap-6 text-sm">
+      <a href="#places" class="hover:text-amber transition">景點</a>
+      <a href="#map" class="hover:text-amber transition">地圖</a>
+      <a href="#itinerary" class="hover:text-amber transition">行程</a>
+      <a href="#transport" class="hover:text-amber transition">交通</a>
+      <a href="#food" class="hover:text-amber transition">美食</a>
+      <a href="#budget" class="hover:text-amber transition">預算</a>
+      <a href="#todo" class="hover:text-amber transition">待辦</a>
+    </div>
+  </div>
+</nav>
+
+<!-- ========== HERO ========== -->
+<header class="pt-24 pb-16 px-4 text-center">
+  <div class="max-w-4xl mx-auto">
+    <p class="text-amber text-sm tracking-widest uppercase mb-3">2026 年夏季旅遊</p>
+    <h1 class="text-5xl md:text-6xl font-bold mb-4">維也納 + 匈牙利之旅</h1>
+    <p class="text-2xl text-amber amber-glow mb-6">8 月 30 日 — 9 月 12 日（14 天）</p>
+    <p class="text-lg text-gray-400 mb-2">匈牙利定點深度遊 → 最後 4 天維也納</p>
+    <p class="text-gray-500">布達佩斯進 · 維也納出</p>
+    <div class="flex justify-center gap-4 mt-8">
+      <span class="px-4 py-2 bg-dark-lighter rounded-full text-sm border border-amber/30">🇭🇺 匈牙利 9 天</span>
+      <span class="px-4 py-2 bg-dark-lighter rounded-full text-sm border border-amber/30">🇦🇹 維也納 4 天</span>
+    </div>
+  </div>
+</header>
+
+<!-- ========== FILTERS ========== -->
+<section class="max-w-7xl mx-auto px-4 mb-10">
+  <div class="bg-dark-card rounded-2xl p-6 border border-amber/10">
+    <h2 class="text-lg font-semibold mb-4 text-amber">🎯 景點篩選</h2>
+
+    <!-- Category Filters -->
+    <div class="mb-4">
+      <p class="text-xs text-gray-500 uppercase tracking-wider mb-2">分類</p>
+      <div class="flex flex-wrap gap-2" id="category-filters">
+        <button class="filter-btn active px-4 py-1.5 rounded-full text-sm bg-dark-lighter border border-amber/20" data-category="all">全部</button>
+        <button class="filter-btn px-4 py-1.5 rounded-full text-sm bg-dark-lighter border border-amber/20" data-category="heritage">古蹟</button>
+        <button class="filter-btn px-4 py-1.5 rounded-full text-sm bg-dark-lighter border border-amber/20" data-category="nature">自然</button>
+        <button class="filter-btn px-4 py-1.5 rounded-full text-sm bg-dark-lighter border border-amber/20" data-category="food">美食</button>
+        <button class="filter-btn px-4 py-1.5 rounded-full text-sm bg-dark-lighter border border-amber/20" data-category="experience">體驗</button>
+        <button class="filter-btn px-4 py-1.5 rounded-full text-sm bg-dark-lighter border border-amber/20" data-category="museum">博物館</button>
+        <button class="filter-btn px-4 py-1.5 rounded-full text-sm bg-dark-lighter border border-amber/20" data-category="thermal">溫泉</button>
+        <button class="filter-btn px-4 py-1.5 rounded-full text-sm bg-dark-lighter border border-amber/20" data-category="viewpoint">觀景台</button>
+      </div>
+    </div>
+
+    <!-- City Filters -->
+    <div>
+      <p class="text-xs text-gray-500 uppercase tracking-wider mb-2">城市</p>
+      <div class="flex flex-wrap gap-2" id="city-filters">
+        <button class="filter-btn active px-4 py-1.5 rounded-full text-sm bg-dark-lighter border border-amber/20" data-city="all">全部城市</button>
+        <button class="filter-btn px-4 py-1.5 rounded-full text-sm bg-dark-lighter border border-amber/20" data-city="Budapest">布達佩斯</button>
+        <button class="filter-btn px-4 py-1.5 rounded-full text-sm bg-dark-lighter border border-amber/20" data-city="Vienna">維也納</button>
+        <button class="filter-btn px-4 py-1.5 rounded-full text-sm bg-dark-lighter border border-amber/20" data-city="other">其他城市</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== PLACES GRID ========== -->
+<section id="places" class="max-w-7xl mx-auto px-4 mb-16">
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6" id="places-grid">
+    <!-- Dynamically rendered -->
+  </div>
+  <p id="no-results" class="hidden text-center text-gray-500 py-12">沒有符合條件的景點</p>
+</section>
+
+<!-- ========== MAP ========== -->
+<section id="map" class="max-w-7xl mx-auto px-4 mb-16">
+  <h2 class="text-2xl font-bold mb-6 text-amber amber-glow">🗺️ 景點地圖</h2>
+  <div id="map-container" class="h-[500px] rounded-2xl border border-amber/20"></div>
+</section>
+
+<!-- ========== ITINERARY TIMELINE ========== -->
+<section id="itinerary" class="max-w-7xl mx-auto px-4 mb-16">
+  <h2 class="text-2xl font-bold mb-6 text-amber amber-glow">📅 14 天行程時間線</h2>
+  <div class="relative">
+    <div class="absolute left-8 top-0 bottom-0 w-0.5 bg-gradient-to-b from-amber via-amber-light to-amber/20"></div>
+    <div class="space-y-6" id="timeline">
+      <!-- Dynamically rendered -->
+    </div>
+  </div>
+</section>
+
+<!-- ========== TRANSPORT ========== -->
+<section id="transport" class="max-w-7xl mx-auto px-4 mb-16">
+  <h2 class="text-2xl font-bold mb-6 text-amber amber-glow">🚆 交通攻略</h2>
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+    <!-- Flight -->
+    <div class="bg-dark-card rounded-2xl p-6 border border-amber/20">
+      <div class="text-3xl mb-3">✈️</div>
+      <h3 class="text-lg font-semibold mb-2">航班</h3>
+      <div class="space-y-2 text-sm">
+        <p><span class="text-gray-500">目的地：</span><span class="text-amber">維也納國際機場 (VIE)</span></p>
+        <p><span class="text-gray-500">出發地：</span>台灣</p>
+        <p class="text-gray-400">長程航班，建議商務艙或豪華經濟</p>
+      </div>
+    </div>
+    <!-- Train -->
+    <div class="bg-dark-card rounded-2xl p-6 border border-amber/20">
+      <div class="text-3xl mb-3">🚂</div>
+      <h3 class="text-lg font-semibold mb-2">火車（OBB）</h3>
+      <div class="space-y-2 text-sm">
+        <p><span class="text-gray-500">維也納 → 布達佩斯</span></p>
+        <p><span class="text-amber">2.5 小時</span> · <span class="text-amber">€29-50</span></p>
+        <a href="https://www.oebb.at" target="_blank" rel="noopener" class="inline-block mt-2 px-3 py-1.5 bg-amber text-dark text-xs rounded-lg hover:bg-amber-light transition">提前預購 →</a>
+      </div>
+    </div>
+    <!-- Local -->
+    <div class="bg-dark-card rounded-2xl p-6 border border-amber/20">
+      <div class="text-3xl mb-3">🚇</div>
+      <h3 class="text-lg font-semibold mb-2">市內交通</h3>
+      <div class="space-y-2 text-sm">
+        <p><span class="text-gray-500">布達佩斯：</span>地鐵+電車 €1.15/程 或 24小時券 €15</p>
+        <p><span class="text-gray-500">維也納：</span>地鐵+電車 €2.40/程 或 48小時券 €14.10</p>
+        <p class="text-gray-400 mt-2">不建議租車，市區停車費用昂貴</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== FOOD ========== -->
+<section id="food" class="max-w-7xl mx-auto px-4 mb-16">
+  <h2 class="text-2xl font-bold mb-6 text-amber amber-glow">🍽️ 美食推薦</h2>
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4" id="food-grid">
+    <!-- Dynamically rendered -->
+  </div>
+</section>
+
+<!-- ========== BUDGET ========== -->
+<section id="budget" class="max-w-7xl mx-auto px-4 mb-16">
+  <h2 class="text-2xl font-bold mb-6 text-amber amber-glow">💰 預算追蹤（€2,500-3,500）</h2>
+  <div class="bg-dark-card rounded-2xl p-6 border border-amber/20">
+    <div class="grid grid-cols-2 md:grid-cols-3 gap-6" id="budget-grid">
+      <!-- Dynamically rendered -->
+    </div>
+    <div class="mt-6 pt-6 border-t border-amber/10">
+      <div class="flex justify-between items-center">
+        <span class="text-gray-400">總計預估</span>
+        <span class="text-2xl font-bold text-amber amber-glow">€2,500 — €3,500</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== TODO ========== -->
+<section id="todo" class="max-w-7xl mx-auto px-4 mb-20">
+  <h2 class="text-2xl font-bold mb-6 text-amber amber-glow">✅ 行前待辦清單</h2>
+  <div class="bg-dark-card rounded-2xl p-6 border border-amber/20">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4" id="todo-grid">
+      <!-- Dynamically rendered -->
+    </div>
+    <div class="mt-6 flex gap-4">
+      <button id="mark-all-done" class="px-4 py-2 bg-amber text-dark text-sm rounded-lg hover:bg-amber-light transition">全部標記完成</button>
+      <button id="reset-todo" class="px-4 py-2 bg-dark-lighter text-gray-300 text-sm rounded-lg border border-amber/20 hover:border-amber/40 transition">重置</button>
+    </div>
+  </div>
+</section>
+
+<!-- ========== FOOTER ========== -->
+<footer class="bg-dark-lighter border-t border-amber/10 py-8 text-center">
+  <p class="text-gray-500 text-sm">維也納 + 匈牙利之旅 2026 · 8/30 — 9/12</p>
+  <p class="text-gray-600 text-xs mt-2">布達佩斯定點深度遊 · 維也納 4 天</p>
+</footer>
+
+<!-- ========== SCRIPTS ========== -->
+<script>
+const FALLBACK_IMG = 'https://images.unsplash.com/photo-1508009603885-50cf7c579365?w=800';
+
+function fallbackMapsUrl(place) {
+  const encodedName = encodeURIComponent(place.name + ' ' + place.city);
+  const [lat, lng] = place.coordinates;
+  return `https://www.google.com/maps/search/?api=1&query=${encodedName}@${lat},${lng}`;
+}
+
+let placesData = null;
+let selectedCategory = 'all';
+let selectedCity = 'all';
+let map = null;
+let markers = [];
+
+// Init
+document.addEventListener('DOMContentLoaded', async () => {
+  try {
+    const res = await fetch('places.json');
+    if (!res.ok) throw new Error('Failed to load places.json');
+    placesData = await res.json();
+    renderPlaces();
+    renderMap();
+    renderTimeline();
+    renderFood();
+    renderBudget();
+    renderTodo();
+    setupFilters();
+    setupTodoHandlers();
+  } catch (e) {
+    console.error('Init error:', e);
+  }
+});
+
+// Render places
+function renderPlaces() {
+  const grid = document.getElementById('places-grid');
+  const noResults = document.getElementById('no-results');
+
+  let filtered = placesData.places;
+  if (selectedCategory !== 'all') filtered = filtered.filter(p => p.category === selectedCategory);
+  if (selectedCity !== 'all') {
+    if (selectedCity === 'other') {
+      filtered = filtered.filter(p => p.city !== 'Budapest' && p.city !== 'Vienna');
+    } else {
+      filtered = filtered.filter(p => p.city === selectedCity);
+    }
+  }
+
+  if (!filtered.length) {
+    grid.innerHTML = '';
+    noResults.classList.remove('hidden');
+    return;
+  }
+  noResults.classList.add('hidden');
+
+  grid.innerHTML = filtered.map(p => `
+    <article class="bg-dark-card rounded-2xl overflow-hidden border border-amber/10 card-hover">
+      <div class="aspect-video overflow-hidden">
+        <img src="${p.photoUrl || p.photos?.[0] || FALLBACK_IMG}" alt="${p.nameZh}" class="w-full h-full object-cover" loading="lazy" onerror="this.src='${FALLBACK_IMG}'" />
+      </div>
+      <div class="p-4">
+        <div class="flex items-start justify-between mb-2">
+          <h3 class="font-semibold text-sm">${p.nameZh}</h3>
+          <span class="flex items-center gap-1 text-amber text-xs font-medium">⭐ ${p.rating}</span>
+        </div>
+        <p class="text-xs text-gray-500 mb-3">${p.city} · ${categoryLabel(p.category)}</p>
+        <div class="space-y-1 text-xs">
+          <p class="text-green-400">✓ ${p.pros}</p>
+          <p class="text-red-400/80">✗ ${p.cons}</p>
+        </div>
+        <div class="mt-3 pt-3 border-t border-amber/10 flex justify-between items-center text-xs text-gray-400">
+          <div class="flex gap-3">
+            <span>💰 ${p.cost}</span>
+            <span>🕐 ${p.bestTime}</span>
+          </div>
+          <div class="flex gap-2">
+            <a href="${p.mapsUrl || fallbackMapsUrl(p)}" target="_blank" rel="noopener"
+               class="flex items-center gap-1 px-2 py-1 rounded-lg bg-blue-500/20 text-blue-400 hover:bg-blue-500/30 transition text-xs"
+               title="在 Google Maps 開啟">
+              <svg class="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+              地圖
+            </a>
+            <a href="${p.googleSearchUrl}" target="_blank" rel="noopener"
+               class="flex items-center gap-1 px-2 py-1 rounded-lg bg-amber/20 text-amber hover:bg-amber/30 transition text-xs"
+               title="搜尋照片">
+              <svg class="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 24 24"><path d="M21 19V5c0-1.1-.9-2-2-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2zM8.5 13.5l2.5 3.01L14.5 12l4.5 6H5l3.5-4.5z"/></svg>
+              照片
+            </a>
+          </div>
+        </div>
+      </div>
+    </article>
+  `).join('');
+}
+
+function categoryLabel(cat) {
+  const map = { heritage: '古蹟', nature: '自然', food: '美食', experience: '體驗', museum: '博物館', thermal: '溫泉', viewpoint: '觀景台' };
+  return map[cat] || cat;
+}
+
+// Filters
+function setupFilters() {
+  document.querySelectorAll('#category-filters .filter-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('#category-filters .filter-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      selectedCategory = btn.dataset.category;
+      renderPlaces();
+      updateMapMarkers();
+    });
+  });
+
+  document.querySelectorAll('#city-filters .filter-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('#city-filters .filter-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      selectedCity = btn.dataset.city;
+      renderPlaces();
+      updateMapMarkers();
+    });
+  });
+}
+
+// Map
+function renderMap() {
+  if (map) return;
+  map = L.map('map-container', { zoomControl: true }).setView([47.5, 19.0], 7);
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '© OpenStreetMap'
+  }).addTo(map);
+  updateMapMarkers();
+}
+
+function updateMapMarkers() {
+  if (!map || !placesData) return;
+  markers.forEach(m => map.removeLayer(m));
+  markers = [];
+
+  let filtered = placesData.places;
+  if (selectedCategory !== 'all') filtered = filtered.filter(p => p.category === selectedCategory);
+  if (selectedCity !== 'all') {
+    if (selectedCity === 'other') {
+      filtered = filtered.filter(p => p.city !== 'Budapest' && p.city !== 'Vienna');
+    } else {
+      filtered = filtered.filter(p => p.city === selectedCity);
+    }
+  }
+
+  filtered.forEach(p => {
+    const mapsLink = p.mapsUrl || fallbackMapsUrl(p);
+    marker = L.circleMarker([p.coordinates[0], p.coordinates[1]], {
+      radius: 8, fillColor: '#d4a017', color: '#f0c040', weight: 2, opacity: 1, fillOpacity: 0.8
+    }).addTo(map).bindPopup(`<b>${p.nameZh}</b><br>${p.city} · ⭐ ${p.rating}<br><a href="${mapsLink}" target="_blank" rel="noopener" style="color:#d4a017">🗺️ 在 Google Maps 開啟</a>`);
+    markers.push(marker);
+  });
+}
+
+// Timeline
+function renderTimeline() {
+  const tl = document.getElementById('timeline');
+  tl.innerHTML = placesData.itinerary.map(day => {
+    const dayPlaces = day.places.map(pid => placesData.places.find(p => p.id === pid)).filter(Boolean);
+    const isVienna = day.day >= 10;
+    const bgClass = isVienna ? 'border-amber/40 bg-amber/5' : 'border-gray-600 bg-dark-lighter';
+    return `
+      <div class="relative pl-16">
+        <div class="absolute left-5 -translate-x-1/2 w-7 h-7 rounded-full ${isVienna ? 'bg-amber text-dark' : 'bg-amber-light text-dark'} flex items-center justify-center text-xs font-bold shadow-lg">${day.day}</div>
+        <div class="${bgClass} rounded-xl p-4 border">
+          <div class="flex justify-between items-start mb-2">
+            <div>
+              <p class="text-xs text-gray-500">${day.date}</p>
+              <h3 class="font-semibold text-amber">${day.theme}</h3>
+            </div>
+            <span class="text-xs px-2 py-1 rounded-full ${isVienna ? 'bg-amber/20 text-amber' : 'bg-dark-lighter text-gray-400'}">${day.day <= 9 ? '匈牙利' : '維也納'}</span>
+          </div>
+          <div class="flex flex-wrap gap-2 mt-2">
+            ${dayPlaces.map(p => `
+              <span class="text-xs px-2 py-1 bg-dark rounded-lg border border-amber/10">
+                ${p.nameZh} <span class="text-amber ml-1">⭐${p.rating}</span>
+              </span>
+            `).join('')}
+          </div>
+        </div>
+      </div>
+    `;
+  }).join('');
+}
+
+// Food
+function renderFood() {
+  const grid = document.getElementById('food-grid');
+  grid.innerHTML = placesData.food.map(f => `
+    <div class="bg-dark-card rounded-xl p-4 border border-amber/10">
+      <div class="flex items-center gap-2 mb-2">
+        <span class="text-lg">${f.type === 'dessert' ? '🍰' : f.type === 'drink' ? '🍷' : '🍖'}</span>
+        <span class="text-xs text-amber">${f.country === 'Hungary' ? '🇭🇺' : '🇦🇹'}</span>
+      </div>
+      <h4 class="font-medium text-sm mb-1">${f.name}</h4>
+      <p class="text-xs text-gray-400">${f.description}</p>
+    </div>
+  `).join('');
+}
+
+// Budget
+function renderBudget() {
+  const grid = document.getElementById('budget-grid');
+  const cats = placesData.budget.categories;
+  const colors = ['text-blue-400', 'text-green-400', 'text-yellow-400', 'text-purple-400', 'text-pink-400', 'text-gray-400'];
+  const icons = ['✈️', '🏨', '🍽️', '🚆', '🎫', '🎁'];
+  const keys = Object.keys(cats);
+  grid.innerHTML = keys.map((k, i) => `
+    <div class="bg-dark-lighter rounded-xl p-4">
+      <div class="flex items-center gap-2 mb-2">
+        <span>${icons[i]}</span>
+        <span class="text-xs text-gray-500 uppercase">${k}</span>
+      </div>
+      <p class="text-lg font-semibold ${colors[i]}">${cats[k].estimated}</p>
+      <p class="text-xs text-gray-500 mt-1">${cats[k].notes}</p>
+    </div>
+  `).join('');
+}
+
+// Todo
+function renderTodo() {
+  const grid = document.getElementById('todo-grid');
+  grid.innerHTML = placesData.todo.map((t, i) => `
+    <label class="flex items-start gap-3 p-3 bg-dark-lighter rounded-xl cursor-pointer hover:bg-dark-lighter/80 transition">
+      <input type="checkbox" class="todo-check mt-1 accent-amber" data-index="${i}" ${t.done ? 'checked' : ''} />
+      <span class="text-sm ${t.done ? 'line-through text-gray-500' : 'text-gray-200'}">${t.item}</span>
+    </label>
+  `).join('');
+
+  document.querySelectorAll('.todo-check').forEach(cb => {
+    cb.addEventListener('change', () => {
+      placesData.todo[cb.dataset.index].done = cb.checked;
+      renderTodo();
+    });
+  });
+}
+
+function setupTodoHandlers() {
+  document.getElementById('mark-all-done').addEventListener('click', () => {
+    placesData.todo.forEach(t => t.done = true);
+    renderTodo();
+  });
+  document.getElementById('reset-todo').addEventListener('click', () => {
+    placesData.todo.forEach(t => t.done = false);
+    renderTodo();
+  });
+}
+</script>
+</body>
+</html>

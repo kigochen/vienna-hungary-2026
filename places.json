@@ -473,22 +473,17 @@
       "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Budapest%20Ferris%20Wheel%20Park%20Budapest@47.4868,19.0633",
       "blogLinks": [
         {
-          "title": "【維也納景點｜Prater普拉特遊樂園】免門票探索世界最老摩天輪",
-          "url": "https://monkeywalker.com/prater-vienna/",
-          "source": "MonkeyWalker",
+          "title": "Vidám Város - Budapest's Favorite Amusement Park Since 1906",
+          "url": "https://www.timeout.com/budapest/things-to-do/vidam-varos-budapest-ferris-wheel-park",
+          "source": "Time Out Budapest",
           "type": "攻略"
         },
         {
-          "title": "【維也納景點】普拉特遊樂園Prater/豬腳餐廳推薦/世界最老摩天輪",
-          "url": "https://lillian.tw/prater/",
-          "source": "莉莉嗯",
-          "type": "攻略"
-        },
-        {
-          "title": "奧地利 維也納景點 普拉特公園Prater半日遊、維也納摩天輪",
-          "url": "https://ajtravel.tw/2017-02-22-1071/",
-          "source": "AJ旅行",
-          "type": "深度"
+          "title": "【布達佩斯】VIDÁM PARK 布達佩斯摩天輪公園，像當地人一樣去遊玩吧！",
+          "url": "https://www.bring-you.info/zh-tw/budapest-attractions",
+          "source": "BringYou",
+          "type": "攻略",
+          "note": "此為布達佩斯景點攻略，VIDÁM PARK出現在文章中"
         }
       ],
       "mustBuy": {

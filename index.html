@@ -5,6 +5,9 @@
   <meta http-equiv="Content-Security-Policy" content="frame-ancestors 'none';">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>維也納+匈牙利之旅 2026</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Serif+TC:wght@400;600;700&display=swap" rel="stylesheet">
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -13,54 +16,113 @@
       theme: {
         extend: {
           colors: {
-            dark: {  DEFAULT: '#0f0f14', lighter: '#1a1a24', card: '#1e1e2a' },
+            nightSky: '#1f1f29',
+            cofounderBlue: '#0081c0',
+            actionAzure: '#41a1cf',
+            ashGray: '#f9faf7',
+            coolGray: '#eef1ed',
+            steelGray: '#dee2de',
+            offWhite: '#fefffc',
+            canvasWhite: '#ffffff',
+            darkCharcoal: '#171717',
+            charcoal: '#2c2c2c',
+            richBlack: '#282834',
+            slateGray: '#444141',
+            mediumGray: '#646464',
+            lightGray: '#b4b8b4',
+            dark: { DEFAULT: '#1f1f29', lighter: '#282834', card: '#2c2c2c' },
             amber: { DEFAULT: '#d4a017', light: '#f0c040', glow: '#ffdd6620' }
+          },
+          borderRadius: {
+            'buttons': '4px',
+            'cardssmall': '12px',
+            'cardsmedium': '16px',
+            'cardslarge': '24px',
+            'nav': '50.496px',
+          },
+          fontFamily: {
+            'serif-tc': ['Noto Serif TC', 'serif'],
+            'sans': ['Inter', 'system-ui', 'sans-serif'],
           }
         }
       }
     }
   </script>
   <style>
-    body { background: #0f0f14; color: #e8e4dc; font-family: system-ui, sans-serif; }
-    .amber-glow { text-shadow: 0 0 12px #d4a01760; }
+    :root {
+      /* Colors */
+      --color-night-sky: #1f1f29;
+      --color-cofounder-blue: #0081c0;
+      --color-action-azure: #41a1cf;
+      --color-pitch-black: #000000;
+      --color-canvas-white: #ffffff;
+      --color-off-white: #fefffc;
+      --color-ash-gray: #f9faf7;
+      --color-cool-gray: #eef1ed;
+      --color-steel-gray: #dee2de;
+      --color-dark-charcoal: #171717;
+      --color-charcoal: #2c2c2c;
+      --color-rich-black: #282834;
+      --color-slate-gray: #444141;
+      --color-medium-gray: #646464;
+      --color-light-gray: #b4b8b4;
+
+      /* Spacing */
+      --spacing-4: 4px; --spacing-8: 8px; --spacing-12: 12px; --spacing-16: 16px;
+      --spacing-20: 20px; --spacing-24: 24px; --spacing-32: 32px; --spacing-40: 40px;
+      --spacing-48: 48px; --spacing-64: 64px; --spacing-80: 80px;
+
+      /* Border Radius */
+      --radius-md: 4px; --radius-lg: 8px; --radius-xl: 12px;
+      --radius-2xl: 16px; --radius-3xl: 24px; --radius-full: 50.496px;
+
+      /* Shadows */
+      --shadow-sm: rgba(0,0,0,0.15) 0px 2px 6px 0px;
+      --shadow-subtle: rgb(222,226,222) 0px 0px 0px 1px;
+      --shadow-subtle-2: rgba(0,0,0,0.08) 0px 1px 1px 0px, rgba(0,0,0,0.08) 0px 4px 5px 0px;
+      --shadow-subtle-3: rgba(0,0,0,0.06) 0px 2px 2px 0px, rgba(0,0,0,0.04) 0px 0px 0px 5px;
+      --shadow-sm-2: rgba(0,0,0,0.05) 0px 1px 8px 0px;
+    }
+
+    body { background: var(--color-night-sky); color: var(--color-canvas-white); font-family: 'Inter', system-ui, sans-serif; }
     .card-hover { transition: all 0.3s ease; }
-    .card-hover:hover { transform: translateY(-4px); box-shadow: 0 8px 30px #d4a01730; }
-    .filter-btn.active { background: #d4a017; color: #0f0f14; }
-    .leaflet-container { background: #1a1a24; border-radius: 12px; }
+    .card-hover:hover { transform: translateY(-4px); box-shadow: var(--shadow-subtle-2); }
+    .filter-btn.active { background: var(--color-cofounder-blue); color: var(--color-off-white); }
+    .leaflet-container { background: var(--color-rich-black); border-radius: var(--radius-xl); }
     ::-webkit-scrollbar { width: 8px; }
-    ::-webkit-scrollbar-track { background: #1a1a24; }
-    ::-webkit-scrollbar-thumb { background: #d4a01760; border-radius: 4px; }
+    ::-webkit-scrollbar-track { background: var(--color-rich-black); }
+    ::-webkit-scrollbar-thumb { background: var(--color-cofounder-blue); border-radius: var(--radius-md); opacity: 0.5; }
   </style>
 </head>
 <body>
 
 <!-- ========== NAV ========== -->
-<nav class="fixed top-0 w-full bg-dark/90 backdrop-blur-md border-b border-amber/20 z-50">
+<nav class="fixed top-0 w-full bg-ashGray/95 backdrop-blur-md border-b border-steelGray z-50">
   <div class="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
-    <span class="text-amber font-bold text-lg amber-glow">🇭🇺🇦🇹 維也納+匈牙利 2026</span>
+    <span class="text-darkCharcoal font-bold text-lg">🇭🇺🇦🇹 維也納+匈牙利 2026</span>
     <div class="flex gap-6 text-sm">
-      <a href="#places" class="hover:text-amber transition">景點</a>
-      <a href="#map" class="hover:text-amber transition">地圖</a>
-      <a href="#itinerary" class="hover:text-amber transition">行程</a>
-      <a href="#transport" class="hover:text-amber transition">交通</a>
-      <a href="#food" class="hover:text-amber transition">美食</a>
-      <a href="#budget" class="hover:text-amber transition">預算</a>
-      <a href="#todo" class="hover:text-amber transition">待辦</a>
+      <a href="#places" class="text-charcoal hover:text-cofounderBlue transition">景點</a>
+      <a href="#map" class="text-charcoal hover:text-cofounderBlue transition">地圖</a>
+      <a href="#itinerary" class="text-charcoal hover:text-cofounderBlue transition">行程</a>
+      <a href="#transport" class="text-charcoal hover:text-cofounderBlue transition">交通</a>
+      <a href="#food" class="text-charcoal hover:text-cofounderBlue transition">美食</a>
+      <a href="#budget" class="text-charcoal hover:text-cofounderBlue transition">預算</a>
+      <a href="#todo" class="text-charcoal hover:text-cofounderBlue transition">待辦</a>
     </div>
   </div>
 </nav>
 
 <!-- ========== HERO ========== -->
-<header class="pt-24 pb-16 px-4 text-center">
+<header class="pt-24 pb-16 px-4 text-center bg-nightSky">
   <div class="max-w-4xl mx-auto">
-    <p class="text-amber text-sm tracking-widest uppercase mb-3">2026 年夏季旅遊</p>
+    <p class="text-cofounderBlue text-sm tracking-widest uppercase mb-3">2026 年夏季旅遊</p>
     <h1 class="text-5xl md:text-6xl font-bold mb-4">維也納 + 匈牙利之旅</h1>
-    <p class="text-2xl text-amber amber-glow mb-6">8 月 30 日 — 9 月 12 日（14 天）</p>
-    <p class="text-lg text-gray-400 mb-2">匈牙利定點深度遊 → 最後 4 天維也納</p>
-    <p class="text-gray-500">布達佩斯進 · 維也納出</p>
+    <p class="text-2xl text-cofounderBlue mb-6">8 月 30 日 — 9 月 12 日（14 天）</p>
+    <p class="text-lg text-lightGray mb-2">匈牙利定點深度遊 → 最後 4 天維也納</p>
+    <p class="text-mediumGray">布達佩斯進 · 維也納出</p>
     <div class="flex justify-center gap-4 mt-8">
-      <span class="px-4 py-2 bg-dark-lighter rounded-full text-sm border border-amber/30">🇭🇺 匈牙利 9 天</span>
-      <span class="px-4 py-2 bg-dark-lighter rounded-full text-sm border border-amber/30">🇦🇹 維也納 4 天</span>
+      <span class="px-4 py-2 bg-off-white rounded-full text-sm text-darkCharcoal font-medium">🇭🇺 匈牙利 9 天</span>
+      <span class="px-4 py-2 bg-off-white rounded-full text-sm text-darkCharcoal font-medium">🇦🇹 維也納 4 天</span>
     </div>
   </div>
 </header>

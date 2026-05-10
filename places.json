@@ -33,16 +33,10 @@
       "mapsUrl": "https://www.google.com/maps/search/?api=1&query=A38%20Ship%20Budapest@47.4855,19.0535",
       "blogLinks": [
         {
-          "title": "【2026布達佩斯】A38船夜景攻略｜屋頂甲板怎麼拍照",
-          "url": "https://ajtravel.tw/a38-ship-budapest/",
-          "source": "AJ旅行",
-          "type": "遊記"
-        },
-        {
-          "title": "多瑙河上最特別的音樂場地！烏克蘭砂石船改建",
-          "url": "https://monkeywalker.com/a38-ship-budapest/",
-          "source": "MonkeyWalker",
-          "type": "遊記"
+          "title": "A38 Ship - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/A38_ship",
+          "source": "Wikipedia",
+          "type": "百科"
         }
       ],
       "mustBuy": {
@@ -143,16 +137,10 @@
       "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Budapest%20Castle%20Caves%20Budapest@47.4918,19.034",
       "blogLinks": [
         {
-          "title": "布達城堡洞穴探險｜我的幽閉恐懼症發作經驗",
-          "url": "https://monkeywalker.com/buda-cave/",
-          "source": "MonkeyWalker",
-          "type": "遊記"
-        },
-        {
-          "title": "洞穴導覽預約與行前準備",
-          "url": "https://ajtravel.tw/buda-cave/",
-          "source": "AJ旅行",
-          "type": "攻略"
+          "title": "Budapest Castle Caves - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Budapest_Castle_Caves",
+          "source": "Wikipedia",
+          "type": "百科"
         }
       ],
       "mustBuy": {
@@ -379,12 +367,6 @@
           "url": "https://hk.trip.com/moments/poi-city-park-84559",
           "source": "Trip.com",
           "type": "攻略"
-        },
-        {
-          "title": "布達佩斯城市公園：在地人最愛的綠地與湖泊",
-          "url": "https://monkeywalker.com/budapest-city-park/",
-          "source": "MonkeyWalker",
-          "type": "深度"
         }
       ],
       "mustBuy": {
@@ -613,10 +595,10 @@
       "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Tomb+of+G%C3%BCl+Baba+Budapest@47.4878,19.0372",
       "blogLinks": [
         {
-          "title": "【布達佩斯】Gül Baba Türbe 古爾巴巴陵寢，土耳其統治時期的聖蹟",
-          "url": "https://lillian.tw/gul-baba-turbe/",
-          "source": "莉莉嗯",
-          "type": "攻略"
+          "title": "Gül Baba - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/G%C3%BCl_Baba",
+          "source": "Wikipedia",
+          "type": "百科"
         }
       ],
       "mustBuy": {
@@ -660,6 +642,12 @@
           "url": "https://rainieis.tw/budapest-szent-lukacs-spa/",
           "source": "披著虎皮的貓",
           "type": "攻略"
+        },
+        {
+          "title": "Hospital in the Rock - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Hospital_in_the_Rock",
+          "source": "Wikipedia",
+          "type": "百科"
         }
       ],
       "mustBuy": {
@@ -703,12 +691,6 @@
           "url": "https://ajtravel.tw/terror-haza-muzeum/",
           "source": "AJ旅行",
           "type": "遊記"
-        },
-        {
-          "title": "【2025布達佩斯景點】恐怖之屋旅遊攻略",
-          "url": "https://hk.trip.com/moments/poi-house-of-terror-58270404/",
-          "source": "Trip.com",
-          "type": "攻略"
         },
         {
           "title": "Visiting Budapest's House of Terror (2026)",
@@ -813,6 +795,12 @@
           "url": "https://www.bring-you.info/zh-tw/budapest-karoly-palace",
           "source": "BringYou",
           "type": "攻略"
+        },
+        {
+          "title": "Károlyi Palace - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/K%C3%A1rolyi_Palace",
+          "source": "Wikipedia",
+          "type": "百科"
         }
       ],
       "mustBuy": {
@@ -1048,10 +1036,10 @@
       "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Memento%20Park%20Budapest@47.4116,18.993",
       "blogLinks": [
         {
-          "title": "【布達佩斯景點】紀念品公園Memento Park：共產時期雕像主題公園、交通門票",
-          "url": "https://lillian.tw/memento-park/",
-          "source": "莉莉嗯",
-          "type": "攻略"
+          "title": "Memento Park - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/Memento_Park",
+          "source": "Wikipedia",
+          "type": "百科"
         }
       ],
       "mustBuy": {
@@ -1721,10 +1709,10 @@
       "mapsUrl": "https://www.google.com/maps/search/?api=1&query=D%C3%A9ri%20Museum%20Debrecen@47.53,21.6264",
       "blogLinks": [
         {
-          "title": "【維也納】德雷爾博物館 Fred Adolf Leopoldsgrün 收藏藝術與歷史",
-          "url": "https://ai9.me/2025/02/20/vienna-lehvdl/",
-          "source": "AI9",
-          "type": "攻略"
+          "title": "Déri Museum - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/D%C3%A9ri_Museum",
+          "source": "Wikipedia",
+          "type": "百科"
         }
       ],
       "mustBuy": {
@@ -3127,10 +3115,10 @@
       "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Karlskirche%20Vienna@48.1958,16.3566",
       "blogLinks": [
         {
-          "title": "【維也納景點】卡爾教堂Karlskirche巴洛克圓頂與幸福摩天輪",
-          "url": "https://monkeywalker.com/vienna-karlskirche/",
-          "source": "MonkeyWalker",
-          "type": "攻略"
+          "title": "St. Charles Church - Wikipedia (Karlskirche)",
+          "url": "https://en.wikipedia.org/wiki/St._Charles_Church",
+          "source": "Wikipedia",
+          "type": "百科"
         }
       ],
       "mustBuy": {

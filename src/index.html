@@ -2,7 +2,7 @@
 <html lang="zh-TW">
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="Content-Security-Policy" content="frame-ancestors 'none';">
+  <meta http-equiv="Content-Security-Policy" content="frame-ancestors 'none'; img-src 'self' https://upload.wikimedia.org https://*.wikimedia.org https://images.unsplash.com data:;">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>維也納+匈牙利之旅 2026</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -268,7 +268,7 @@
 
 <!-- ========== SCRIPTS ========== -->
 <script>
-const FALLBACK_IMG = 'https://images.unsplash.com/photo-1508009603885-50cf7c579365?w=800';
+const FALLBACK_IMG = 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Budapest_-_Hungarian_Parliament_building_%2830354571195%29.jpg/1280px-Budapest_-_Hungarian_Parliament_building_%2830354571195%29.jpg';
 
 function fallbackMapsUrl(place) {
   const encodedName = encodeURIComponent(place.name + ' ' + place.city);

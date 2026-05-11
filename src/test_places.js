@@ -59,13 +59,13 @@ console.log('\n[4] places 陣列檢查');
 if (data) {
   assert(Array.isArray(data.places), 'places 是陣列');
   assert(data.places.length > 0, 'places 非空陣列');
-  assert(data.places.length === 62, `places 有 62 個景點（實際: ${data.places.length}）`);
+  assert(data.places.length === 74, `places 有 74 個景點（實際: ${data.places.length}）`);
 } else {
   assert(false, '跳過 places 檢查（資料未載入）');
 }
 
-// 5. New fields: photoUrl and googleSearchUrl for ALL 62 places
-console.log('\n[5] photoUrl 欄位檢查（62 個景點）');
+// 5. New fields: photoUrl and googleSearchUrl for ALL 74 places
+console.log('\n[5] photoUrl 欄位檢查（74 個景點）');
 const FAKE_UNSPLASH = 'https://images.unsplash.com/photo-1508009603885-50cf7c579365';
 if (data && Array.isArray(data.places)) {
   let allHavePhotoUrl = true;
@@ -85,7 +85,7 @@ if (data && Array.isArray(data.places)) {
     }
   }
   if (allHavePhotoUrl && allRealPhotoUrls) {
-    assert(true, `所有 62 個景點都有真實的 photoUrl（非假圖）`);
+    assert(true, `所有 ${data.places.length} 個景點都有真實的 photoUrl（非假圖）`);
   } else if (allHavePhotoUrl && !allRealPhotoUrls) {
     assert(false, `有 ${updatedCount} 個景點仍使用假 Unsplash 圖片`);
   }
@@ -94,7 +94,7 @@ if (data && Array.isArray(data.places)) {
 }
 
 // 6. googleSearchUrl with encodeURIComponent
-console.log('\n[6] googleSearchUrl 欄位檢查（62 個景點）');
+console.log('\n[6] googleSearchUrl 欄位檢查（74 個景點）');
 if (data && Array.isArray(data.places)) {
   let allHaveGoogleSearchUrl = true;
   let allEncodedCorrectly = true;
@@ -120,7 +120,7 @@ if (data && Array.isArray(data.places)) {
     }
   }
   if (allHaveGoogleSearchUrl && allEncodedCorrectly) {
-    assert(true, `所有 62 個景點都有正確格式的 googleSearchUrl`);
+    assert(true, `所有 ${data.places.length} 個景點都有正確格式的 googleSearchUrl`);
   }
 } else {
   assert(false, '跳過 googleSearchUrl 檢查（places 未正確載入）');

@@ -333,6 +333,7 @@ async function loadVoteCounts() {
     voteCounts = JSON.parse(localStorage.getItem('vote_counts') || '{}');
     window.__canVote = true;
   }
+}
 
 async function castVote(placeId) {
   // Wait for Firebase to be ready (max 10 seconds)

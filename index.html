@@ -329,8 +329,10 @@ async function loadVoteCounts() {
     localStorage.setItem('vote_counts', JSON.stringify(voteCounts));
   } catch (e) {
     console.error('loadVoteCounts error:', e);
+    // Fallback to localStorage, don't block voting
+    voteCounts = JSON.parse(localStorage.getItem('vote_counts') || '{}');
+    window.__canVote = true;
   }
-}
 
 async function castVote(placeId) {
   // Wait for Firebase to be ready (max 10 seconds)

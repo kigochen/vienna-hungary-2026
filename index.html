@@ -2,7 +2,7 @@
 <html lang="zh-TW">
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://*.firebaseio.com https://*.googleapis.com https://*.gstatic.com; connect-src 'self' https://*.firebaseio.com https://*.googleapis.com; style-src 'self' https://cdn.tailwindcss.com https://unpkg.com; frame-ancestors 'none';">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://cdn.tailwindcss.com https://unpkg.com; style-src 'self' https://cdn.tailwindcss.com https://unpkg.com https://fonts.googleapis.com; frame-ancestors 'none';">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>維也納+匈牙利之旅 2026</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -267,88 +267,23 @@
 </footer>
 
 <!-- ========== SCRIPTS ========== -->
-<script type="module">
-import { initializeApp } from 'https://www.gstatic.com/firebasejs/10.7.0/firebase-app.js'
-import { getAuth, signInAnonymously, onAuthStateChanged } from 'https://www.gstatic.com/firebasejs/10.7.0/firebase-auth.js'
-import { getFirestore, doc, getDoc, setDoc, updateDoc, increment, arrayUnion, serverTimestamp } from 'https://www.gstatic.com/firebasejs/10.7.0/firebase-firestore.js'
-
-// ===== Firebase Config (placeholder - replace with your Firebase project config) =====
-const firebaseConfig = {
-  apiKey: "YOUR_API_KEY",
-  authDomain: "YOUR_AUTH_DOMAIN",
-  projectId: "YOUR_PROJECT_ID",
-  storageBucket: "YOUR_STORAGE_BUCKET",
-  messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
-  appId: "YOUR_APP_ID"
-};
-
-let app, auth, db;
-let currentUid = null;
+<script>
+// ===== Pure LocalStorage Voting (no Firebase) =====
 let votedPlaces = JSON.parse(localStorage.getItem('voted_places') || '[]');
-let voteCounts = {};
+let voteCounts = JSON.parse(localStorage.getItem('vote_counts') || '{}');
 
-function initFirebase() {
-  try {
-    app = initializeApp(firebaseConfig);
-    auth = getAuth(app);
-    db = getFirestore(app);
-    signInAnonymously(auth).catch(err => console.error('Firebase sign-in error:', err));
-    onAuthStateChanged(auth, (user) => {
-      if (user) {
-        currentUid = user.uid;
-        loadAllVoteCounts();
-      }
-    });
-  } catch (e) {
-    console.error('Firebase init error:', e);
-  }
-}
-
-async function loadAllVoteCounts() {
-  if (!placesData || !db) return;
-  try {
-    const batch = placesData.places.slice(0, 20);
-    await Promise.all(batch.map(async p => {
-      const snap = await getDoc(doc(db, 'votes', p.id));
-      if (snap.exists()) {
-        voteCounts[p.id] = snap.data().count || 0;
-      }
-    }));
-    if (typeof renderPlaces === 'function') renderPlaces();
-  } catch (e) {
-    console.error('Load vote counts error:', e);
-  }
-}
-
-async function castVote(placeId) {
-  if (!currentUid || !db) return;
+function castVote(placeId) {
   if (votedPlaces.includes(placeId)) return;
-  try {
-    const ref = doc(db, 'votes', placeId);
-    const snap = await getDoc(ref);
-    if (snap.exists() && snap.data().voters?.includes(currentUid)) {
-      votedPlaces.push(placeId);
-      localStorage.setItem('voted_places', JSON.stringify(votedPlaces));
-      return;
-    }
-    await setDoc(ref, {
-      count: increment(1),
-      voters: arrayUnion(currentUid),
-      lastUpdated: serverTimestamp()
-    }, { merge: true });
-    votedPlaces.push(placeId);
-    localStorage.setItem('voted_places', JSON.stringify(votedPlaces));
-    voteCounts[placeId] = (voteCounts[placeId] || 0) + 1;
-    if (typeof renderPlaces === 'function') renderPlaces();
-  } catch (e) {
-    console.error('Vote error:', e);
-  }
+  votedPlaces.push(placeId);
+  voteCounts[placeId] = (voteCounts[placeId] || 0) + 1;
+  localStorage.setItem('voted_places', JSON.stringify(votedPlaces));
+  localStorage.setItem('vote_counts', JSON.stringify(voteCounts));
+  if (typeof renderPlaces === 'function') renderPlaces();
 }
 
 window.castVote = castVote;
 window.votedPlaces = votedPlaces;
 window.voteCounts = voteCounts;
-initFirebase();
 </script>
 <script>
 const FALLBACK_IMG = 'https://images.unsplash.com/photo-1508009603885-50cf7c579365?w=800';

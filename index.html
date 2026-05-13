@@ -299,9 +299,10 @@ onAuthStateChanged(auth, async (user) => {
   if (user) {
     currentUid = user.uid;
     window.__firebaseReady = true;
-    window.__canVote = true;
-    // Load all vote counts from Firestore
+    // Load all vote counts from Firestore first, then enable voting
     await loadVoteCounts();
+    window.__canVote = true;
+    // Only render places AFTER Firebase auth is done and counts are loaded
     if (typeof renderPlaces === 'function') renderPlaces();
   } else {
     // Sign in anonymously
@@ -378,13 +379,18 @@ let selectedCity = 'all';
 let map = null;
 let markers = [];
 
-// Init
+// Init — fetch places but do NOT render places until Firebase auth is ready
 document.addEventListener('DOMContentLoaded', async () => {
+  selectedCategory = 'all';
+  selectedCity = 'all';
+  map = null;
+  markers = [];
+
   try {
     const res = await fetch('places.json');
     if (!res.ok) throw new Error('Failed to load places.json');
     placesData = await res.json();
-    renderPlaces();
+    // renderPlaces is called by onAuthStateChanged after Firebase is ready
     renderMap();
     renderTimeline();
     renderFood();
@@ -421,8 +427,8 @@ function renderPlaces() {
 
   grid.innerHTML = filtered.map(p => `
     <article class="bg-offWhite rounded-xl overflow-hidden border border-steelGray card-hover shadow-subtle-2">
-      <div class="aspect-video overflow-hidden">
-        <img src="${p.photoUrl || p.photos?.[0] || FALLBACK_IMG}" alt="${p.nameZh}" class="w-full h-full object-cover" loading="lazy" onerror="this.src='${FALLBACK_IMG}'" />
+      <div class="relative aspect-video overflow-hidden bg-gray-300">
+        <img src="${p.photoUrl || p.photos?.[0] || FALLBACK_IMG}" alt="${p.nameZh}" class="w-full h-full object-cover object-center" loading="lazy" onerror="this.src='${FALLBACK_IMG}'" />
       </div>
       <div class="p-4">
         <div class="flex items-start justify-between mb-2">
@@ -431,7 +437,7 @@ function renderPlaces() {
         </div>
         <p class="text-xs text-gray-500 mb-3">${p.city} · ${categoryLabel(p.category)}</p>
         <button
-          class="vote-btn mt-2 flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs border transition ${votedPlaces.includes(p.id) ? 'bg-amber/20 border-amber/40 text-amber' : 'bg-dark-lighter border-amber/20 text-gray-400 hover:bg-amber/20 hover:border-amber/40 hover:text-amber'}"
+          class="vote-btn mt-2 flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs border transition ${votedPlaces.includes(p.id) ? 'bg-amber-100 border-amber-300 text-amber-700' : 'border-[rgba(245,158,11,0.3)] text-gray-400 hover:bg-[rgba(245,158,11,0.12)] hover:border-[rgba(245,158,11,0.3)] hover:text-amber-600'}"
           data-place-id="${p.id}"
           ${votedPlaces.includes(p.id) ? 'disabled' : ''}
           onclick="event.stopPropagation(); castVote('${p.id}')"

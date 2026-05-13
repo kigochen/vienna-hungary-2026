@@ -2,7 +2,7 @@
 <html lang="zh-TW">
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://cdn.tailwindcss.com https://unpkg.com; style-src 'self' https://cdn.tailwindcss.com https://unpkg.com https://fonts.googleapis.com; frame-ancestors 'none';">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://cdn.tailwindcss.com https://unpkg.com https://www.gstatic.com https://*.googleapis.com 'unsafe-inline'; style-src 'self' https://cdn.tailwindcss.com https://unpkg.com https://fonts.googleapis.com; frame-ancestors 'none'; connect-src 'self' https://*.googleapis.com https://*.firebaseio.com wss://*.firebaseio.com; img-src 'self' data: https://images.unsplash.com https://*.wikimedia.org https://*.openstreetmap.org https://r.jina.ai https://basemaps.cartocdn.com https://*.tile.openstreetmap.org;">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>維也納+匈牙利之旅 2026</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -267,18 +267,96 @@
 </footer>
 
 <!-- ========== SCRIPTS ========== -->
-<script>
-// ===== Pure LocalStorage Voting (no Firebase) =====
+<script type="module">
+import { initializeApp } from 'https://www.gstatic.com/firebasejs/10.7.0/firebase-app.js'
+import { getAuth, signInAnonymously, onAuthStateChanged } from 'https://www.gstatic.com/firebasejs/10.7.0/firebase-auth.js'
+import { getFirestore, doc, getDoc, setDoc, updateDoc, increment, arrayUnion, serverTimestamp } from 'https://www.gstatic.com/firebasejs/10.7.0/firebase-firestore.js'
+
+const firebaseConfig = {
+  apiKey: "AIzaSyCMY8R_HrnASBfR6mbxe8GZqi_WIjRoo",
+  authDomain: "claw-trip.firebaseapp.com",
+  projectId: "claw-trip",
+  storageBucket: "claw-trip.firebasestorage.app",
+  messagingSenderId: "949665440176",
+  appId: "1:949665440176:web:07f9b77ee2953715163675"
+};
+
+
+const app = initializeApp(firebaseConfig);
+const auth = getAuth(app);
+const db = getFirestore(app);
+
+let currentUid = null;
 let votedPlaces = JSON.parse(localStorage.getItem('voted_places') || '[]');
 let voteCounts = JSON.parse(localStorage.getItem('vote_counts') || '{}');
 
-function castVote(placeId) {
+
+// Wait for auth before enabling voting
+window.__firebaseReady = false;
+window.__canVote = false;
+
+onAuthStateChanged(auth, async (user) => {
+  if (user) {
+    currentUid = user.uid;
+    window.__firebaseReady = true;
+    window.__canVote = true;
+    // Load all vote counts from Firestore
+    await loadVoteCounts();
+    if (typeof renderPlaces === 'function') renderPlaces();
+  } else {
+    // Sign in anonymously
+    try {
+      await signInAnonymously(auth);
+    } catch (e) {
+      console.error('Anonymous sign-in failed:', e);
+    }
+  }
+});
+
+async function loadVoteCounts() {
+  if (!placesData) return;
+  const counts = {};
+  try {
+    await Promise.all(placesData.places.map(async (p) => {
+      const docRef = doc(db, 'votes', p.id);
+      const snap = await getDoc(docRef);
+      if (snap.exists()) {
+        counts[p.id] = snap.data().count || 0;
+      }
+    }));
+    voteCounts = counts;
+    localStorage.setItem('vote_counts', JSON.stringify(voteCounts));
+  } catch (e) {
+    console.error('loadVoteCounts error:', e);
+  }
+}
+
+async function castVote(placeId) {
+  if (!window.__canVote) {
+    alert('投票系統載入中，請稍候');
+    return;
+  }
   if (votedPlaces.includes(placeId)) return;
-  votedPlaces.push(placeId);
-  voteCounts[placeId] = (voteCounts[placeId] || 0) + 1;
-  localStorage.setItem('voted_places', JSON.stringify(votedPlaces));
-  localStorage.setItem('vote_counts', JSON.stringify(voteCounts));
-  if (typeof renderPlaces === 'function') renderPlaces();
+  try {
+    const docRef = doc(db, 'votes', placeId);
+    const snap = await getDoc(docRef);
+    if (snap.exists() && (snap.data().voters || []).includes(currentUid)) {
+      alert('您已經投過票了！');
+      return;
+    }
+    await setDoc(docRef, {
+      count: increment(1),
+      voters: arrayUnion(currentUid)
+    }, { merge: true });
+    votedPlaces.push(placeId);
+    voteCounts[placeId] = (voteCounts[placeId] || 0) + 1;
+    localStorage.setItem('voted_places', JSON.stringify(votedPlaces));
+    localStorage.setItem('vote_counts', JSON.stringify(voteCounts));
+    if (typeof renderPlaces === 'function') renderPlaces();
+  } catch (e) {
+    console.error('castVote error:', e);
+    alert('投票失敗，請稍後再試');
+  }
 }
 
 window.castVote = castVote;

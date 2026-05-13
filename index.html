@@ -2,7 +2,7 @@
 <html lang="zh-TW">
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://cdn.tailwindcss.com https://unpkg.com https://www.gstatic.com https://*.googleapis.com 'unsafe-inline'; style-src 'self' https://cdn.tailwindcss.com https://unpkg.com https://fonts.googleapis.com; frame-ancestors 'none'; connect-src 'self' https://*.googleapis.com https://*.firebaseio.com wss://*.firebaseio.com; img-src 'self' data: https://images.unsplash.com https://*.wikimedia.org https://*.openstreetmap.org https://r.jina.ai https://basemaps.cartocdn.com https://*.tile.openstreetmap.org;">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://cdn.tailwindcss.com https://www.gstatic.com https://*.googleapis.com; style-src 'self' 'unsafe-inline' https://cdn.tailwindcss.com https://unpkg.com https://fonts.googleapis.com; connect-src 'self' https://*.googleapis.com https://*.firebaseio.com wss://*.firebaseio.com https://cdn.tailwindcss.com; img-src 'self' data: https://images.unsplash.com https://*.wikimedia.org https://*.openstreetmap.org https://r.jina.ai https://basemaps.cartocdn.com https://*.tile.openstreetmap.org; font-src 'self' https://fonts.gstatic.com https://fonts.googleapis.com; worker-src 'self' blob:; frame-ancestors 'none';">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>維也納+匈牙利之旅 2026</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -333,11 +333,20 @@ async function loadVoteCounts() {
 }
 
 async function castVote(placeId) {
+  // Wait for Firebase to be ready (max 10 seconds)
   if (!window.__canVote) {
-    alert('投票系統載入中，請稍候');
-    return;
+    for (let i = 0; i < 20; i++) {
+      await new Promise(r => setTimeout(r, 500));
+      if (window.__canVote) break;
+    }
+    if (!window.__canVote) {
+      alert('投票系統暫時無法使用，請稍後再試');
+      return;
+    }
   }
+
   if (votedPlaces.includes(placeId)) return;
+
   try {
     const docRef = doc(db, 'votes', placeId);
     const snap = await getDoc(docRef);

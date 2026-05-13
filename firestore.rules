@@ -3,9 +3,7 @@ service cloud.firestore {
   match /databases/{database}/documents {
     match /votes/{placeId} {
       allow read: if true;
-      allow create: if request.auth != null
-                    && (!exists(/databases/$(database)/documents/votes/$(placeId))
-                        || request.auth.uid not in resource.data.voters);
+      allow create: if request.auth != null;
       allow update: if request.auth != null
                     && request.resource.data.count == resource.data.count + 1
                     && request.resource.data.voters.size() == resource.data.voters.size() + 1

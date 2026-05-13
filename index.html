@@ -310,12 +310,20 @@ onAuthStateChanged(auth, async (user) => {
       await signInAnonymously(auth);
     } catch (e) {
       console.error('Anonymous sign-in failed:', e);
+      // Firebase auth failed — allow voting with local fallback data
+      window.__firebaseReady = true;
+      window.__canVote = true;
+      voteCounts = JSON.parse(localStorage.getItem('vote_counts') || '{}');
     }
   }
 });
 
 async function loadVoteCounts() {
-  if (!placesData) return;
+  if (!placesData) {
+    // placesData not loaded yet — set canVote true so castVote can proceed
+    window.__canVote = true;
+    return;
+  }
   const counts = {};
   try {
     await Promise.all(placesData.places.map(async (p) => {

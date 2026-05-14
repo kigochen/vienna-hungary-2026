@@ -362,6 +362,17 @@ async function castVote(placeId) {
   if (votedPlaces.includes(placeId)) return;
 
   try {
+    // Defensive check: if Firebase is not properly initialized, fall back to local
+    if (typeof db === 'undefined' || !db) {
+      console.warn('Firebase db not available, using localStorage fallback');
+      votedPlaces.push(placeId);
+      voteCounts[placeId] = (voteCounts[placeId] || 0) + 1;
+      localStorage.setItem('voted_places', JSON.stringify(votedPlaces));
+      localStorage.setItem('vote_counts', JSON.stringify(voteCounts));
+      if (typeof renderPlaces === 'function') renderPlaces();
+      return;
+    }
+
     const docRef = doc(db, 'votes', placeId);
     const snap = await getDoc(docRef);
     if (snap.exists() && (snap.data().voters || []).includes(currentUid)) {

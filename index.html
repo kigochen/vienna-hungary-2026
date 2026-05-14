@@ -320,7 +320,8 @@ onAuthStateChanged(auth, async (user) => {
 
 async function loadVoteCounts() {
   if (!placesData) {
-    // placesData not loaded yet — set canVote true so castVote can proceed
+    // placesData not loaded yet — set canVote true so castVote can proceed,
+    // then call loadVoteCounts again once placesData is ready
     window.__canVote = true;
     return;
   }
@@ -337,7 +338,6 @@ async function loadVoteCounts() {
     localStorage.setItem('vote_counts', JSON.stringify(voteCounts));
   } catch (e) {
     console.error('loadVoteCounts error:', e);
-    // Fallback to localStorage, don't block voting
     voteCounts = JSON.parse(localStorage.getItem('vote_counts') || '{}');
     window.__canVote = true;
   }
@@ -555,7 +555,7 @@ function categoryLabel(cat) {
 
 function voteCountLabel(placeId) {
   const count = voteCounts[placeId] || 0;
-  return count > 0 ? `<span class="text-amber text-xs ml-1">(${count})</span>` : '';
+  return count > 0 ? ` <span class="text-amber-500 text-xs">(${count}人)</span>` : ' <span class="text-gray-400 text-xs">(0人)</span>';
 }
 
 // Filters

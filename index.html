@@ -270,7 +270,7 @@
 <script type="module">
 import { initializeApp } from 'https://www.gstatic.com/firebasejs/10.7.0/firebase-app.js'
 import { getAuth, signInAnonymously, onAuthStateChanged } from 'https://www.gstatic.com/firebasejs/10.7.0/firebase-auth.js'
-import { getFirestore, doc, getDoc, setDoc, updateDoc, increment, arrayUnion, serverTimestamp } from 'https://www.gstatic.com/firebasejs/10.7.0/firebase-firestore.js'
+import { getFirestore, doc, getDoc, setDoc, updateDoc, increment, arrayUnion, arrayRemove, serverTimestamp } from 'https://www.gstatic.com/firebasejs/10.7.0/firebase-firestore.js'
 
 const firebaseConfig = {
   apiKey: "AIzaSyBM0DcUXJGaRmAlx0stsCE5WXG2kGtDX0Y",
@@ -359,7 +359,25 @@ async function castVote(placeId) {
     }
   }
 
-  if (votedPlaces.includes(placeId)) return;
+  if (votedPlaces.includes(placeId)) {
+    // Unvote - toggle off
+    if (typeof db !== 'undefined' && db) {
+      try {
+        await updateDoc(doc(db, 'votes', placeId), {
+          count: increment(-1),
+          voters: arrayRemove(currentUid)
+        });
+      } catch (e) {
+        console.warn('Unvote Firestore failed, using local only');
+      }
+    }
+    votedPlaces = votedPlaces.filter(id => id !== placeId);
+    voteCounts[placeId] = Math.max(0, (voteCounts[placeId] || 0) - 1);
+    localStorage.setItem('voted_places', JSON.stringify(votedPlaces));
+    localStorage.setItem('vote_counts', JSON.stringify(voteCounts));
+    if (typeof renderPlaces === 'function') renderPlaces();
+    return;
+  }
 
   try {
     // Defensive check: if Firebase is not properly initialized, fall back to local

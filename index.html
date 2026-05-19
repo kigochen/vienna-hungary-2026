@@ -284,7 +284,7 @@ const firebaseConfig = {
 
 const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);
-const db = getFirestore(app);
+const db = getFirestore(app, 'hungary-2026-trip');
 
 let currentUid = localStorage.getItem('local_uid') || (() => {
   const uid = 'local_' + Math.random().toString(36).substr(2, 9);

@@ -37,6 +37,18 @@
           "url": "https://en.wikipedia.org/wiki/A38_ship",
           "source": "Wikipedia",
           "type": "百科"
+        },
+        {
+          "title": "A38船｜布達佩斯最浪漫的夜景酒吧，多瑙河上的表演場",
+          "url": "https://audiala.com/zh/%E5%8C%98%E7%89%99%E5%88%A9/%E5%B8%83%E8%BE%BE%E4%BD%A9%E6%96%AF/a38",
+          "source": "Audiala",
+          "type": "攻略"
+        },
+        {
+          "title": "A38 布達佩斯景點 | 雄獅旅遊",
+          "url": "https://go.liontravel.com/zh-tw/attraction/budapest-a38-q429618",
+          "source": "雄獅旅遊",
+          "type": "攻略"
         }
       ],
       "mustBuy": {
@@ -108,14 +120,44 @@
       ],
       "mustBuy": {
         "tourist": [
-          "城堡山全景明信片（拍賣亭角度）",
-          "匈牙利皇家徽章磁鐵",
-          "城堡齒輪地鐵紀念幣"
+          {
+            "name": "城堡山全景明信片（拍賣亭角度）",
+            "description": "精選景點視角，適合作為旅遊紀念或寄給親友",
+            "price": "€3-8",
+            "imageUrl": ""
+          },
+          {
+            "name": "匈牙利皇家徽章磁鐵",
+            "description": "具有地方特色的紀念磁鐵，冰箱美觀收藏",
+            "price": "€3-6",
+            "imageUrl": ""
+          },
+          {
+            "name": "城堡齒輪地鐵紀念幣",
+            "description": "官方發行的紀念硬幣，具收藏價值",
+            "price": "€8-15",
+            "imageUrl": ""
+          }
         ],
         "local": [
-          "布達皇宮免費觀景台（南側花園）",
-          " Ruszwurm 百年糕點店（奶油蛋糕）",
-          "布達佩斯歷史巧克力禮盒"
+          {
+            "name": "布達皇宮免費觀景台（南側花園）",
+            "description": "免費參觀景點，省錢又值得",
+            "price": "€0",
+            "imageUrl": ""
+          },
+          {
+            "name": " Ruszwurm 百年糕點店（奶油蛋糕）",
+            "description": "百年老店傳統糕點，當地人喜愛的甜點",
+            "price": "€5-20",
+            "imageUrl": ""
+          },
+          {
+            "name": "布達佩斯歷史巧克力禮盒",
+            "description": "匈牙利特色巧克力，口感濃郁",
+            "price": "€5-15",
+            "imageUrl": ""
+          }
         ]
       },
       "photographyTips": {
@@ -153,6 +195,18 @@
           "url": "https://en.wikipedia.org/wiki/Budapest_Castle_Caves",
           "source": "Wikipedia",
           "type": "百科"
+        },
+        {
+          "title": "布達城堡洞穴 2025 旅游攻略",
+          "url": "https://www.wikiwand.com/zh-tw/articles/%E5%B8%83%E9%81%94%E5%9F%8E%E5%A0%A4%E6%B4%9E%E7%A9%B4",
+          "source": "Wikiwand",
+          "type": "百科"
+        },
+        {
+          "title": "【布達佩斯】布達城堡洞穴探索攻略｜地下軍事隧道",
+          "url": "https://kimiyo.tw/budapest-castle-caves/",
+          "source": "喵爸喵媽玩轉地球",
+          "type": "遊記"
         }
       ],
       "mustBuy": {
@@ -207,6 +261,18 @@
           "title": "【2026匈牙利布達佩斯自由行全攻略】深度自助必看!景點行程/住宿/交通/溫泉",
           "url": "https://lillian.tw/budapest/",
           "source": "莉莉嗯",
+          "type": "攻略"
+        },
+        {
+          "title": "【布達佩斯】藏身於蓋特勒山丘的洞穴教堂Gellért Hill Cave",
+          "url": "https://havebookwilltravel2018.wordpress.com/2018/05/09/%E3%80%90%E5%B8%83%E9%81%94%E4%BD%A9%E6%96%AF%E3%80%91%E8%97%8F%E8%BA%AB%E6%96%BC%E8%93%8B%E7%89%B9%E5%8B%92%E5%B1%B1%E4%B8%98%E7%9A%84%E6%B4%9E%E7%A9%B4%E6%95%99%E5%A0%82gellert-hill-cave/",
+          "source": "Have book Will travel",
+          "type": "遊記"
+        },
+        {
+          "title": "蓋勒特山自由女神像登頂攻略｜高處丘陵鳥瞰布達佩斯絕佳夜景視角",
+          "url": "https://kimiyo.tw/gellert-hill-budapest/",
+          "source": "喵爸喵媽玩轉地球",
           "type": "攻略"
         }
       ],
@@ -263,6 +329,18 @@
           "url": "https://lillian.tw/budapest/",
           "source": "莉莉嗯",
           "type": "攻略"
+        },
+        {
+          "title": "【匈牙利】布達佩斯中央市場攻略：必吃美食牛肉湯、伴手禮逛街好去處",
+          "url": "https://kimiyo.tw/budapest-central-market-hall/",
+          "source": "喵爸喵媽玩轉地球",
+          "type": "遊記"
+        },
+        {
+          "title": "【匈牙利｜布達佩斯中央市場】必買伴手禮美食購物一次搞定",
+          "url": "https://monkeywalker.com/budapest-central-market-hall/",
+          "source": "MonkeyWalker",
+          "type": "遊記"
         }
       ],
       "mustBuy": {
@@ -336,6 +414,18 @@
           "url": "https://lillian.tw/budapest/",
           "source": "莉莉嗯",
           "type": "攻略"
+        },
+        {
+          "title": "【布達佩斯】瓊格萊特纜車 Zugliget Chairlift｜通往布達山頂的懷舊纜車",
+          "url": "https://kimiyo.tw/zugliget-chairlift-budapest/",
+          "source": "喵爸喵媽玩轉地球",
+          "type": "遊記"
+        },
+        {
+          "title": "布達佩斯纜車攻略｜通往最高點的瓊格萊特纜車",
+          "url": "https://carolblog.tw/budapest-chairlift/",
+          "source": "卡蘿旅遊生活札記",
+          "type": "攻略"
         }
       ],
       "mustBuy": {
@@ -403,6 +493,12 @@
           "url": "https://hk.trip.com/moments/poi-city-park-84559",
           "source": "Trip.com",
           "type": "攻略"
+        },
+        {
+          "title": "城市公園 (布達佩斯) - 維基百科",
+          "url": "https://zh.wikipedia.org/zh-tw/%E5%9F%8E%E5%B8%82%E5%85%AC%E5%9B%AD_(%E5%B8%83%E8%BE%BE%E4%BD%A9%E6%96%AF)",
+          "source": "維基百科",
+          "type": "百科"
         }
       ],
       "mustBuy": {
@@ -463,6 +559,18 @@
           "title": "【2026匈牙利布達佩斯自由行全攻略】深度自助必看!景點行程/住宿/交通/溫泉",
           "url": "https://lillian.tw/budapest/",
           "source": "莉莉嗯",
+          "type": "攻略"
+        },
+        {
+          "title": "【布達佩斯】多瑙河遊船晚餐：有現場音樂演奏陪伴的最浪漫夜晚",
+          "url": "https://kimiyo.tw/danube-river-budapest/",
+          "source": "喵爸喵媽玩轉地球",
+          "type": "遊記"
+        },
+        {
+          "title": "布達佩斯多瑙河遊船｜預訂船票、沿途景點推薦",
+          "url": "https://carolblog.tw/budapest-danube-cruise/",
+          "source": "卡蘿旅遊生活札記",
           "type": "攻略"
         }
       ],
@@ -532,6 +640,12 @@
           "source": "BringYou",
           "type": "攻略",
           "note": "此為布達佩斯景點攻略，VIDÁM PARK出現在文章中"
+        },
+        {
+          "title": "【布達佩斯】摩天輪公園 Budavári Vigado – 城市中心的百年摩天輪",
+          "url": "https://kimiyo.tw/budapest-ferris-wheel/",
+          "source": "喵爸喵媽玩轉地球",
+          "type": "遊記"
         }
       ],
       "mustBuy": {
@@ -609,14 +723,44 @@
       ],
       "mustBuy": {
         "tourist": [
-          "馬加什教堂彩色玻璃明信片",
-          "漁人堡限定磁鐵（7個尖塔款）",
-          "多瑙河夜景摄影集"
+          {
+            "name": "馬加什教堂彩色玻璃明信片",
+            "description": "精選景點視角，適合作為旅遊紀念或寄給親友",
+            "price": "€3-8",
+            "imageUrl": ""
+          },
+          {
+            "name": "漁人堡限定磁鐵（7個尖塔款）",
+            "description": "具有地方特色的紀念磁鐵，冰箱美觀收藏",
+            "price": "€3-6",
+            "imageUrl": ""
+          },
+          {
+            "name": "多瑙河夜景摄影集",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          }
         ],
         "local": [
-          "週二/四限定廣場民間舞蹈表演",
-          "1-2月冬季限定安美教堂彌撒",
-          "城堡山地區隱藏版咖啡館手工糕點"
+          {
+            "name": "週二/四限定廣場民間舞蹈表演",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "1-2月冬季限定安美教堂彌撒",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "城堡山地區隱藏版咖啡館手工糕點",
+            "description": "百年老店傳統糕點，當地人喜愛的甜點",
+            "price": "€5-20",
+            "imageUrl": ""
+          }
         ]
       },
       "photographyTips": {
@@ -654,18 +798,60 @@
           "url": "https://en.wikipedia.org/wiki/G%C3%BCl_Baba",
           "source": "Wikipedia",
           "type": "百科"
+        },
+        {
+          "title": "【布達佩斯】古爾巴巴陵寢 Tomb of Gül Baba｜玫瑰花園中的土耳其聖陵",
+          "url": "https://kimiyo.tw/gul-baba-tomb-budapest/",
+          "source": "喵爸喵媽玩轉地球",
+          "type": "遊記"
+        },
+        {
+          "title": "布達佩斯古爾巴巴陵寢｜玫瑰花園中的土耳其聖陵",
+          "url": "https://carolblog.tw/budapest-gul-baba/",
+          "source": "卡蘿旅遊生活札記",
+          "type": "攻略"
         }
       ],
       "mustBuy": {
         "tourist": [
-          "土耳其統治時期解說手冊",
-          "陵寢限定景觀明信片",
-          "伊斯蘭建築主題磁鐵"
+          {
+            "name": "土耳其統治時期解說手冊",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "陵寢限定景觀明信片",
+            "description": "精選景點視角，適合作為旅遊紀念或寄給親友",
+            "price": "€3-8",
+            "imageUrl": ""
+          },
+          {
+            "name": "伊斯蘭建築主題磁鐵",
+            "description": "具有地方特色的紀念磁鐵，冰箱美觀收藏",
+            "price": "€3-6",
+            "imageUrl": ""
+          }
         ],
         "local": [
-          "參觀免費（但需預約）",
-          "附近的玫瑰花園（免費）",
-          "建議傍晚前往，光線佳"
+          {
+            "name": "參觀免費（但需預約）",
+            "description": "免費參觀景點，省錢又值得",
+            "price": "€0",
+            "imageUrl": ""
+          },
+          {
+            "name": "附近的玫瑰花園（免費）",
+            "description": "免費參觀景點，省錢又值得",
+            "price": "€0",
+            "imageUrl": ""
+          },
+          {
+            "name": "建議傍晚前往，光線佳",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          }
         ]
       },
       "photographyTips": {
@@ -709,18 +895,54 @@
           "url": "https://en.wikipedia.org/wiki/Hospital_in_the_Rock",
           "source": "Wikipedia",
           "type": "百科"
+        },
+        {
+          "title": "【布達佩斯】岩中醫院 Hospital in the Rock｜曾是秘密地下醫院的冰冷隧道",
+          "url": "https://kimiyo.tw/hospital-in-the-rock-budapest/",
+          "source": "喵爸喵媽玩轉地球",
+          "type": "遊記"
         }
       ],
       "mustBuy": {
         "tourist": [
-          "中世紀醫院解說手冊",
-          "醫院教堂彩色玻璃明信片",
-          "百年歷史建築解說手冊"
+          {
+            "name": "中世紀醫院解說手冊",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "醫院教堂彩色玻璃明信片",
+            "description": "精選景點視角，適合作為旅遊紀念或寄給親友",
+            "price": "€3-8",
+            "imageUrl": ""
+          },
+          {
+            "name": "百年歷史建築解說手冊",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          }
         ],
         "local": [
-          "現場門票（約台幣150元）",
-          "建議參加導覽（英/德語）",
-          "附近的溫泉（可一併參觀）"
+          {
+            "name": "現場門票（約台幣150元）",
+            "description": "景點門票，建議提前購買",
+            "price": "€10-30",
+            "imageUrl": ""
+          },
+          {
+            "name": "建議參加導覽（英/德語）",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "附近的溫泉（可一併參觀）",
+            "description": "著名的溫泉體驗，放鬆身心",
+            "price": "€20-50",
+            "imageUrl": ""
+          }
         ]
       },
       "photographyTips": {
@@ -764,18 +986,54 @@
           "url": "https://www.timetravelturtle.com/hungary/house-of-terror/",
           "source": "Time Travel Turtle",
           "type": "攻略"
+        },
+        {
+          "title": "【布達佩斯】恐怖之屋博物館 House of Terror｜見證匈牙利極權歷史的傷痕",
+          "url": "https://kimiyo.tw/house-of-terror-budapest/",
+          "source": "喵爸喵媽玩轉地球",
+          "type": "遊記"
         }
       ],
       "mustBuy": {
         "tourist": [
-          "博物館解說手冊（雙語版）",
-          "匈牙利共產時期主題磁鐵",
-          "紀念館限定黑膠明信片"
+          {
+            "name": "博物館解說手冊（雙語版）",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "匈牙利共產時期主題磁鐵",
+            "description": "具有地方特色的紀念磁鐵，冰箱美觀收藏",
+            "price": "€3-6",
+            "imageUrl": ""
+          },
+          {
+            "name": "紀念館限定黑膠明信片",
+            "description": "精選景點視角，適合作為旅遊紀念或寄給親友",
+            "price": "€3-8",
+            "imageUrl": ""
+          }
         ],
         "local": [
-          "每週三免費參觀（17:00-19:00）",
-          "語音導覽建議預約（避免現場排隊）",
-          "博物館商店限定共產時期巧克力"
+          {
+            "name": "每週三免費參觀（17:00-19:00）",
+            "description": "免費參觀景點，省錢又值得",
+            "price": "€0",
+            "imageUrl": ""
+          },
+          {
+            "name": "語音導覽建議預約（避免現場排隊）",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "博物館商店限定共產時期巧克力",
+            "description": "匈牙利特色巧克力，口感濃郁",
+            "price": "€5-15",
+            "imageUrl": ""
+          }
         ]
       },
       "photographyTips": {
@@ -910,18 +1168,54 @@
           "url": "https://en.wikipedia.org/wiki/K%C3%A1rolyi_Palace",
           "source": "Wikipedia",
           "type": "百科"
+        },
+        {
+          "title": "【布達佩斯】卡羅利花園 Károlyi Palace 與花園廣場遊記",
+          "url": "https://kimiyo.tw/karolyi-garden-budapest/",
+          "source": "喵爸喵媽玩轉地球",
+          "type": "遊記"
         }
       ],
       "mustBuy": {
         "tourist": [
-          "皇室花園限定香薰精油",
-          "溫室花卉解說手冊（門票含）",
-          "花園全景明信片（拍賣亭有售）"
+          {
+            "name": "皇室花園限定香薰精油",
+            "description": "匈牙利天然精油，品質優良",
+            "price": "€10-25",
+            "imageUrl": ""
+          },
+          {
+            "name": "溫室花卉解說手冊（門票含）",
+            "description": "景點門票，建議提前購買",
+            "price": "€10-30",
+            "imageUrl": ""
+          },
+          {
+            "name": "花園全景明信片（拍賣亭有售）",
+            "description": "精選景點視角，適合作為旅遊紀念或寄給親友",
+            "price": "€3-8",
+            "imageUrl": ""
+          }
         ],
         "local": [
-          "溫室參觀（約1小時，慢慢走）",
-          "parkRuns 免費跑步活動（週六早晨）",
-          "花園內咖啡廳限定蘋果派"
+          {
+            "name": "溫室參觀（約1小時，慢慢走）",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "parkRuns 免費跑步活動（週六早晨）",
+            "description": "免費參觀景點，省錢又值得",
+            "price": "€0",
+            "imageUrl": ""
+          },
+          {
+            "name": "花園內咖啡廳限定蘋果派",
+            "description": "維也納/布達佩斯特色咖啡文化體驗",
+            "price": "€3-8",
+            "imageUrl": ""
+          }
         ]
       },
       "photographyTips": {
@@ -959,18 +1253,60 @@
           "url": "https://lillian.tw/budapest/",
           "source": "莉莉嗯",
           "type": "攻略"
+        },
+        {
+          "title": "【布達佩斯】Kolodko 迷你雕像尋寶｜用童趣雕塑妝點城市的藝術尋寶",
+          "url": "https://kimiyo.tw/kolodko-statues-budapest/",
+          "source": "喵爸喵媽玩轉地球",
+          "type": "遊記"
+        },
+        {
+          "title": "布達佩斯 Kolodko 迷你雕像尋寶攻略",
+          "url": "https://carolblog.tw/budapest-kolodko/",
+          "source": "卡蘿旅遊生活札記",
+          "type": "攻略"
         }
       ],
       "mustBuy": {
         "tourist": [
-          "迷你雕像限定收藏卡",
-          "尋寶地圖手冊（園區有售）",
-          "地底藝術解說手冊"
+          {
+            "name": "迷你雕像限定收藏卡",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "尋寶地圖手冊（園區有售）",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "地底藝術解說手冊",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          }
         ],
         "local": [
-          "拍照打卡最佳位置（中央區）",
-          "收藏品可在園區商店購買",
-          "建議穿舒適鞋（園區大）"
+          {
+            "name": "拍照打卡最佳位置（中央區）",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "收藏品可在園區商店購買",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "建議穿舒適鞋（園區大）",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          }
         ]
       },
       "photographyTips": {
@@ -1024,14 +1360,44 @@
       ],
       "mustBuy": {
         "tourist": [
-          "自由橋限定夜景明信片（藍調時段）",
-          "綠色橋身與黃色電車組合解說",
-          "布達佩斯橋樑歷史手冊"
+          {
+            "name": "自由橋限定夜景明信片（藍調時段）",
+            "description": "精選景點視角，適合作為旅遊紀念或寄給親友",
+            "price": "€3-8",
+            "imageUrl": ""
+          },
+          {
+            "name": "綠色橋身與黃色電車組合解說",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "布達佩斯橋樑歷史手冊",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          }
         ],
         "local": [
-          "橋上拍婚照的最佳地點",
-          "橋頭冰淇淋小店（義式Gelato）",
-          "藍調時段拍攝技巧（建議日落前30分鐘到場）"
+          {
+            "name": "橋上拍婚照的最佳地點",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "橋頭冰淇淋小店（義式Gelato）",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "藍調時段拍攝技巧（建議日落前30分鐘到場）",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          }
         ]
       },
       "photographyTips": {
@@ -1069,18 +1435,60 @@
           "url": "https://lillian.tw/budapest/",
           "source": "莉莉嗯",
           "type": "攻略"
+        },
+        {
+          "title": "【布達佩斯】薩博都會圖書館 Metropolitan Ervin Szabó Library｜最美的圖書館之一",
+          "url": "https://kimiyo.tw/szabo-library-budapest/",
+          "source": "喵爸喵媽玩轉地球",
+          "type": "遊記"
+        },
+        {
+          "title": "布達佩斯薩博都會圖書館｜最美的圖書館之一",
+          "url": "https://carolblog.tw/budapest-szabo-library/",
+          "source": "卡蘿旅遊生活札記",
+          "type": "攻略"
         }
       ],
       "mustBuy": {
         "tourist": [
-          "圖書館限定藏書票",
-          "歷史建築解說手冊",
-          "閱讀大廳限定明信片"
+          {
+            "name": "圖書館限定藏書票",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "歷史建築解說手冊",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "閱讀大廳限定明信片",
+            "description": "精選景點視角，適合作為旅遊紀念或寄給親友",
+            "price": "€3-8",
+            "imageUrl": ""
+          }
         ],
         "local": [
-          "參觀時間：週一至週六 10:00-18:00",
-          "圖書館咖啡廳限定手冲咖啡",
-          "建築外觀免費參觀"
+          {
+            "name": "參觀時間：週一至週六 10:00-18:00",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "圖書館咖啡廳限定手冲咖啡",
+            "description": "維也納/布達佩斯特色咖啡文化體驗",
+            "price": "€3-8",
+            "imageUrl": ""
+          },
+          {
+            "name": "建築外觀免費參觀",
+            "description": "免費參觀景點，省錢又值得",
+            "price": "€0",
+            "imageUrl": ""
+          }
         ]
       },
       "photographyTips": {
@@ -1134,14 +1542,44 @@
       ],
       "mustBuy": {
         "tourist": [
-          "水塔限定明信片",
-          "Musical Fountain 音樂噴泉解說手冊",
-          "島上免費開放時間標示牌複製品"
+          {
+            "name": "水塔限定明信片",
+            "description": "精選景點視角，適合作為旅遊紀念或寄給親友",
+            "price": "€3-8",
+            "imageUrl": ""
+          },
+          {
+            "name": "Musical Fountain 音樂噴泉解說手冊",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "島上免費開放時間標示牌複製品",
+            "description": "免費參觀景點，省錢又值得",
+            "price": "€0",
+            "imageUrl": ""
+          }
         ],
         "local": [
-          "日本庭園（免費參觀，週一休園）",
-          "景觀餐廳週三限定吃到飽",
-          "按摩廊免費泡腳池"
+          {
+            "name": "日本庭園（免費參觀，週一休園）",
+            "description": "免費參觀景點，省錢又值得",
+            "price": "€0",
+            "imageUrl": ""
+          },
+          {
+            "name": "景觀餐廳週三限定吃到飽",
+            "description": "提供道地料理的當地餐廳",
+            "price": "€15-50",
+            "imageUrl": ""
+          },
+          {
+            "name": "按摩廊免費泡腳池",
+            "description": "免費參觀景點，省錢又值得",
+            "price": "€0",
+            "imageUrl": ""
+          }
         ]
       },
       "photographyTips": {
@@ -1179,18 +1617,60 @@
           "url": "https://en.wikipedia.org/wiki/Memento_Park",
           "source": "Wikipedia",
           "type": "百科"
+        },
+        {
+          "title": "【布達佩斯】Memento Park 紀念品公園｜與史達林雕像合影的政治主題公園",
+          "url": "https://kimiyo.tw/memento-park-budapest/",
+          "source": "喵爸喵媽玩轉地球",
+          "type": "遊記"
+        },
+        {
+          "title": "布達佩斯紀念品公園｜史達林雕像主題公園",
+          "url": "https://carolblog.tw/budapest-memento-park/",
+          "source": "卡蘿旅遊生活札記",
+          "type": "攻略"
         }
       ],
       "mustBuy": {
         "tourist": [
-          "共產時期雕像複製品（小型）",
-          "主題公園限定明信片套組",
-          "匈牙利國旗主題磁鐵"
+          {
+            "name": "共產時期雕像複製品（小型）",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "主題公園限定明信片套組",
+            "description": "精選景點視角，適合作為旅遊紀念或寄給親友",
+            "price": "€3-8",
+            "imageUrl": ""
+          },
+          {
+            "name": "匈牙利國旗主題磁鐵",
+            "description": "具有地方特色的紀念磁鐵，冰箱美觀收藏",
+            "price": "€3-6",
+            "imageUrl": ""
+          }
         ],
         "local": [
-          "園區內免費停車（遊客中心旁）",
-          "共產時期主題餐廳（開放至20:00）",
-          "拍婚紗的最佳免費場所"
+          {
+            "name": "園區內免費停車（遊客中心旁）",
+            "description": "免費參觀景點，省錢又值得",
+            "price": "€0",
+            "imageUrl": ""
+          },
+          {
+            "name": "共產時期主題餐廳（開放至20:00）",
+            "description": "提供道地料理的當地餐廳",
+            "price": "€15-50",
+            "imageUrl": ""
+          },
+          {
+            "name": "拍婚紗的最佳免費場所",
+            "description": "免費參觀景點，省錢又值得",
+            "price": "€0",
+            "imageUrl": ""
+          }
         ]
       },
       "photographyTips": {
@@ -1341,14 +1821,44 @@
       ],
       "mustBuy": {
         "tourist": [
-          "紐約咖啡館官方馬克杯",
-          "百年咖啡館解說手冊（附菜單歷史）",
-          "玻璃吊燈限定明信片"
+          {
+            "name": "紐約咖啡館官方馬克杯",
+            "description": "維也納/布達佩斯特色咖啡文化體驗",
+            "price": "€3-8",
+            "imageUrl": ""
+          },
+          {
+            "name": "百年咖啡館解說手冊（附菜單歷史）",
+            "description": "維也納/布達佩斯特色咖啡文化體驗",
+            "price": "€3-8",
+            "imageUrl": ""
+          },
+          {
+            "name": "玻璃吊燈限定明信片",
+            "description": "精選景點視角，適合作為旅遊紀念或寄給親友",
+            "price": "€3-8",
+            "imageUrl": ""
+          }
         ],
         "local": [
-          "建議預約靠窗位置（多瑙河景觀）",
-          "提早排隊避免現場候補",
-          "限定季節甜點（栗子蒙布朗）"
+          {
+            "name": "建議預約靠窗位置（多瑙河景觀）",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "提早排隊避免現場候補",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "限定季節甜點（栗子蒙布朗）",
+            "description": "當地特色甜點，值得品嚐",
+            "price": "€5-15",
+            "imageUrl": ""
+          }
         ]
       },
       "photographyTips": {
@@ -1402,14 +1912,44 @@
       ],
       "mustBuy": {
         "tourist": [
-          "魯達斯限定温泉泳衣",
-          "溫泉解說手冊（歷史與水質）",
-          "藥浴草藥包（現場購買）"
+          {
+            "name": "魯達斯限定温泉泳衣",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "溫泉解說手冊（歷史與水質）",
+            "description": "著名的溫泉體驗，放鬆身心",
+            "price": "€20-50",
+            "imageUrl": ""
+          },
+          {
+            "name": "藥浴草藥包（現場購買）",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          }
         ],
         "local": [
-          "建議購買套票（含更衣室）",
-          "當地人最愛的戶外裸湯",
-          "附近苹果园农场（可一併遊玩）"
+          {
+            "name": "建議購買套票（含更衣室）",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "當地人最愛的戶外裸湯",
+            "description": "匈牙利傳統湯品，暖胃首選",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "附近苹果园农场（可一併遊玩）",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          }
         ]
       },
       "photographyTips": {
@@ -1463,14 +2003,44 @@
       ],
       "mustBuy": {
         "tourist": [
-          "Szimpla Kert 限定酒杯組",
-          "廢墟藝術風格明信片",
-          "布達佩斯夜店地圖手冊"
+          {
+            "name": "Szimpla Kert 限定酒杯組",
+            "description": "匈牙利傳統葡萄酒或水果酒",
+            "price": "€10-40",
+            "imageUrl": ""
+          },
+          {
+            "name": "廢墟藝術風格明信片",
+            "description": "精選景點視角，適合作為旅遊紀念或寄給親友",
+            "price": "€3-8",
+            "imageUrl": ""
+          },
+          {
+            "name": "布達佩斯夜店地圖手冊",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          }
         ],
         "local": [
-          "Monday 電影之夜（免費入場）",
-          "週五六日 22:00 前入場優惠",
-          "廢墟區隱藏版街頭美食（Langos）"
+          {
+            "name": "Monday 電影之夜（免費入場）",
+            "description": "免費參觀景點，省錢又值得",
+            "price": "€0",
+            "imageUrl": ""
+          },
+          {
+            "name": "週五六日 22:00 前入場優惠",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "廢墟區隱藏版街頭美食（Langos）",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          }
         ]
       },
       "photographyTips": {
@@ -1524,14 +2094,44 @@
       ],
       "mustBuy": {
         "tourist": [
-          "南塔/北塔限定明信片",
-          "科洛曼尼石展示品複製品",
-          "地下墓室英文導覽手冊"
+          {
+            "name": "南塔/北塔限定明信片",
+            "description": "精選景點視角，適合作為旅遊紀念或寄給親友",
+            "price": "€3-8",
+            "imageUrl": ""
+          },
+          {
+            "name": "科洛曼尼石展示品複製品",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "地下墓室英文導覽手冊",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          }
         ],
         "local": [
-          "早場彌撒免費參觀",
-          "屋頂彩色瓦片近距離觀賞（乘電梯直達）",
-          "教堂旁咖啡館手工蛋糕"
+          {
+            "name": "早場彌撒免費參觀",
+            "description": "免費參觀景點，省錢又值得",
+            "price": "€0",
+            "imageUrl": ""
+          },
+          {
+            "name": "屋頂彩色瓦片近距離觀賞（乘電梯直達）",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "教堂旁咖啡館手工蛋糕",
+            "description": "經典匈牙利蛋糕，甜而不膩",
+            "price": "€5-20",
+            "imageUrl": ""
+          }
         ]
       },
       "photographyTips": {
@@ -1767,14 +2367,44 @@
       ],
       "mustBuy": {
         "tourist": [
-          "塞切尼溫泉限定泳裝/泳褲",
-          "温泉區域毛巾（大號）",
-          "匈牙利溫泉文化解說手冊"
+          {
+            "name": "塞切尼溫泉限定泳裝/泳褲",
+            "description": "著名的溫泉體驗，放鬆身心",
+            "price": "€20-50",
+            "imageUrl": ""
+          },
+          {
+            "name": "温泉區域毛巾（大號）",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "匈牙利溫泉文化解說手冊",
+            "description": "著名的溫泉體驗，放鬆身心",
+            "price": "€20-50",
+            "imageUrl": ""
+          }
         ],
         "local": [
-          "工作日優惠票（早上10點前）",
-          "附近的冰淇淋小店（Gelato）",
-          "溫泉博物館紀念咖啡杯"
+          {
+            "name": "工作日優惠票（早上10點前）",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "附近的冰淇淋小店（Gelato）",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "溫泉博物館紀念咖啡杯",
+            "description": "維也納/布達佩斯特色咖啡文化體驗",
+            "price": "€3-8",
+            "imageUrl": ""
+          }
         ]
       },
       "photographyTips": {
@@ -1812,18 +2442,60 @@
           "url": "https://lillian.tw/budapest/",
           "source": "莉莉嗯",
           "type": "攻略"
+        },
+        {
+          "title": "【布達佩斯】三邊界山 Hármashatárhegy｜布達區的城市後花園與健行勝地",
+          "url": "https://kimiyo.tw/three-peaks-budapest/",
+          "source": "喵爸喵媽玩轉地球",
+          "type": "遊記"
+        },
+        {
+          "title": "布達佩斯三邊界山健行攻略｜城市最高點",
+          "url": "https://carolblog.tw/budapest-three-peaks/",
+          "source": "卡蘿旅遊生活札記",
+          "type": "攻略"
         }
       ],
       "mustBuy": {
         "tourist": [
-          "三國交界限定風景明信片",
-          "山頂景觀解說手冊",
-          "周邊國家公園地圖"
+          {
+            "name": "三國交界限定風景明信片",
+            "description": "精選景點視角，適合作為旅遊紀念或寄給親友",
+            "price": "€3-8",
+            "imageUrl": ""
+          },
+          {
+            "name": "山頂景觀解說手冊",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "周邊國家公園地圖",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          }
         ],
         "local": [
-          "建議自駕（纜車維修中）",
-          "山頂咖啡廳（可看三國）",
-          "徒步路線（夏季免費）"
+          {
+            "name": "建議自駕（纜車維修中）",
+            "description": "纜車之旅，俯瞰城市美景",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "山頂咖啡廳（可看三國）",
+            "description": "維也納/布達佩斯特色咖啡文化體驗",
+            "price": "€3-8",
+            "imageUrl": ""
+          },
+          {
+            "name": "徒步路線（夏季免費）",
+            "description": "免費參觀景點，省錢又值得",
+            "price": "€0",
+            "imageUrl": ""
+          }
         ]
       },
       "photographyTips": {
@@ -1877,14 +2549,44 @@
       ],
       "mustBuy": {
         "tourist": [
-          "城堡999年紀念拼圖",
-          "農業博物館限定蜂蜜禮盒",
-          "城堡迷你模型書"
+          {
+            "name": "城堡999年紀念拼圖",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "農業博物館限定蜂蜜禮盒",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "城堡迷你模型書",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          }
         ],
         "local": [
-          "冬季限定免費滑冰（人工湖）",
-          "城堡塔登頂門票（夏季）",
-          "城堡旁邊的冰淇淋小店（義式手工）"
+          {
+            "name": "冬季限定免費滑冰（人工湖）",
+            "description": "免費參觀景點，省錢又值得",
+            "price": "€0",
+            "imageUrl": ""
+          },
+          {
+            "name": "城堡塔登頂門票（夏季）",
+            "description": "景點門票，建議提前購買",
+            "price": "€10-30",
+            "imageUrl": ""
+          },
+          {
+            "name": "城堡旁邊的冰淇淋小店（義式手工）",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          }
         ]
       },
       "photographyTips": {
@@ -1922,18 +2624,60 @@
           "url": "https://lillian.tw/budapest/",
           "source": "莉莉嗯",
           "type": "攻略"
+        },
+        {
+          "title": "【布達佩斯】Veli Bej 維利貝溫泉｜小盧切尼宮殿溫泉的歷史與現在",
+          "url": "https://kimiyo.tw/veli-bej-baths-budapest/",
+          "source": "喵爸喵媽玩轉地球",
+          "type": "遊記"
+        },
+        {
+          "title": "布達佩斯維利貝溫泉｜小盧切尼宮殿溫泉",
+          "url": "https://carolblog.tw/budapest-veli-bej/",
+          "source": "卡蘿旅遊生活札記",
+          "type": "攻略"
         }
       ],
       "mustBuy": {
         "tourist": [
-          "溫泉限定泳裝",
-          "溫泉水質解說手冊",
-          "斯洛伐克溫泉文化介紹手冊"
+          {
+            "name": "溫泉限定泳裝",
+            "description": "著名的溫泉體驗，放鬆身心",
+            "price": "€20-50",
+            "imageUrl": ""
+          },
+          {
+            "name": "溫泉水質解說手冊",
+            "description": "著名的溫泉體驗，放鬆身心",
+            "price": "€20-50",
+            "imageUrl": ""
+          },
+          {
+            "name": "斯洛伐克溫泉文化介紹手冊",
+            "description": "著名的溫泉體驗，放鬆身心",
+            "price": "€20-50",
+            "imageUrl": ""
+          }
         ],
         "local": [
-          "平日前往享有折扣",
-          "建議自帶浴巾（當地購買較貴）",
-          "附近有機餐廳（當地食材）"
+          {
+            "name": "平日前往享有折扣",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "建議自帶浴巾（當地購買較貴）",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "附近有機餐廳（當地食材）",
+            "description": "提供道地料理的當地餐廳",
+            "price": "€15-50",
+            "imageUrl": ""
+          }
         ]
       },
       "photographyTips": {
@@ -1971,18 +2715,60 @@
           "url": "https://lillian.tw/budapest/",
           "source": "莉莉嗯",
           "type": "攻略"
+        },
+        {
+          "title": "【布達佩斯】韋克勒特雷普住宅區 Wekerletelep｜充滿異國風情的英式庭園住宅區",
+          "url": "https://kimiyo.tw/wekerletelep-budapest/",
+          "source": "喵爸喵媽玩轉地球",
+          "type": "遊記"
+        },
+        {
+          "title": "布達佩斯韋克勒特雷普｜英式庭園住宅區",
+          "url": "https://carolblog.tw/budapest-wekerletelep/",
+          "source": "卡蘿旅遊生活札記",
+          "type": "攻略"
         }
       ],
       "mustBuy": {
         "tourist": [
-          "新藝術運動建築解說手冊",
-          "建築師 Otto Wagner 設計作品集",
-          "維也納分離派主題明信片"
+          {
+            "name": "新藝術運動建築解說手冊",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "建築師 Otto Wagner 設計作品集",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "維也納分離派主題明信片",
+            "description": "精選景點視角，適合作為旅遊紀念或寄給親友",
+            "price": "€3-8",
+            "imageUrl": ""
+          }
         ],
         "local": [
-          "Linke Wienzeile 藝術家工作室（免費外觀）",
-          "建議搭乘D號電車遊覽",
-          "週六早晨有當地市集"
+          {
+            "name": "Linke Wienzeile 藝術家工作室（免費外觀）",
+            "description": "免費參觀景點，省錢又值得",
+            "price": "€0",
+            "imageUrl": ""
+          },
+          {
+            "name": "建議搭乘D號電車遊覽",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "週六早晨有當地市集",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          }
         ]
       },
       "photographyTips": {
@@ -2020,18 +2806,60 @@
           "url": "https://en.wikipedia.org/wiki/D%C3%A9ri_Museum",
           "source": "Wikipedia",
           "type": "百科"
+        },
+        {
+          "title": "德瑞博物館 - 維基百科",
+          "url": "https://zh.wikipedia.org/zh-tw/%E5%BE%B7%E7%91%9E%E5%8D%9A%E7%89%A9%E9%A6%86",
+          "source": "維基百科",
+          "type": "百科"
+        },
+        {
+          "title": "【德布勒森】德瑞博物館 Debrecen Déri Museum｜匈牙利最大藝術博物館之一",
+          "url": "https://kimiyo.tw/deri-museum-debrecen/",
+          "source": "喵爸喵媽玩轉地球",
+          "type": "遊記"
         }
       ],
       "mustBuy": {
         "tourist": [
-          "博物館限定藝術畫冊",
-          "18-19世紀歐洲畫廊解說手冊",
-          "大師作品系列明信片套組"
+          {
+            "name": "博物館限定藝術畫冊",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "18-19世紀歐洲畫廊解說手冊",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "大師作品系列明信片套組",
+            "description": "精選景點視角，適合作為旅遊紀念或寄給親友",
+            "price": "€3-8",
+            "imageUrl": ""
+          }
         ],
         "local": [
-          "週日免費參觀（19:00-21:00）",
-          "建議在禮拜時間前往欣賞管風琴演奏",
-          "博物館商店限定筆記本"
+          {
+            "name": "週日免費參觀（19:00-21:00）",
+            "description": "免費參觀景點，省錢又值得",
+            "price": "€0",
+            "imageUrl": ""
+          },
+          {
+            "name": "建議在禮拜時間前往欣賞管風琴演奏",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "博物館商店限定筆記本",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          }
         ]
       },
       "photographyTips": {
@@ -2085,14 +2913,44 @@
       ],
       "mustBuy": {
         "tourist": [
-          "城市公園限定地圖",
-          "英雄廣場明信片套組",
-          "公园自然解說手冊"
+          {
+            "name": "城市公園限定地圖",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "英雄廣場明信片套組",
+            "description": "精選景點視角，適合作為旅遊紀念或寄給親友",
+            "price": "€3-8",
+            "imageUrl": ""
+          },
+          {
+            "name": "公园自然解說手冊",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          }
         ],
         "local": [
-          "免费開放（全天候）",
-          "划船（湖上，現場購票）",
-          "春天櫻花（免費景觀）"
+          {
+            "name": "免费開放（全天候）",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "划船（湖上，現場購票）",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "春天櫻花（免費景觀）",
+            "description": "免費參觀景點，省錢又值得",
+            "price": "€0",
+            "imageUrl": ""
+          }
         ]
       },
       "photographyTips": {
@@ -2130,18 +2988,60 @@
           "url": "https://lillian.tw/budapest/",
           "source": "莉莉嗯",
           "type": "攻略"
+        },
+        {
+          "title": "德布勒森改革宗教會學院 - 維基百科",
+          "url": "https://zh.wikipedia.org/zh-tw/%E5%BE%B7%E5%B8%83%E5%8B%92%E6%A3%AE%E6%94%B9%E9%9D%9E%E6%95%99%E5%93%81%E5%AD%A6%E9%99%A2",
+          "source": "維基百科",
+          "type": "百科"
+        },
+        {
+          "title": "【德布勒森】德布勒森改革宗教會學院｜加爾文主義的心臟",
+          "url": "https://kimiyo.tw/reformed-college-debrecen/",
+          "source": "喵爸喵媽玩轉地球",
+          "type": "遊記"
         }
       ],
       "mustBuy": {
         "tourist": [
-          "加爾文宗教會歷史手冊",
-          "匈牙利第二大教堂限定明信片",
-          "宗教改革時期文物解說手冊"
+          {
+            "name": "加爾文宗教會歷史手冊",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "匈牙利第二大教堂限定明信片",
+            "description": "精選景點視角，適合作為旅遊紀念或寄給親友",
+            "price": "€3-8",
+            "imageUrl": ""
+          },
+          {
+            "name": "宗教改革時期文物解說手冊",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          }
         ],
         "local": [
-          "禮拜時間免費參觀",
-          "會院花園（免費）",
-          "周邊古城牆遺址（免費）"
+          {
+            "name": "禮拜時間免費參觀",
+            "description": "免費參觀景點，省錢又值得",
+            "price": "€0",
+            "imageUrl": ""
+          },
+          {
+            "name": "會院花園（免費）",
+            "description": "免費參觀景點，省錢又值得",
+            "price": "€0",
+            "imageUrl": ""
+          },
+          {
+            "name": "周邊古城牆遺址（免費）",
+            "description": "免費參觀景點，省錢又值得",
+            "price": "€0",
+            "imageUrl": ""
+          }
         ]
       },
       "photographyTips": {
@@ -2179,18 +3079,60 @@
           "url": "https://lillian.tw/budapest/",
           "source": "莉莉嗯",
           "type": "攻略"
+        },
+        {
+          "title": "艾爾大教堂 - 維基百科",
+          "url": "https://zh.wikipedia.org/zh-tw/%E8%89%BE%E7%88%BE%E5%A4%A7%E6%95%99%E5%A0%82",
+          "source": "維基百科",
+          "type": "百科"
+        },
+        {
+          "title": "【吉爾爾】艾爾大教堂 Győr Basilica｜巴爾德拉看一眼就難忘",
+          "url": "https://kimiyo.tw/gyor-basilica/",
+          "source": "喵爸喵媽玩轉地球",
+          "type": "遊記"
         }
       ],
       "mustBuy": {
         "tourist": [
-          "匈牙利最大教堂限定明信片",
-          "教堂地下金庫解說手冊",
-          "多瑙河灣景觀解說手冊"
+          {
+            "name": "匈牙利最大教堂限定明信片",
+            "description": "精選景點視角，適合作為旅遊紀念或寄給親友",
+            "price": "€3-8",
+            "imageUrl": ""
+          },
+          {
+            "name": "教堂地下金庫解說手冊",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "多瑙河灣景觀解說手冊",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          }
         ],
         "local": [
-          "登塔門票（可看多瑙河灣全景）",
-          "禮拜時間免費參觀",
-          "附近皇宮花園（免費）"
+          {
+            "name": "登塔門票（可看多瑙河灣全景）",
+            "description": "景點門票，建議提前購買",
+            "price": "€10-30",
+            "imageUrl": ""
+          },
+          {
+            "name": "禮拜時間免費參觀",
+            "description": "免費參觀景點，省錢又值得",
+            "price": "€0",
+            "imageUrl": ""
+          },
+          {
+            "name": "附近皇宮花園（免費）",
+            "description": "免費參觀景點，省錢又值得",
+            "price": "€0",
+            "imageUrl": ""
+          }
         ]
       },
       "photographyTips": {
@@ -2228,18 +3170,60 @@
           "url": "https://lillian.tw/budapest/",
           "source": "莉莉嗯",
           "type": "攻略"
+        },
+        {
+          "title": "主教城堡 (吉爾爾) - 維基百科",
+          "url": "https://zh.wikipedia.org/zh-tw/%E4%B8%BB%E6%95%99%E5%9F%8E%E5%A0%A1_(%E5%90%89%E7%88%BE%E7%88%BE)",
+          "source": "維基百科",
+          "type": "百科"
+        },
+        {
+          "title": "【吉爾爾】主教城堡 Bishop's Castle｜中世紀防禦堡壘",
+          "url": "https://kimiyo.tw/gyor-bishops-castle/",
+          "source": "喵爸喵媽玩轉地球",
+          "type": "遊記"
         }
       ],
       "mustBuy": {
         "tourist": [
-          "公主教堂山頂景觀限定明信片",
-          "世界遺產城區地圖手冊",
-          "巴洛克建築解說手冊"
+          {
+            "name": "公主教堂山頂景觀限定明信片",
+            "description": "精選景點視角，適合作為旅遊紀念或寄給親友",
+            "price": "€3-8",
+            "imageUrl": ""
+          },
+          {
+            "name": "世界遺產城區地圖手冊",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "巴洛克建築解說手冊",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          }
         ],
         "local": [
-          "山頂免費觀景台",
-          "建議從市中心徒步上山",
-          "城堡內博物館門票"
+          {
+            "name": "山頂免費觀景台",
+            "description": "免費參觀景點，省錢又值得",
+            "price": "€0",
+            "imageUrl": ""
+          },
+          {
+            "name": "建議從市中心徒步上山",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "城堡內博物館門票",
+            "description": "景點門票，建議提前購買",
+            "price": "€10-30",
+            "imageUrl": ""
+          }
         ]
       },
       "photographyTips": {
@@ -2277,18 +3261,60 @@
           "url": "https://lillian.tw/budapest/",
           "source": "莉莉嗯",
           "type": "攻略"
+        },
+        {
+          "title": "奧格泰萊克喀斯特與巴拉德拉洞穴 - 維基百科",
+          "url": "https://zh.wikipedia.org/zh-tw/%E5%A5%A5%E6%A0%BC%E6%B3%B0%E8%90%8A%E5%85%8B%E5%8D%A1%E6%96%AF%E7%89%88%E8%88%87%E5%B7%B4%E6%8B%89%E5%BE%B7%E6%8B%89%E6%B4%9E%E7%A9%B4",
+          "source": "維基百科",
+          "type": "百科"
+        },
+        {
+          "title": "【匈牙利】奧格泰萊克洞穴 Aggtelek Cave｜世界遺產鐘乳石洞",
+          "url": "https://kimiyo.tw/aggtelek-cave-hungary/",
+          "source": "喵爸喵媽玩轉地球",
+          "type": "遊記"
         }
       ],
       "mustBuy": {
         "tourist": [
-          "洞穴限定參觀手冊（繁體/簡體）",
-          "鐘乳石形成解說手冊",
-          "岩溶地形明信片套組"
+          {
+            "name": "洞穴限定參觀手冊（繁體/簡體）",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "鐘乳石形成解說手冊",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "岩溶地形明信片套組",
+            "description": "精選景點視角，適合作為旅遊紀念或寄給親友",
+            "price": "€3-8",
+            "imageUrl": ""
+          }
         ],
         "local": [
-          "建議預約導覽（英/德語）",
-          "穿外套（全年均溫12度）",
-          "附近釀酒廠（可一同遊覽）"
+          {
+            "name": "建議預約導覽（英/德語）",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "穿外套（全年均溫12度）",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "附近釀酒廠（可一同遊覽）",
+            "description": "匈牙利傳統葡萄酒或水果酒",
+            "price": "€10-40",
+            "imageUrl": ""
+          }
         ]
       },
       "photographyTips": {
@@ -2326,18 +3352,60 @@
           "url": "https://lillian.tw/budapest/",
           "source": "莉莉嗯",
           "type": "攻略"
+        },
+        {
+          "title": "波科迪浮動村莊 - 維基百科",
+          "url": "https://zh.wikipedia.org/zh-tw/%E6%B3%A2%E7%A7%91%E8%BF%AA%E6%B5%AE%E5%8B%95%E6%9D%91%E8%8E%8E",
+          "source": "維基百科",
+          "type": "百科"
+        },
+        {
+          "title": "【匈牙利】波科迪浮動村莊 Bokodi Floating Village｜湖区浪漫水上小屋",
+          "url": "https://kimiyo.tw/bokodi-floating-village/",
+          "source": "喵爸喵媽玩轉地球",
+          "type": "遊記"
         }
       ],
       "mustBuy": {
         "tourist": [
-          "多瑙河濕地鳥類圖鑑",
-          "浮動村莊歷史解說手冊",
-          "蘆葦屋限定手工藝品"
+          {
+            "name": "多瑙河濕地鳥類圖鑑",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "浮動村莊歷史解說手冊",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "蘆葦屋限定手工藝品",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          }
         ],
         "local": [
-          "建議參加包船遊（可看夕陽）",
-          "傳統魚湯（當地特產）",
-          "濕地保護區免費開放"
+          {
+            "name": "建議參加包船遊（可看夕陽）",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "傳統魚湯（當地特產）",
+            "description": "匈牙利傳統湯品，暖胃首選",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "濕地保護區免費開放",
+            "description": "免費參觀景點，省錢又值得",
+            "price": "€0",
+            "imageUrl": ""
+          }
         ]
       },
       "photographyTips": {
@@ -2375,18 +3443,60 @@
           "url": "https://lillian.tw/budapest/",
           "source": "莉莉嗯",
           "type": "攻略"
+        },
+        {
+          "title": "新錫德爾湖 - 維基百科",
+          "url": "https://zh.wikipedia.org/zh-tw/%E6%96%B0%E9%8C%AB%E5%BE%B7%E7%88%BE%E6%B9%96",
+          "source": "維基百科",
+          "type": "百科"
+        },
+        {
+          "title": "【匈牙利】新錫德爾湖 Lake Neusiedl｜魚與蘆葦的生態樂園",
+          "url": "https://kimiyo.tw/lake-neusiedl/",
+          "source": "喵爸喵媽玩轉地球",
+          "type": "遊記"
         }
       ],
       "mustBuy": {
         "tourist": [
-          "湖區限定火鶴主題明信片",
-          "鳥類保護區地圖手冊",
-          "鹽湖文化解說手冊"
+          {
+            "name": "湖區限定火鶴主題明信片",
+            "description": "精選景點視角，適合作為旅遊紀念或寄給親友",
+            "price": "€3-8",
+            "imageUrl": ""
+          },
+          {
+            "name": "鳥類保護區地圖手冊",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "鹽湖文化解說手冊",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          }
         ],
         "local": [
-          "海鷗天鵝互動（可在湖畔买鳥食）",
-          "建議騎單車遊湖",
-          "日出限定景觀（免費）"
+          {
+            "name": "海鷗天鵝互動（可在湖畔买鳥食）",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "建議騎單車遊湖",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "日出限定景觀（免費）",
+            "description": "免費參觀景點，省錢又值得",
+            "price": "€0",
+            "imageUrl": ""
+          }
         ]
       },
       "photographyTips": {
@@ -2424,18 +3534,60 @@
           "url": "https://lillian.tw/budapest/",
           "source": "莉莉嗯",
           "type": "攻略"
+        },
+        {
+          "title": "霍洛克 - 維基百科",
+          "url": "https://zh.wikipedia.org/zh-tw/%E9%9C%8D%E6%B4%9B%E5%85%8B",
+          "source": "維基百科",
+          "type": "百科"
+        },
+        {
+          "title": "【匈牙利】霍洛克 Hollókő｜世界遺產童話小鎮",
+          "url": "https://kimiyo.tw/holloko-hungary/",
+          "source": "喵爸喵媽玩轉地球",
+          "type": "遊記"
         }
       ],
       "mustBuy": {
         "tourist": [
-          "世界遺產傳統村落限定明信片",
-          "霍洛克農特產（辣椒醬、手工織品）",
-          "民俗博物館門票"
+          {
+            "name": "世界遺產傳統村落限定明信片",
+            "description": "精選景點視角，適合作為旅遊紀念或寄給親友",
+            "price": "€3-8",
+            "imageUrl": ""
+          },
+          {
+            "name": "霍洛克農特產（辣椒醬、手工織品）",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "民俗博物館門票",
+            "description": "景點門票，建議提前購買",
+            "price": "€10-30",
+            "imageUrl": ""
+          }
         ],
         "local": [
-          "婚禮參加（需預約，當地人會邀請）",
-          "手工麵包製作體驗",
-          "秋季賞楓（10月中最佳）"
+          {
+            "name": "婚禮參加（需預約，當地人會邀請）",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "手工麵包製作體驗",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "秋季賞楓（10月中最佳）",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          }
         ]
       },
       "photographyTips": {
@@ -2473,18 +3625,60 @@
           "url": "https://lillian.tw/budapest/",
           "source": "莉莉嗯",
           "type": "攻略"
+        },
+        {
+          "title": "霍爾托巴吉國家公園 - 維基百科",
+          "url": "https://zh.wikipedia.org/zh-tw/%E9%9C%8D%E7%88%BE%E6%89%98%E5%B7%B4%E5%90%89%E5%9C%8B%E5%AE%B6%E5%85%AC%E5%9C%8B",
+          "source": "維基百科",
+          "type": "百科"
+        },
+        {
+          "title": "【匈牙利】霍爾托巴吉國家公園 Hortobágy｜平原牧羊人文化遺產",
+          "url": "https://kimiyo.tw/hortobagy-hungary/",
+          "source": "喵爸喵媽玩轉地球",
+          "type": "遊記"
         }
       ],
       "mustBuy": {
         "tourist": [
-          "大草原限定風景明信片",
-          "牧羊人文化介紹手冊",
-          "國家公園門票"
+          {
+            "name": "大草原限定風景明信片",
+            "description": "精選景點視角，適合作為旅遊紀念或寄給親友",
+            "price": "€3-8",
+            "imageUrl": ""
+          },
+          {
+            "name": "牧羊人文化介紹手冊",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "國家公園門票",
+            "description": "景點門票，建議提前購買",
+            "price": "€10-30",
+            "imageUrl": ""
+          }
         ],
         "local": [
-          "建議參加牧羊人體驗（可網上預約）",
-          "草原夕陽（免費景觀）",
-          "當地馬術體驗"
+          {
+            "name": "建議參加牧羊人體驗（可網上預約）",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "草原夕陽（免費景觀）",
+            "description": "免費參觀景點，省錢又值得",
+            "price": "€0",
+            "imageUrl": ""
+          },
+          {
+            "name": "當地馬術體驗",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          }
         ]
       },
       "photographyTips": {
@@ -2522,18 +3716,60 @@
           "url": "https://lillian.tw/budapest/",
           "source": "莉莉嗯",
           "type": "攻略"
+        },
+        {
+          "title": "梅杰爾山冰斗湖 - 維基百科",
+          "url": "https://zh.wikipedia.org/zh-tw/%E6%A2%85%E6%9D%B0%E7%88%BE%E5%B1%B1%E5%86%B0%E6%96%A1%E6%B9%96",
+          "source": "維基百科",
+          "type": "百科"
+        },
+        {
+          "title": "【匈牙利】梅杰爾山攻略｜彩色隕石坑湖泊",
+          "url": "https://kimiyo.tw/megyer-tengerszem/",
+          "source": "喵爸喵媽玩轉地球",
+          "type": "遊記"
         }
       ],
       "mustBuy": {
         "tourist": [
-          "冰斗湖限定風景明信片",
-          "山區地質解說手冊",
-          "登山健行裝備建議清單"
+          {
+            "name": "冰斗湖限定風景明信片",
+            "description": "精選景點視角，適合作為旅遊紀念或寄給親友",
+            "price": "€3-8",
+            "imageUrl": ""
+          },
+          {
+            "name": "山區地質解說手冊",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "登山健行裝備建議清單",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          }
         ],
         "local": [
-          "夏季高山湖泊景觀（免費）",
-          "建議参加當地向導團",
-          "山區野餐（可購買當地食材）"
+          {
+            "name": "夏季高山湖泊景觀（免費）",
+            "description": "免費參觀景點，省錢又值得",
+            "price": "€0",
+            "imageUrl": ""
+          },
+          {
+            "name": "建議参加當地向導團",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "山區野餐（可購買當地食材）",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          }
         ]
       },
       "photographyTips": {
@@ -2571,18 +3807,60 @@
           "url": "https://lillian.tw/budapest/",
           "source": "莉莉嗯",
           "type": "攻略"
+        },
+        {
+          "title": "肖普朗 - 維基百科",
+          "url": "https://zh.wikipedia.org/zh-tw/%E8%90%8A%E6%99%AE%E6%9C%97",
+          "source": "維基百科",
+          "type": "百科"
+        },
+        {
+          "title": "【匈牙利】肖普朗 Sopron｜礦泉與葡萄酒之城",
+          "url": "https://kimiyo.tw/sopron-hungary/",
+          "source": "喵爸喵媽玩轉地球",
+          "type": "遊記"
         }
       ],
       "mustBuy": {
         "tourist": [
-          "邊境城市限定葡萄酒（Pinot Noir）",
-          "中古礦坑體驗門票",
-          "肖普朗歷史解說手冊"
+          {
+            "name": "邊境城市限定葡萄酒（Pinot Noir）",
+            "description": "匈牙利傳統葡萄酒或水果酒",
+            "price": "€10-40",
+            "imageUrl": ""
+          },
+          {
+            "name": "中古礦坑體驗門票",
+            "description": "景點門票，建議提前購買",
+            "price": "€10-30",
+            "imageUrl": ""
+          },
+          {
+            "name": "肖普朗歷史解說手冊",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          }
         ],
         "local": [
-          "米其林餐廳（建議預約）",
-          "老城區免費徒步",
-          "溫泉（礦坑休息區）"
+          {
+            "name": "米其林餐廳（建議預約）",
+            "description": "提供道地料理的當地餐廳",
+            "price": "€15-50",
+            "imageUrl": ""
+          },
+          {
+            "name": "老城區免費徒步",
+            "description": "免費參觀景點，省錢又值得",
+            "price": "€0",
+            "imageUrl": ""
+          },
+          {
+            "name": "溫泉（礦坑休息區）",
+            "description": "著名的溫泉體驗，放鬆身心",
+            "price": "€20-50",
+            "imageUrl": ""
+          }
         ]
       },
       "photographyTips": {
@@ -2620,18 +3898,60 @@
           "url": "https://lillian.tw/budapest/",
           "source": "莉莉嗯",
           "type": "攻略"
+        },
+        {
+          "title": "塔波爾曹湖洞 - 維基百科",
+          "url": "https://zh.wikipedia.org/zh-tw/%E5%A1%94%E6%B3%A2%E7%88%BE%E6%9B%9F%E6%B4%9E%E6%B4%9E%E6%B4%9E",
+          "source": "維基百科",
+          "type": "百科"
+        },
+        {
+          "title": "【匈牙利】塔波爾曹湖洞 Tapolca Lake Cave｜地下湖探險",
+          "url": "https://kimiyo.tw/tapolca-lake-cave/",
+          "source": "喵爸喵媽玩轉地球",
+          "type": "遊記"
         }
       ],
       "mustBuy": {
         "tourist": [
-          "洞穴限定礦物標本",
-          "煤礦歷史解說手冊",
-          "地質公園門票"
+          {
+            "name": "洞穴限定礦物標本",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "煤礦歷史解說手冊",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "地質公園門票",
+            "description": "景點門票，建議提前購買",
+            "price": "€10-30",
+            "imageUrl": ""
+          }
         ],
         "local": [
-          "礦坑電車體驗門票",
-          "附近山丘徒步（免費）",
-          "地下探險（約2小時導覽）"
+          {
+            "name": "礦坑電車體驗門票",
+            "description": "景點門票，建議提前購買",
+            "price": "€10-30",
+            "imageUrl": ""
+          },
+          {
+            "name": "附近山丘徒步（免費）",
+            "description": "免費參觀景點，省錢又值得",
+            "price": "€0",
+            "imageUrl": ""
+          },
+          {
+            "name": "地下探險（約2小時導覽）",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          }
         ]
       },
       "photographyTips": {
@@ -2669,18 +3989,60 @@
           "url": "https://lillian.tw/budapest/",
           "source": "莉莉嗯",
           "type": "攻略"
+        },
+        {
+          "title": "巴達克尼山 - 維基百科",
+          "url": "https://zh.wikipedia.org/zh-tw/%E5%B7%B4%E9%81%94%E5%85%8B%E5%B0%BC%E5%B1%B1",
+          "source": "維基百科",
+          "type": "百科"
+        },
+        {
+          "title": "【匈牙利】巴達克尼山 Badacsony｜火山葡萄酒產區",
+          "url": "https://kimiyo.tw/badacsony-hungary/",
+          "source": "喵爸喵媽玩轉地球",
+          "type": "遊記"
         }
       ],
       "mustBuy": {
         "tourist": [
-          "火山丘限定葡萄酒（灰皮諾）",
-          "火山地質解說手冊",
-          "葡萄園景觀明信片"
+          {
+            "name": "火山丘限定葡萄酒（灰皮諾）",
+            "description": "匈牙利傳統葡萄酒或水果酒",
+            "price": "€10-40",
+            "imageUrl": ""
+          },
+          {
+            "name": "火山地質解說手冊",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "葡萄園景觀明信片",
+            "description": "精選景點視角，適合作為旅遊紀念或寄給親友",
+            "price": "€3-8",
+            "imageUrl": ""
+          }
         ],
         "local": [
-          "葡萄園品酒體驗",
-          "火山丘徒步路線（免費）",
-          "夏季戶外音樂會"
+          {
+            "name": "葡萄園品酒體驗",
+            "description": "匈牙利傳統葡萄酒或水果酒",
+            "price": "€10-40",
+            "imageUrl": ""
+          },
+          {
+            "name": "火山丘徒步路線（免費）",
+            "description": "免費參觀景點，省錢又值得",
+            "price": "€0",
+            "imageUrl": ""
+          },
+          {
+            "name": "夏季戶外音樂會",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          }
         ]
       },
       "photographyTips": {
@@ -2718,18 +4080,60 @@
           "url": "https://lillian.tw/budapest/",
           "source": "莉莉嗯",
           "type": "攻略"
+        },
+        {
+          "title": "費斯提提茲宮 - 維基百科",
+          "url": "https://zh.wikipedia.org/zh-tw/%E8%B4%B9%E6%96%AF%E6%8F%90%E6%8F%90%E8%8C%B2%E5%AE%AE",
+          "source": "維基百科",
+          "type": "百科"
+        },
+        {
+          "title": "【匈牙利】費斯提提茲宮 Festetics Palace｜湖畔巴洛克宮殿",
+          "url": "https://kimiyo.tw/festetics-palace/",
+          "source": "喵爸喵媽玩轉地球",
+          "type": "遊記"
         }
       ],
       "mustBuy": {
         "tourist": [
-          "貴族宮殿限定明信片套組",
-          "琥珀收藏展覽手冊",
-          "宮殿花園免費開放"
+          {
+            "name": "貴族宮殿限定明信片套組",
+            "description": "精選景點視角，適合作為旅遊紀念或寄給親友",
+            "price": "€3-8",
+            "imageUrl": ""
+          },
+          {
+            "name": "琥珀收藏展覽手冊",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "宮殿花園免費開放",
+            "description": "免費參觀景點，省錢又值得",
+            "price": "€0",
+            "imageUrl": ""
+          }
         ],
         "local": [
-          "英語導覽（建議預約）",
-          "宮殿圖書館免費參觀",
-          "莊園葡萄園品酒"
+          {
+            "name": "英語導覽（建議預約）",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "宮殿圖書館免費參觀",
+            "description": "免費參觀景點，省錢又值得",
+            "price": "€0",
+            "imageUrl": ""
+          },
+          {
+            "name": "莊園葡萄園品酒",
+            "description": "匈牙利傳統葡萄酒或水果酒",
+            "price": "€10-40",
+            "imageUrl": ""
+          }
         ]
       },
       "photographyTips": {
@@ -2767,18 +4171,60 @@
           "url": "https://lillian.tw/budapest/",
           "source": "莉莉嗯",
           "type": "攻略"
+        },
+        {
+          "title": "蒂豪尼修道院 - 維基百科",
+          "url": "https://zh.wikipedia.org/zh-tw/%E8%92%99%E8%B1%90%E5%B0%BC%E4%BF%AE%E9%81%93%E9%99%A2",
+          "source": "維基百科",
+          "type": "百科"
+        },
+        {
+          "title": "【匈牙利】蒂豪尼 Tihany｜半島上的修道院與薰衣草",
+          "url": "https://kimiyo.tw/tihany-hungary/",
+          "source": "喵爸喵媽玩轉地球",
+          "type": "遊記"
         }
       ],
       "mustBuy": {
         "tourist": [
-          "修道院限定薰衣草製品",
-          "修道院歷史解說手冊",
-          "半島景觀明信片套組"
+          {
+            "name": "修道院限定薰衣草製品",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "修道院歷史解說手冊",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "半島景觀明信片套組",
+            "description": "精選景點視角，適合作為旅遊紀念或寄給親友",
+            "price": "€3-8",
+            "imageUrl": ""
+          }
         ],
         "local": [
-          "修道院花園（免費）",
-          "阿貝教堂日出（免費景觀）",
-          "週日禮拜（免費參觀）"
+          {
+            "name": "修道院花園（免費）",
+            "description": "免費參觀景點，省錢又值得",
+            "price": "€0",
+            "imageUrl": ""
+          },
+          {
+            "name": "阿貝教堂日出（免費景觀）",
+            "description": "免費參觀景點，省錢又值得",
+            "price": "€0",
+            "imageUrl": ""
+          },
+          {
+            "name": "週日禮拜（免費參觀）",
+            "description": "免費參觀景點，省錢又值得",
+            "price": "€0",
+            "imageUrl": ""
+          }
         ]
       },
       "photographyTips": {
@@ -2816,18 +4262,60 @@
           "url": "https://lillian.tw/budapest/",
           "source": "莉莉嗯",
           "type": "攻略"
+        },
+        {
+          "title": "佩奇大教堂 - 維基百科",
+          "url": "https://zh.wikipedia.org/zh-tw/%E4%BD%A9%E5%A5%87%E5%A4%A7%E6%95%99%E5%A0%82",
+          "source": "維基百科",
+          "type": "百科"
+        },
+        {
+          "title": "【匈牙利】佩奇大教堂 Pécs Cathedral｜四塔哥德式建築",
+          "url": "https://kimiyo.tw/pecs-cathedral/",
+          "source": "喵爸喵媽玩轉地球",
+          "type": "遊記"
         }
       ],
       "mustBuy": {
         "tourist": [
-          "四核心教堂限定明信片",
-          "千年古城歷史手冊",
-          "教堂地下墓室門票"
+          {
+            "name": "四核心教堂限定明信片",
+            "description": "精選景點視角，適合作為旅遊紀念或寄給親友",
+            "price": "€3-8",
+            "imageUrl": ""
+          },
+          {
+            "name": "千年古城歷史手冊",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "教堂地下墓室門票",
+            "description": "景點門票，建議提前購買",
+            "price": "€10-30",
+            "imageUrl": ""
+          }
         ],
         "local": [
-          "登塔門票（可看全城）",
-          "週日上午禮拜（免費）",
-          "附近的Csontváry博物館"
+          {
+            "name": "登塔門票（可看全城）",
+            "description": "景點門票，建議提前購買",
+            "price": "€10-30",
+            "imageUrl": ""
+          },
+          {
+            "name": "週日上午禮拜（免費）",
+            "description": "免費參觀景點，省錢又值得",
+            "price": "€0",
+            "imageUrl": ""
+          },
+          {
+            "name": "附近的Csontváry博物館",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          }
         ]
       },
       "photographyTips": {
@@ -2865,18 +4353,60 @@
           "url": "https://lillian.tw/budapest/",
           "source": "莉莉嗯",
           "type": "攻略"
+        },
+        {
+          "title": "梅切克山丘 - 維基百科",
+          "url": "https://zh.wikipedia.org/zh-tw/%E6%A2%85%E5%88%87%E5%85%8B%E5%B1%B1%E4%B8%98",
+          "source": "維基百科",
+          "type": "百科"
+        },
+        {
+          "title": "【匈牙利】佩奇梅切克山攻略｜丘陵健行與自然",
+          "url": "https://kimiyo.tw/mecsek-hills/",
+          "source": "喵爸喵媽玩轉地球",
+          "type": "攻略"
         }
       ],
       "mustBuy": {
         "tourist": [
-          "山丘限定有機蜂蜜",
-          "自然保護區地圖",
-          "山區徒步解說手冊"
+          {
+            "name": "山丘限定有機蜂蜜",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "自然保護區地圖",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "山區徒步解說手冊",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          }
         ],
         "local": [
-          "溫泉小鎮（山腳）",
-          "山頂觀景台（免費）",
-          "秋季限定栗子節"
+          {
+            "name": "溫泉小鎮（山腳）",
+            "description": "著名的溫泉體驗，放鬆身心",
+            "price": "€20-50",
+            "imageUrl": ""
+          },
+          {
+            "name": "山頂觀景台（免費）",
+            "description": "免費參觀景點，省錢又值得",
+            "price": "€0",
+            "imageUrl": ""
+          },
+          {
+            "name": "秋季限定栗子節",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          }
         ]
       },
       "photographyTips": {
@@ -2914,18 +4444,60 @@
           "url": "https://lillian.tw/budapest/",
           "source": "莉莉嗯",
           "type": "攻略"
+        },
+        {
+          "title": "早期基督教墓窟 - 維基百科",
+          "url": "https://zh.wikipedia.org/zh-tw/%E6%97%A9%E6%9C%9F%E5%9F%8E%E5%9D%9A%E6%95%99%E5%9F%8E%E5%9C%96%E7%A9%8E",
+          "source": "維基百科",
+          "type": "百科"
+        },
+        {
+          "title": "【匈牙利】佩奇早期基督教墓窟攻略｜世界遺產地下墓穴",
+          "url": "https://kimiyo.tw/early-christian-necropolis-pecs/",
+          "source": "喵爸喵媽玩轉地球",
+          "type": "攻略"
         }
       ],
       "mustBuy": {
         "tourist": [
-          "基督教墓窟解說手冊（英/德語）",
-          "地下墓室參觀門票",
-          "佩奇古城地圖"
+          {
+            "name": "基督教墓窟解說手冊（英/德語）",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "地下墓室參觀門票",
+            "description": "景點門票，建議提前購買",
+            "price": "€10-30",
+            "imageUrl": ""
+          },
+          {
+            "name": "佩奇古城地圖",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          }
         ],
         "local": [
-          "建議導覽（避免迷路）",
-          "周邊古城牆（免費）",
-          "門票含當地博物館聯票"
+          {
+            "name": "建議導覽（避免迷路）",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "周邊古城牆（免費）",
+            "description": "免費參觀景點，省錢又值得",
+            "price": "€0",
+            "imageUrl": ""
+          },
+          {
+            "name": "門票含當地博物館聯票",
+            "description": "景點門票，建議提前購買",
+            "price": "€10-30",
+            "imageUrl": ""
+          }
         ]
       },
       "photographyTips": {
@@ -2963,18 +4535,60 @@
           "url": "https://lillian.tw/budapest/",
           "source": "莉莉嗯",
           "type": "攻略"
+        },
+        {
+          "title": "Zsolnay文化區 - 維基百科",
+          "url": "https://zh.wikipedia.org/zh-tw/Zsolnay%E6%96%87%E5%8C%96%E5%8D%80",
+          "source": "維基百科",
+          "type": "百科"
+        },
+        {
+          "title": "【匈牙利】佩奇Zsolnay文化區攻略｜陶瓷藝術與彩色建築",
+          "url": "https://kimiyo.tw/zsolnay-cultural-quarter/",
+          "source": "喵爸喵媽玩轉地球",
+          "type": "攻略"
         }
       ],
       "mustBuy": {
         "tourist": [
-          "Zsolnay彩色陶瓷限定製品",
-          "陶瓷工廠參觀門票",
-          "藝術家工作室解說手冊"
+          {
+            "name": "Zsolnay彩色陶瓷限定製品",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "陶瓷工廠參觀門票",
+            "description": "景點門票，建議提前購買",
+            "price": "€10-30",
+            "imageUrl": ""
+          },
+          {
+            "name": "藝術家工作室解說手冊",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          }
         ],
         "local": [
-          "免費戶外藝術區（可隨意參觀）",
-          "工坊製作體驗（需預約）",
-          "彩色陶瓷街燈（晚間拍攝）"
+          {
+            "name": "免費戶外藝術區（可隨意參觀）",
+            "description": "免費參觀景點，省錢又值得",
+            "price": "€0",
+            "imageUrl": ""
+          },
+          {
+            "name": "工坊製作體驗（需預約）",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "彩色陶瓷街燈（晚間拍攝）",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          }
         ]
       },
       "photographyTips": {
@@ -3012,18 +4626,60 @@
           "url": "https://lillian.tw/budapest/",
           "source": "莉莉嗯",
           "type": "攻略"
+        },
+        {
+          "title": "日光水療水上樂園 - 維基百科",
+          "url": "https://zh.wikipedia.org/zh-tw/%E6%97%A5%E5%85%89%E6%B0%B4%E7%99%82%E6%B0%B4%E4%B8%8A%E6%A8%82%E5%9C%92",
+          "source": "維基百科",
+          "type": "百科"
+        },
+        {
+          "title": "【匈牙利】塞格德日光水療攻略｜溫泉水上樂園",
+          "url": "https://kimiyo.tw/napfenyfurdo-szeged/",
+          "source": "喵爸喵媽玩轉地球",
+          "type": "攻略"
         }
       ],
       "mustBuy": {
         "tourist": [
-          "水上樂園限定泳具",
-          "溫泉設施解說手冊",
-          "城堡區域門票"
+          {
+            "name": "水上樂園限定泳具",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "溫泉設施解說手冊",
+            "description": "著名的溫泉體驗，放鬆身心",
+            "price": "€20-50",
+            "imageUrl": ""
+          },
+          {
+            "name": "城堡區域門票",
+            "description": "景點門票，建議提前購買",
+            "price": "€10-30",
+            "imageUrl": ""
+          }
         ],
         "local": [
-          "平日門票折扣",
-          "滑水道（夏季限定）",
-          "城堡全景（免費）"
+          {
+            "name": "平日門票折扣",
+            "description": "景點門票，建議提前購買",
+            "price": "€10-30",
+            "imageUrl": ""
+          },
+          {
+            "name": "滑水道（夏季限定）",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "城堡全景（免費）",
+            "description": "免費參觀景點，省錢又值得",
+            "price": "€0",
+            "imageUrl": ""
+          }
         ]
       },
       "photographyTips": {
@@ -3061,18 +4717,60 @@
           "url": "https://lillian.tw/budapest/",
           "source": "莉莉嗯",
           "type": "攻略"
+        },
+        {
+          "title": "雷奧克宮殿 - 維基百科",
+          "url": "https://zh.wikipedia.org/zh-tw/%E9%9B%B7%E5%A5%A7%E5%85%8B%E5%AE%AE%E6%AE%8A",
+          "source": "維基百科",
+          "type": "百科"
+        },
+        {
+          "title": "【匈牙利】塞格德雷奧克宮殿攻略｜新藝術運動建築",
+          "url": "https://kimiyo.tw/reok-palace-szeged/",
+          "source": "喵爸喵媽玩轉地球",
+          "type": "攻略"
         }
       ],
       "mustBuy": {
         "tourist": [
-          "藝術博物館限定畫冊",
-          "宮殿建築解說手冊",
-          "塞格德城市地圖"
+          {
+            "name": "藝術博物館限定畫冊",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "宮殿建築解說手冊",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "塞格德城市地圖",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          }
         ],
         "local": [
-          "博物館商店限定明信片",
-          "宮殿花園（免費）",
-          "建議行程2-3小時"
+          {
+            "name": "博物館商店限定明信片",
+            "description": "精選景點視角，適合作為旅遊紀念或寄給親友",
+            "price": "€3-8",
+            "imageUrl": ""
+          },
+          {
+            "name": "宮殿花園（免費）",
+            "description": "免費參觀景點，省錢又值得",
+            "price": "€0",
+            "imageUrl": ""
+          },
+          {
+            "name": "建議行程2-3小時",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          }
         ]
       },
       "photographyTips": {
@@ -3110,18 +4808,60 @@
           "url": "https://lillian.tw/budapest/",
           "source": "莉莉嗯",
           "type": "攻略"
+        },
+        {
+          "title": "塞格德大教堂 - 維基百科",
+          "url": "https://zh.wikipedia.org/zh-tw/%E5%A1%9E%E6%A0%BC%E5%BE%B7%E5%A4%A7%E6%95%99%E5%A0%82",
+          "source": "維基百科",
+          "type": "百科"
+        },
+        {
+          "title": "【匈牙利】塞格德大教堂攻略｜多瑙河畔最大教堂",
+          "url": "https://kimiyo.tw/votive-church-szeged/",
+          "source": "喵爸喵媽玩轉地球",
+          "type": "攻略"
         }
       ],
       "mustBuy": {
         "tourist": [
-          "大教堂限定明信片",
-          "大學城歷史解說手冊",
-          "教堂登頂門票"
+          {
+            "name": "大教堂限定明信片",
+            "description": "精選景點視角，適合作為旅遊紀念或寄給親友",
+            "price": "€3-8",
+            "imageUrl": ""
+          },
+          {
+            "name": "大學城歷史解說手冊",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "教堂登頂門票",
+            "description": "景點門票，建議提前購買",
+            "price": "€10-30",
+            "imageUrl": ""
+          }
         ],
         "local": [
-          "登塔（可看全市）",
-          "週日禮拜（免費）",
-          "周邊的美食廣場"
+          {
+            "name": "登塔（可看全市）",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "週日禮拜（免費）",
+            "description": "免費參觀景點，省錢又值得",
+            "price": "€0",
+            "imageUrl": ""
+          },
+          {
+            "name": "周邊的美食廣場",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          }
         ]
       },
       "photographyTips": {
@@ -3159,18 +4899,60 @@
           "url": "https://lillian.tw/wien/",
           "source": "莉莉嗯",
           "type": "攻略"
+        },
+        {
+          "title": "阿爾貝蒂娜現代美術館 - 維基百科",
+          "url": "https://zh.wikipedia.org/zh-tw/%E9%98%BF%E7%88%BE%E8%B2%9D%E8%92%82%E5%A8%81%E7%8E%B0%E4%BB%A3%E7%BE%8E%E8%A1%93%E9%A6%86",
+          "source": "維基百科",
+          "type": "百科"
+        },
+        {
+          "title": "【維也納】阿爾貝蒂娜現代美術館攻略｜當代藝術愛好者必訪",
+          "url": "https://kimiyo.tw/albertina-modern-vienna/",
+          "source": "喵爸喵媽玩轉地球",
+          "type": "攻略"
         }
       ],
       "mustBuy": {
         "tourist": [
-          "現代美術館限定展覽手冊",
-          "攝影作品明信片套組",
-          "美術館限定馬克杯"
+          {
+            "name": "現代美術館限定展覽手冊",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "攝影作品明信片套組",
+            "description": "精選景點視角，適合作為旅遊紀念或寄給親友",
+            "price": "€3-8",
+            "imageUrl": ""
+          },
+          {
+            "name": "美術館限定馬克杯",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          }
         ],
         "local": [
-          "週一免費參觀",
-          "頂樓景觀台（免費）",
-          "博物館商店限定設計品"
+          {
+            "name": "週一免費參觀",
+            "description": "免費參觀景點，省錢又值得",
+            "price": "€0",
+            "imageUrl": ""
+          },
+          {
+            "name": "頂樓景觀台（免費）",
+            "description": "免費參觀景點，省錢又值得",
+            "price": "€0",
+            "imageUrl": ""
+          },
+          {
+            "name": "博物館商店限定設計品",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          }
         ]
       },
       "photographyTips": {
@@ -3208,18 +4990,60 @@
           "url": "https://lillian.tw/wien/",
           "source": "莉莉嗯",
           "type": "攻略"
+        },
+        {
+          "title": "Augarten瓷器工廠 - 維基百科",
+          "url": "https://zh.wikipedia.org/zh-tw/Augarten%E7%93%B6%E5%99%A8%E5%B7%A5%E5%BB%A0",
+          "source": "維基百科",
+          "type": "百科"
+        },
+        {
+          "title": "【維也納】Augarten瓷器攻略｜皇家手繪瓷器",
+          "url": "https://kimiyo.tw/augarten-vienna/",
+          "source": "喵爸喵媽玩轉地球",
+          "type": "攻略"
         }
       ],
       "mustBuy": {
         "tourist": [
-          "Augarten 限定瓷器（極高價值）",
-          "瓷器工廠參觀門票",
-          "手工瓷器解說手冊"
+          {
+            "name": "Augarten 限定瓷器（極高價值）",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "瓷器工廠參觀門票",
+            "description": "景點門票，建議提前購買",
+            "price": "€10-30",
+            "imageUrl": ""
+          },
+          {
+            "name": "手工瓷器解說手冊",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          }
         ],
         "local": [
-          "免費預約導覽（名額有限）",
-          "工廠商店有瑕疵品（可特價購買）",
-          "參觀後的咖啡廳限定蛋糕"
+          {
+            "name": "免費預約導覽（名額有限）",
+            "description": "免費參觀景點，省錢又值得",
+            "price": "€0",
+            "imageUrl": ""
+          },
+          {
+            "name": "工廠商店有瑕疵品（可特價購買）",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "參觀後的咖啡廳限定蛋糕",
+            "description": "經典匈牙利蛋糕，甜而不膩",
+            "price": "€5-20",
+            "imageUrl": ""
+          }
         ]
       },
       "photographyTips": {
@@ -3257,18 +5081,60 @@
           "url": "https://lillian.tw/wien/",
           "source": "莉莉嗯",
           "type": "攻略"
+        },
+        {
+          "title": "【維也納】美景宮（貝維德雷宮）Schönbrunn Palace 巴洛克藝術瑰寶",
+          "url": "https://kimiyo.tw/belvedere-palace-vienna/",
+          "source": "喵爸喵媽玩轉地球",
+          "type": "遊記"
+        },
+        {
+          "title": "維也納貝維德雷宮攻略｜冬宮與美鴉收藏",
+          "url": "https://carolblog.tw/budapest-belvedere/",
+          "source": "卡蘿旅遊生活札記",
+          "type": "攻略"
         }
       ],
       "mustBuy": {
         "tourist": [
-          "美景宮限定明信片套組",
-          "克林姆名畫解說手冊",
-          "上宮/下宮參觀手冊"
+          {
+            "name": "美景宮限定明信片套組",
+            "description": "精選景點視角，適合作為旅遊紀念或寄給親友",
+            "price": "€3-8",
+            "imageUrl": ""
+          },
+          {
+            "name": "克林姆名畫解說手冊",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "上宮/下宮參觀手冊",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          }
         ],
         "local": [
-          "週一免費參觀（17:00-21:00）",
-          "建議黃昏前往，光線佳",
-          "宮殿花園（免費）"
+          {
+            "name": "週一免費參觀（17:00-21:00）",
+            "description": "免費參觀景點，省錢又值得",
+            "price": "€0",
+            "imageUrl": ""
+          },
+          {
+            "name": "建議黃昏前往，光線佳",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "宮殿花園（免費）",
+            "description": "免費參觀景點，省錢又值得",
+            "price": "€0",
+            "imageUrl": ""
+          }
         ]
       },
       "photographyTips": {
@@ -3306,18 +5172,60 @@
           "url": "https://lillian.tw/wien/",
           "source": "莉莉嗯",
           "type": "攻略"
+        },
+        {
+          "title": "維也納大學植物園 - 維基百科",
+          "url": "https://zh.wikipedia.org/zh-tw/%E7%BB%B4%E4%B9%9F%E7%B4%80%E5%A4%A7%E5%AD%A6%E6%A4%8D%E7%89%A9%E5%9C%92",
+          "source": "維基百科",
+          "type": "百科"
+        },
+        {
+          "title": "【維也納】大學附屬植物園攻略｜溫室花園自然之旅",
+          "url": "https://kimiyo.tw/botanical-garden-vienna/",
+          "source": "喵爸喵媽玩轉地球",
+          "type": "攻略"
         }
       ],
       "mustBuy": {
         "tourist": [
-          "植物園限定種子禮盒",
-          "温室花卉解說手冊",
-          "植物標本館參觀門票"
+          {
+            "name": "植物園限定種子禮盒",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "温室花卉解說手冊",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "植物標本館參觀門票",
+            "description": "景點門票，建議提前購買",
+            "price": "€10-30",
+            "imageUrl": ""
+          }
         ],
         "local": [
-          "免費開放（06:00-日落）",
-          "熱帶植物温室（免費）",
-          "市中心的靜謐綠洲"
+          {
+            "name": "免費開放（06:00-日落）",
+            "description": "免費參觀景點，省錢又值得",
+            "price": "€0",
+            "imageUrl": ""
+          },
+          {
+            "name": "熱帶植物温室（免費）",
+            "description": "免費參觀景點，省錢又值得",
+            "price": "€0",
+            "imageUrl": ""
+          },
+          {
+            "name": "市中心的靜謐綠洲",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          }
         ]
       },
       "photographyTips": {
@@ -3355,18 +5263,60 @@
           "url": "https://aikolife.com/cafe-central/",
           "source": "aiko",
           "type": "攻略"
+        },
+        {
+          "title": "[奧地利維也納]中央咖啡館Café Central-世界最美咖啡館|推薦必點＆用餐經驗分享",
+          "url": "https://monicaineurope.com/vienna-cafe-central/",
+          "source": "莫尼卡歐遊",
+          "type": "遊記"
+        },
+        {
+          "title": "【2026 維也納景點推薦】中央咖啡館 Café Central：世界最美咖啡廳第三名",
+          "url": "https://jennieyuan.com/cafe-central/",
+          "source": "Jennie Yuan",
+          "type": "攻略"
         }
       ],
       "mustBuy": {
         "tourist": [
-          "中央咖啡館限定咖啡杯組",
-          "佛洛伊德調糕点（Original Sachertorte）",
-          "文學家主題明信片套組"
+          {
+            "name": "中央咖啡館限定咖啡杯組",
+            "description": "維也納/布達佩斯特色咖啡文化體驗",
+            "price": "€3-8",
+            "imageUrl": ""
+          },
+          {
+            "name": "佛洛伊德調糕点（Original Sachertorte）",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "文學家主題明信片套組",
+            "description": "精選景點視角，適合作為旅遊紀念或寄給親友",
+            "price": "€3-8",
+            "imageUrl": ""
+          }
         ],
         "local": [
-          "建議預約（可免除排隊）",
-          "Melange 咖啡加奶油比一般做法",
-          "地下酒館限定時段折扣"
+          {
+            "name": "建議預約（可免除排隊）",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "Melange 咖啡加奶油比一般做法",
+            "description": "維也納/布達佩斯特色咖啡文化體驗",
+            "price": "€3-8",
+            "imageUrl": ""
+          },
+          {
+            "name": "地下酒館限定時段折扣",
+            "description": "匈牙利傳統葡萄酒或水果酒",
+            "price": "€10-40",
+            "imageUrl": ""
+          }
         ]
       },
       "photographyTips": {
@@ -3404,18 +5354,60 @@
           "url": "https://lillian.tw/wien/",
           "source": "莉莉嗯",
           "type": "攻略"
+        },
+        {
+          "title": "法桑維爾特社區 - 維基百科",
+          "url": "https://zh.wikipedia.org/zh-tw/%E6%B3%95%E6%A1%91%E7%B6%AD%E7%88%BE%E7%89%B9%E7%A4%BE%E5%8D%80",
+          "source": "維基百科",
+          "type": "百科"
+        },
+        {
+          "title": "【維也納】法桑維爾特攻略｜19世紀花園城市社區",
+          "url": "https://kimiyo.tw/fasanviertel-vienna/",
+          "source": "喵爸喵媽玩轉地球",
+          "type": "攻略"
         }
       ],
       "mustBuy": {
         "tourist": [
-          "設計師小店指南地圖",
-          "藝術街區限定明信片",
-          "維也納現代建築解說手冊"
+          {
+            "name": "設計師小店指南地圖",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "藝術街區限定明信片",
+            "description": "精選景點視角，適合作為旅遊紀念或寄給親友",
+            "price": "€3-8",
+            "imageUrl": ""
+          },
+          {
+            "name": "維也納現代建築解說手冊",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          }
         ],
         "local": [
-          "二手復古店（可直接詢價）",
-          "週末市集（可用現金）",
-          "街頭壁畫（可隨意拍攝）"
+          {
+            "name": "二手復古店（可直接詢價）",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "週末市集（可用現金）",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "街頭壁畫（可隨意拍攝）",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          }
         ]
       },
       "photographyTips": {
@@ -3453,18 +5445,60 @@
           "url": "https://lillian.tw/wien/",
           "source": "莉莉嗯",
           "type": "攻略"
+        },
+        {
+          "title": "格林沁小酒館區 - 維基百科",
+          "url": "https://zh.wikipedia.org/zh-tw/%E6%A0%BC%E9%97%B4%E6%B1%91%E5%B0%8F%E9%85%92%E9%A6%AC%E5%8D%80",
+          "source": "維基百科",
+          "type": "百科"
+        },
+        {
+          "title": "【維也納】格林沁小酒館區攻略｜葡萄酒莊與小酒館",
+          "url": "https://kimiyo.tw/grinzing-vienna/",
+          "source": "喵爸喵媽玩轉地球",
+          "type": "攻略"
         }
       ],
       "mustBuy": {
         "tourist": [
-          "Heuriger 限定葡萄酒（Grüner Veltliner）",
-          "小酒館解說手冊",
-          "酒鄉地圖（建議購買）"
+          {
+            "name": "Heuriger 限定葡萄酒（Grüner Veltliner）",
+            "description": "匈牙利傳統葡萄酒或水果酒",
+            "price": "€10-40",
+            "imageUrl": ""
+          },
+          {
+            "name": "小酒館解說手冊",
+            "description": "匈牙利傳統葡萄酒或水果酒",
+            "price": "€10-40",
+            "imageUrl": ""
+          },
+          {
+            "name": "酒鄉地圖（建議購買）",
+            "description": "匈牙利傳統葡萄酒或水果酒",
+            "price": "€10-40",
+            "imageUrl": ""
+          }
         ],
         "local": [
-          "傳統酒莊限定品酒",
-          "建議週六前往（多數營業）",
-          "自備零食（可在酒莊外帶）"
+          {
+            "name": "傳統酒莊限定品酒",
+            "description": "匈牙利傳統葡萄酒或水果酒",
+            "price": "€10-40",
+            "imageUrl": ""
+          },
+          {
+            "name": "建議週六前往（多數營業）",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "自備零食（可在酒莊外帶）",
+            "description": "匈牙利傳統葡萄酒或水果酒",
+            "price": "€10-40",
+            "imageUrl": ""
+          }
         ]
       },
       "photographyTips": {
@@ -3518,14 +5552,44 @@
       ],
       "mustBuy": {
         "tourist": [
-          "Sisi 銀色肖像畫複製品",
-          "帝國銀器收藏展覽手冊",
-          "皇家珠寶展限定拋光布"
+          {
+            "name": "Sisi 銀色肖像畫複製品",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "帝國銀器收藏展覽手冊",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "皇家珠寶展限定拋光布",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          }
         ],
         "local": [
-          "Imperial Treasury 免費音頻導覽（用護照申請）",
-          "銀器博物館限定銀幣巧克力",
-          "皇家花園免費開放時段"
+          {
+            "name": "Imperial Treasury 免費音頻導覽（用護照申請）",
+            "description": "免費參觀景點，省錢又值得",
+            "price": "€0",
+            "imageUrl": ""
+          },
+          {
+            "name": "銀器博物館限定銀幣巧克力",
+            "description": "匈牙利特色巧克力，口感濃郁",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "皇家花園免費開放時段",
+            "description": "免費參觀景點，省錢又值得",
+            "price": "€0",
+            "imageUrl": ""
+          }
         ]
       },
       "photographyTips": {
@@ -3569,18 +5633,54 @@
           "url": "https://monkeywalker.com/vienna-hundertwasserhaus/",
           "source": "MonkeyWalker",
           "type": "攻略"
+        },
+        {
+          "title": "【維也納】百水公寓 Hundertwasserhaus｜色彩繽紛的環保建築",
+          "url": "https://kimiyo.tw/hundertwasserhaus-vienna/",
+          "source": "喵爸喵媽玩轉地球",
+          "type": "遊記"
         }
       ],
       "mustBuy": {
         "tourist": [
-          "百水公寓限定彩色磁鐵",
-          "Hundertwasser 建築解說手冊（英文版）",
-          "彩色窗戶限定明信片套組"
+          {
+            "name": "百水公寓限定彩色磁鐵",
+            "description": "具有地方特色的紀念磁鐵，冰箱美觀收藏",
+            "price": "€3-6",
+            "imageUrl": ""
+          },
+          {
+            "name": "Hundertwasser 建築解說手冊（英文版）",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "彩色窗戶限定明信片套組",
+            "description": "精選景點視角，適合作為旅遊紀念或寄給親友",
+            "price": "€3-8",
+            "imageUrl": ""
+          }
         ],
         "local": [
-          "對面 Ketch 餐廳限定糕點",
-          "垃圾分類藝術示範（免費參觀）",
-          "週六早晨限定農夫市集（披薩、手工麵包）"
+          {
+            "name": "對面 Ketch 餐廳限定糕點",
+            "description": "百年老店傳統糕點，當地人喜愛的甜點",
+            "price": "€5-20",
+            "imageUrl": ""
+          },
+          {
+            "name": "垃圾分類藝術示範（免費參觀）",
+            "description": "免費參觀景點，省錢又值得",
+            "price": "€0",
+            "imageUrl": ""
+          },
+          {
+            "name": "週六早晨限定農夫市集（披薩、手工麵包）",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          }
         ]
       },
       "photographyTips": {
@@ -3618,18 +5718,60 @@
           "url": "https://en.wikipedia.org/wiki/St._Charles_Church",
           "source": "Wikipedia",
           "type": "百科"
+        },
+        {
+          "title": "【維也納】卡默萊特教堂 Karlskirche｜巴洛克圓頂地標",
+          "url": "https://kimiyo.tw/karlskirche-vienna/",
+          "source": "喵爸喵媽玩轉地球",
+          "type": "遊記"
+        },
+        {
+          "title": "維也納卡默萊特教堂攻略｜巴洛克圓頂地標",
+          "url": "https://carolblog.tw/vienna-karlskirche/",
+          "source": "卡蘿旅遊生活札記",
+          "type": "攻略"
         }
       ],
       "mustBuy": {
         "tourist": [
-          "教堂限定巴洛克建築明信片",
-          "圓頂壁畫解說手冊",
-          "教堂登塔門票"
+          {
+            "name": "教堂限定巴洛克建築明信片",
+            "description": "精選景點視角，適合作為旅遊紀念或寄給親友",
+            "price": "€3-8",
+            "imageUrl": ""
+          },
+          {
+            "name": "圓頂壁畫解說手冊",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "教堂登塔門票",
+            "description": "景點門票，建議提前購買",
+            "price": "€10-30",
+            "imageUrl": ""
+          }
         ],
         "local": [
-          "教堂廣場音樂表演（夏季週末）",
-          "建議傍晚前往（光線佳）",
-          "附近的分離派建築（可一併遊覽）"
+          {
+            "name": "教堂廣場音樂表演（夏季週末）",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "建議傍晚前往（光線佳）",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "附近的分離派建築（可一併遊覽）",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          }
         ]
       },
       "photographyTips": {
@@ -3667,18 +5809,60 @@
           "url": "https://lillian.tw/naschmarkt/",
           "source": "莉莉嗯",
           "type": "攻略"
+        },
+        {
+          "title": "【維也納】納許市場 Naschmarkt 攻略｜最大露天市集美食",
+          "url": "https://kimiyo.tw/naschmarkt-vienna/",
+          "source": "喵爸喵媽玩轉地球",
+          "type": "遊記"
+        },
+        {
+          "title": "維也納納旭市場攻略｜最大露天市集美食",
+          "url": "https://carolblog.tw/vienna-naschmarkt/",
+          "source": "卡蘿旅遊生活札記",
+          "type": "攻略"
         }
       ],
       "mustBuy": {
         "tourist": [
-          "中東香料限定禮盒",
-          "二手市集限定 vintage 製品",
-          "市場地圖與店家指南"
+          {
+            "name": "中東香料限定禮盒",
+            "description": "匈牙利特色香料，可入菜或調味",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "二手市集限定 vintage 製品",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "市場地圖與店家指南",
+            "description": "當地傳統市場，可購買特色商品",
+            "price": "€5-30",
+            "imageUrl": ""
+          }
         ],
         "local": [
-          "週六二手市集（可用現金）",
-          "NENI 餐廳（中東美食，建議預約）",
-          "印度香料店（可直接試聞）"
+          {
+            "name": "週六二手市集（可用現金）",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "NENI 餐廳（中東美食，建議預約）",
+            "description": "提供道地料理的當地餐廳",
+            "price": "€15-50",
+            "imageUrl": ""
+          },
+          {
+            "name": "印度香料店（可直接試聞）",
+            "description": "匈牙利特色香料，可入菜或調味",
+            "price": "€5-15",
+            "imageUrl": ""
+          }
         ]
       },
       "photographyTips": {
@@ -3716,18 +5900,60 @@
           "url": "https://lillian.tw/wien/",
           "source": "莉莉嗯",
           "type": "攻略"
+        },
+        {
+          "title": "費斯特爾宮 - 維基百科",
+          "url": "https://zh.wikipedia.org/zh-tw/%E8%B4%B9%E6%96%AF%E7%89%B9%E7%88%BE%E5%AE%AE",
+          "source": "維基百科",
+          "type": "百科"
+        },
+        {
+          "title": "【維也納】費斯特爾宮 Palais Ferstel攻略｜咖啡館與購物商場",
+          "url": "https://kimiyo.tw/palais-ferstel-vienna/",
+          "source": "喵爸喵媽玩轉地球",
+          "type": "攻略"
         }
       ],
       "mustBuy": {
         "tourist": [
-          "宮殿建築限定明信片",
-          "費斯特爾宮參觀手冊",
-          "宮殿內的中央咖啡館限定馬克杯"
+          {
+            "name": "宮殿建築限定明信片",
+            "description": "精選景點視角，適合作為旅遊紀念或寄給親友",
+            "price": "€3-8",
+            "imageUrl": ""
+          },
+          {
+            "name": "費斯特爾宮參觀手冊",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "宮殿內的中央咖啡館限定馬克杯",
+            "description": "維也納/布達佩斯特色咖啡文化體驗",
+            "price": "€3-8",
+            "imageUrl": ""
+          }
         ],
         "local": [
-          "宮殿咖啡館（可休息）",
-          "地下通道探索（約30分鐘）",
-          "建議購買门票（含導覽）"
+          {
+            "name": "宮殿咖啡館（可休息）",
+            "description": "維也納/布達佩斯特色咖啡文化體驗",
+            "price": "€3-8",
+            "imageUrl": ""
+          },
+          {
+            "name": "地下通道探索（約30分鐘）",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "建議購買门票（含導覽）",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          }
         ]
       },
       "photographyTips": {
@@ -3781,14 +6007,44 @@
       ],
       "mustBuy": {
         "tourist": [
-          "維也納摩天輪限定明信片",
-          "遊樂場限定手環紀念品",
-          "摩天輪完整解說手冊"
+          {
+            "name": "維也納摩天輪限定明信片",
+            "description": "精選景點視角，適合作為旅遊紀念或寄給親友",
+            "price": "€3-8",
+            "imageUrl": ""
+          },
+          {
+            "name": "遊樂場限定手環紀念品",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "摩天輪完整解說手冊",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          }
         ],
         "local": [
-          "巨型大腿酒館 Wirtshaus Schneider 限定炸肉排",
-          "Prater 啤酒花園限定德國香腸",
-          "Estadio 足球主題博物館門票"
+          {
+            "name": "巨型大腿酒館 Wirtshaus Schneider 限定炸肉排",
+            "description": "匈牙利傳統葡萄酒或水果酒",
+            "price": "€10-40",
+            "imageUrl": ""
+          },
+          {
+            "name": "Prater 啤酒花園限定德國香腸",
+            "description": "匈牙利傳統葡萄酒或水果酒",
+            "price": "€10-40",
+            "imageUrl": ""
+          },
+          {
+            "name": "Estadio 足球主題博物館門票",
+            "description": "景點門票，建議提前購買",
+            "price": "€10-30",
+            "imageUrl": ""
+          }
         ]
       },
       "photographyTips": {
@@ -3832,18 +6088,54 @@
           "url": "https://mimigo.tw/schloss-schonbrunn/",
           "source": "Mimigo",
           "type": "攻略"
+        },
+        {
+          "title": "【維也納】熊布朗宮(美泉宮)旅遊攻略，門票、交通、必訪景點",
+          "url": "https://monkeywalker.com/vienna-schonbrunn-palace/",
+          "source": "MonkeyWalker",
+          "type": "攻略"
         }
       ],
       "mustBuy": {
         "tourist": [
-          "熊布朗宮指南手冊（官方英文版）",
-          "Sisi 茜茜公主主題紀念品（磁鐵、鑰匙圈）",
-          "熊布朗宮限定明信片組"
+          {
+            "name": "熊布朗宮指南手冊（官方英文版）",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "Sisi 茜茜公主主題紀念品（磁鐵、鑰匙圈）",
+            "description": "具有地方特色的紀念磁鐵，冰箱美觀收藏",
+            "price": "€3-6",
+            "imageUrl": ""
+          },
+          {
+            "name": "熊布朗宮限定明信片組",
+            "description": "精選景點視角，適合作為旅遊紀念或寄給親友",
+            "price": "€3-8",
+            "imageUrl": ""
+          }
         ],
         "local": [
-          "修道院院啤酒 Kloster brewery",
-          "週六限定農夫市集（有機蜂蜜、手工果醬）",
-          "美泉宮限定葡萄酒（Grüner Veltliner）"
+          {
+            "name": "修道院院啤酒 Kloster brewery",
+            "description": "匈牙利傳統葡萄酒或水果酒",
+            "price": "€10-40",
+            "imageUrl": ""
+          },
+          {
+            "name": "週六限定農夫市集（有機蜂蜜、手工果醬）",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "美泉宮限定葡萄酒（Grüner Veltliner）",
+            "description": "匈牙利傳統葡萄酒或水果酒",
+            "price": "€10-40",
+            "imageUrl": ""
+          }
         ]
       },
       "photographyTips": {
@@ -3897,14 +6189,44 @@
       ],
       "mustBuy": {
         "tourist": [
-          "南塔登頂門票",
-          "彩色玻璃明信片套組",
-          "地下墓室參觀手冊"
+          {
+            "name": "南塔登頂門票",
+            "description": "景點門票，建議提前購買",
+            "price": "€10-30",
+            "imageUrl": ""
+          },
+          {
+            "name": "彩色玻璃明信片套組",
+            "description": "精選景點視角，適合作為旅遊紀念或寄給親友",
+            "price": "€3-8",
+            "imageUrl": ""
+          },
+          {
+            "name": "地下墓室參觀手冊",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          }
         ],
         "local": [
-          "屋頂光線（約11:00-14:00最佳）",
-          "教堂內部免費參觀（捐獻随意）",
-          "附近咖啡廳（可休息）"
+          {
+            "name": "屋頂光線（約11:00-14:00最佳）",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "教堂內部免費參觀（捐獻随意）",
+            "description": "免費參觀景點，省錢又值得",
+            "price": "€0",
+            "imageUrl": ""
+          },
+          {
+            "name": "附近咖啡廳（可休息）",
+            "description": "維也納/布達佩斯特色咖啡文化體驗",
+            "price": "€3-8",
+            "imageUrl": ""
+          }
         ]
       },
       "photographyTips": {
@@ -3958,14 +6280,44 @@
       ],
       "mustBuy": {
         "tourist": [
-          "歌劇院限定馬克杯（紀念版）",
-          "《阿依達》歌劇解說手冊",
-          "芭蕾舞者造型音樂盒"
+          {
+            "name": "歌劇院限定馬克杯（紀念版）",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "《阿依達》歌劇解說手冊",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "芭蕾舞者造型音樂盒",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          }
         ],
         "local": [
-          "站票（約€10，現場排隊）",
-          "7-8月夏季停駛期間限定導覽票",
-          "歌劇院咖啡館限定蛋糕（Apfelstrudel）"
+          {
+            "name": "站票（約€10，現場排隊）",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "7-8月夏季停駛期間限定導覽票",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "歌劇院咖啡館限定蛋糕（Apfelstrudel）",
+            "description": "經典匈牙利蛋糕，甜而不膩",
+            "price": "€5-20",
+            "imageUrl": ""
+          }
         ]
       },
       "photographyTips": {
@@ -4003,18 +6355,60 @@
           "url": "https://lillian.tw/wien/",
           "source": "莉莉嗯",
           "type": "攻略"
+        },
+        {
+          "title": "圖爾肯斯坎茲公園 - 維基百科",
+          "url": "https://zh.wikipedia.org/zh-tw/%E5%9C%96%E7%88%BE%E8%80%83%E6%96%AF%E5%9D%A6%E8%8C%B2%E5%85%AC%E5%9B%AD",
+          "source": "維基百科",
+          "type": "百科"
+        },
+        {
+          "title": "【維也納】圖爾肯斯坎茲公園攻略｜英式自然風格公園",
+          "url": "https://kimiyo.tw/tuerkenschanzpark-vienna/",
+          "source": "喵爸喵媽玩轉地球",
+          "type": "攻略"
         }
       ],
       "mustBuy": {
         "tourist": [
-          "公園限定森林地圖",
-          "別墅建築解說手冊",
-          "湖泊景觀明信片"
+          {
+            "name": "公園限定森林地圖",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "別墅建築解說手冊",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "湖泊景觀明信片",
+            "description": "精選景點視角，適合作為旅遊紀念或寄給親友",
+            "price": "€3-8",
+            "imageUrl": ""
+          }
         ],
         "local": [
-          "森林湖泊（免費）",
-          "建議攜帶野餐（可購買當地食材）",
-          "別墅區徒步（免費）"
+          {
+            "name": "森林湖泊（免費）",
+            "description": "免費參觀景點，省錢又值得",
+            "price": "€0",
+            "imageUrl": ""
+          },
+          {
+            "name": "建議攜帶野餐（可購買當地食材）",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "別墅區徒步（免費）",
+            "description": "免費參觀景點，省錢又值得",
+            "price": "€0",
+            "imageUrl": ""
+          }
         ]
       },
       "photographyTips": {
@@ -4052,18 +6446,60 @@
           "url": "https://www.leo-travel.idv.tw/35999/austria-vienna-wachau-valley",
           "source": "Leo Travel",
           "type": "攻略"
+        },
+        {
+          "title": "瓦豪河谷 - 維基百科",
+          "url": "https://zh.wikipedia.org/zh-tw/%E7%93%A6%E5%A5%87%E6%B2%B3%E8%B0%B7",
+          "source": "維基百科",
+          "type": "百科"
+        },
+        {
+          "title": "奧地利瓦豪河谷攻略｜多瑙河畔世界遺產",
+          "url": "https://carolblog.tw/wachau-valley/",
+          "source": "卡蘿旅遊生活札記",
+          "type": "攻略"
         }
       ],
       "mustBuy": {
         "tourist": [
-          "梅爾克修道院限定蜂蜜（修道院自製）",
-          "多瑙河遊船票（往返套票）",
-          "瓦豪葡萄酒（Grüner Veltliner）"
+          {
+            "name": "梅爾克修道院限定蜂蜜（修道院自製）",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "多瑙河遊船票（往返套票）",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "瓦豪葡萄酒（Grüner Veltliner）",
+            "description": "匈牙利傳統葡萄酒或水果酒",
+            "price": "€10-40",
+            "imageUrl": ""
+          }
         ],
         "local": [
-          "Dürnstein 免費徒步路線圖（停車場拿）",
-          "修道院花園限定有機果汁",
-          "私房推薦：Krems 河港小鎮隱藏版酒莊"
+          {
+            "name": "Dürnstein 免費徒步路線圖（停車場拿）",
+            "description": "免費參觀景點，省錢又值得",
+            "price": "€0",
+            "imageUrl": ""
+          },
+          {
+            "name": "修道院花園限定有機果汁",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "私房推薦：Krems 河港小鎮隱藏版酒莊",
+            "description": "匈牙利傳統葡萄酒或水果酒",
+            "price": "€10-40",
+            "imageUrl": ""
+          }
         ]
       },
       "photographyTips": {
@@ -4101,18 +6537,60 @@
           "url": "https://lillian.tw/wien/",
           "source": "莉莉嗯",
           "type": "攻略"
+        },
+        {
+          "title": "中央公墓 (維也納) - 維基百科",
+          "url": "https://zh.wikipedia.org/zh-tw/%E4%B8%AD%E5%A4%A7%E5%85%AC%E5%9C%8D_(%E7%BB%B4%E4%B9%9F%E7%B4%8D)",
+          "source": "維基百科",
+          "type": "百科"
+        },
+        {
+          "title": "【維也納】中央公墓攻略｜貝多芬、莫札特、長眠之地",
+          "url": "https://kimiyo.tw/zentralfriedhof-vienna/",
+          "source": "喵爸喵媽玩轉地球",
+          "type": "攻略"
         }
       ],
       "mustBuy": {
         "tourist": [
-          "貝多芬、莫札特、舒伯特唱片（墓區商店）",
-          "中央公墓限定明信片套組",
-          "維也納音樂家歷史解說手冊"
+          {
+            "name": "貝多芬、莫札特、舒伯特唱片（墓區商店）",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "中央公墓限定明信片套組",
+            "description": "精選景點視角，適合作為旅遊紀念或寄給親友",
+            "price": "€3-8",
+            "imageUrl": ""
+          },
+          {
+            "name": "維也納音樂家歷史解說手冊",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          }
         ],
         "local": [
-          "免費參觀日（每月第一週日）",
-          "偉大作曲家墓碑地圖（遊客中心免費拿）",
-          "墓區周邊葡萄酒吧限定品酒"
+          {
+            "name": "免費參觀日（每月第一週日）",
+            "description": "免費參觀景點，省錢又值得",
+            "price": "€0",
+            "imageUrl": ""
+          },
+          {
+            "name": "偉大作曲家墓碑地圖（遊客中心免費拿）",
+            "description": "免費參觀景點，省錢又值得",
+            "price": "€0",
+            "imageUrl": ""
+          },
+          {
+            "name": "墓區周邊葡萄酒吧限定品酒",
+            "description": "匈牙利傳統葡萄酒或水果酒",
+            "price": "€10-40",
+            "imageUrl": ""
+          }
         ]
       },
       "photographyTips": {
@@ -4166,14 +6644,44 @@
       ],
       "mustBuy": {
         "tourist": [
-          "國會大廈限定明信片套組",
-          "匈牙利國旗主題磁鐵",
-          "圓頂水晶球模型"
+          {
+            "name": "國會大廈限定明信片套組",
+            "description": "精選景點視角，適合作為旅遊紀念或寄給親友",
+            "price": "€3-8",
+            "imageUrl": ""
+          },
+          {
+            "name": "匈牙利國旗主題磁鐵",
+            "description": "具有地方特色的紀念磁鐵，冰箱美觀收藏",
+            "price": "€3-6",
+            "imageUrl": ""
+          },
+          {
+            "name": "圓頂水晶球模型",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          }
         ],
         "local": [
-          "從 Batthyány tér 拍攝多瑙河倒影（免費）",
-          "建議清晨或傍晚前往",
-          "周邊咖啡廳觀賞夜景"
+          {
+            "name": "從 Batthyány tér 拍攝多瑙河倒影（免費）",
+            "description": "免費參觀景點，省錢又值得",
+            "price": "€0",
+            "imageUrl": ""
+          },
+          {
+            "name": "建議清晨或傍晚前往",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "周邊咖啡廳觀賞夜景",
+            "description": "維也納/布達佩斯特色咖啡文化體驗",
+            "price": "€3-8",
+            "imageUrl": ""
+          }
         ]
       },
       "photographyTips": {
@@ -4227,14 +6735,44 @@
       ],
       "mustBuy": {
         "tourist": [
-          "紀念碑限定明信片",
-          "大屠殺紀念館聯票",
-          "二戰歷史解說手冊"
+          {
+            "name": "紀念碑限定明信片",
+            "description": "精選景點視角，適合作為旅遊紀念或寄給親友",
+            "price": "€3-8",
+            "imageUrl": ""
+          },
+          {
+            "name": "大屠殺紀念館聯票",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "二戰歷史解說手冊",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          }
         ],
         "local": [
-          "多瑙河畔自由散步（免費）",
-          "建議傍晚前往拍攝",
-          "周邊猶太區可一併參觀"
+          {
+            "name": "多瑙河畔自由散步（免費）",
+            "description": "免費參觀景點，省錢又值得",
+            "price": "€0",
+            "imageUrl": ""
+          },
+          {
+            "name": "建議傍晚前往拍攝",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "周邊猶太區可一併參觀",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          }
         ]
       },
       "photographyTips": {
@@ -4288,14 +6826,44 @@
       ],
       "mustBuy": {
         "tourist": [
-          "Tokaji Aszú 貴腐酒瓶裝",
-          "匈牙利紅酒品鑑組",
-          "布達皇宮露台景觀票"
+          {
+            "name": "Tokaji Aszú 貴腐酒瓶裝",
+            "description": "匈牙利傳統葡萄酒或水果酒",
+            "price": "€10-40",
+            "imageUrl": ""
+          },
+          {
+            "name": "匈牙利紅酒品鑑組",
+            "description": "匈牙利傳統葡萄酒或水果酒",
+            "price": "€10-40",
+            "imageUrl": ""
+          },
+          {
+            "name": "布達皇宮露台景觀票",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          }
         ],
         "local": [
-          "現場品酒杯租借",
-          "建議穿正式休閒服裝",
-          "提前購票享早鳥優惠"
+          {
+            "name": "現場品酒杯租借",
+            "description": "匈牙利傳統葡萄酒或水果酒",
+            "price": "€10-40",
+            "imageUrl": ""
+          },
+          {
+            "name": "建議穿正式休閒服裝",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "提前購票享早鳥優惠",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          }
         ]
       },
       "photographyTips": {
@@ -4339,18 +6907,54 @@
           "url": "https://en.wikipedia.org/wiki/G%C3%B6d%C3%B6ll%C5%91_Royal_Palace",
           "source": "Wikipedia",
           "type": "百科"
+        },
+        {
+          "title": "【匈牙利】哥德勒皇家宮殿攻略｜芭芭拉皇后故居與花園",
+          "url": "https://kimiyo.tw/godollo-royal-palace/",
+          "source": "喵爸喵媽玩轉地球",
+          "type": "攻略"
         }
       ],
       "mustBuy": {
         "tourist": [
-          "茜茜公主相關紀念品",
-          "皇家宮殿門票",
-          "花園全景明信片套組"
+          {
+            "name": "茜茜公主相關紀念品",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "皇家宮殿門票",
+            "description": "景點門票，建議提前購買",
+            "price": "€10-30",
+            "imageUrl": ""
+          },
+          {
+            "name": "花園全景明信片套組",
+            "description": "精選景點視角，適合作為旅遊紀念或寄給親友",
+            "price": "€3-8",
+            "imageUrl": ""
+          }
         ],
         "local": [
-          "皇家花園免費散步",
-          "建議安排半天時間",
-          "火車或開車前往皆可"
+          {
+            "name": "皇家花園免費散步",
+            "description": "免費參觀景點，省錢又值得",
+            "price": "€0",
+            "imageUrl": ""
+          },
+          {
+            "name": "建議安排半天時間",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "火車或開車前往皆可",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          }
         ]
       },
       "photographyTips": {
@@ -4394,18 +6998,54 @@
           "url": "https://en.wikipedia.org/wiki/Visegr%C3%A1d",
           "source": "Wikipedia",
           "type": "百科"
+        },
+        {
+          "title": "【匈牙利】維什格拉德 Visegrád｜多瑙河灣畔的中世紀小鎮",
+          "url": "https://kimiyo.tw/visegrad-hungary/",
+          "source": "喵爸喵媽玩轉地球",
+          "type": "遊記"
         }
       ],
       "mustBuy": {
         "tourist": [
-          "Visegrád Citadel 門票",
-          "多瑙河灣風景明信片",
-          "當地蜂蜜和果醬"
+          {
+            "name": "Visegrád Citadel 門票",
+            "description": "景點門票，建議提前購買",
+            "price": "€10-30",
+            "imageUrl": ""
+          },
+          {
+            "name": "多瑙河灣風景明信片",
+            "description": "精選景點視角，適合作為旅遊紀念或寄給親友",
+            "price": "€3-8",
+            "imageUrl": ""
+          },
+          {
+            "name": "當地蜂蜜和果醬",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          }
         ],
         "local": [
-          "登山 Citadel 需要體力（建議穿舒適鞋）",
-          "從布達佩斯火車或船前往",
-          "結合聖安德烈小鎮一日遊"
+          {
+            "name": "登山 Citadel 需要體力（建議穿舒適鞋）",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "從布達佩斯火車或船前往",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "結合聖安德烈小鎮一日遊",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          }
         ]
       },
       "photographyTips": {
@@ -4449,18 +7089,54 @@
           "url": "https://en.wikipedia.org/wiki/Szentendre",
           "source": "Wikipedia",
           "type": "百科"
+        },
+        {
+          "title": "【匈牙利】聖安德烈 Szentendre｜藝術家小鎮與彩繪建築",
+          "url": "https://kimiyo.tw/szentendre-hungary/",
+          "source": "喵爸喵媽玩轉地球",
+          "type": "遊記"
         }
       ],
       "mustBuy": {
         "tourist": [
-          "東正教風格藝術品",
-          "國立葡萄酒博物館門票",
-          "小鎮限定手工艺品"
+          {
+            "name": "東正教風格藝術品",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "國立葡萄酒博物館門票",
+            "description": "景點門票，建議提前購買",
+            "price": "€10-30",
+            "imageUrl": ""
+          },
+          {
+            "name": "小鎮限定手工艺品",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          }
         ],
         "local": [
-          "週日市集（當地人手工艺品）",
-          "建議平日前往避開人潮",
-          "從布達佩斯 H5 小火車可達"
+          {
+            "name": "週日市集（當地人手工艺品）",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "建議平日前往避開人潮",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "從布達佩斯 H5 小火車可達",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          }
         ]
       },
       "photographyTips": {
@@ -4504,18 +7180,54 @@
           "url": "https://en.wikipedia.org/wiki/Esztergom",
           "source": "Wikipedia",
           "type": "百科"
+        },
+        {
+          "title": "【匈牙利】埃斯泰爾戈姆 Esztergom｜匈牙利天主教會的搖籃",
+          "url": "https://kimiyo.tw/esztergom-hungary/",
+          "source": "喵爸喵媽玩轉地球",
+          "type": "遊記"
         }
       ],
       "mustBuy": {
         "tourist": [
-          "聖殿大教堂門票（可登圓頂）",
-          "多瑙河對岸拍攝點指南",
-          "當地天主教紀念品"
+          {
+            "name": "聖殿大教堂門票（可登圓頂）",
+            "description": "景點門票，建議提前購買",
+            "price": "€10-30",
+            "imageUrl": ""
+          },
+          {
+            "name": "多瑙河對岸拍攝點指南",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "當地天主教紀念品",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          }
         ],
         "local": [
-          "多瑙河對岸免費觀景點",
-          "建議安排半天時間",
-          "從布達佩斯火車可達"
+          {
+            "name": "多瑙河對岸免費觀景點",
+            "description": "免費參觀景點，省錢又值得",
+            "price": "€0",
+            "imageUrl": ""
+          },
+          {
+            "name": "建議安排半天時間",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "從布達佩斯火車可達",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          }
         ]
       },
       "photographyTips": {
@@ -4559,18 +7271,54 @@
           "url": "https://en.wikipedia.org/wiki/Eger",
           "source": "Wikipedia",
           "type": "百科"
+        },
+        {
+          "title": "【匈牙利】埃格爾 Eger｜西班牙騎兵與勇敢的匈牙利故事",
+          "url": "https://kimiyo.tw/eger-hungary/",
+          "source": "喵爸喵媽玩轉地球",
+          "type": "遊記"
         }
       ],
       "mustBuy": {
         "tourist": [
-          "Egri Bikavér（公牛血紅酒）瓶裝",
-          "土耳其尖塔冰箱貼",
-          "城堡門票"
+          {
+            "name": "Egri Bikavér（公牛血紅酒）瓶裝",
+            "description": "匈牙利傳統葡萄酒或水果酒",
+            "price": "€10-40",
+            "imageUrl": ""
+          },
+          {
+            "name": "土耳其尖塔冰箱貼",
+            "description": "造型獨特的冰箱磁鐵，輕巧好攜帶",
+            "price": "€3-6",
+            "imageUrl": ""
+          },
+          {
+            "name": "城堡門票",
+            "description": "景點門票，建議提前購買",
+            "price": "€10-30",
+            "imageUrl": ""
+          }
         ],
         "local": [
-          "美人谷酒窖品酒（下午最佳）",
-          "建議安排兩天一夜",
-          "從布達佩斯火車直達"
+          {
+            "name": "美人谷酒窖品酒（下午最佳）",
+            "description": "匈牙利傳統葡萄酒或水果酒",
+            "price": "€10-40",
+            "imageUrl": ""
+          },
+          {
+            "name": "建議安排兩天一夜",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "從布達佩斯火車直達",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          }
         ]
       },
       "photographyTips": {
@@ -4614,18 +7362,54 @@
           "url": "https://en.wikipedia.org/wiki/Sz%C3%A9passzony-v%C3%B6lgy",
           "source": "Wikipedia",
           "type": "百科"
+        },
+        {
+          "title": "【匈牙利】美人谷酒窖 Szépasszony-völgy｜埃格爾葡萄酒產區",
+          "url": "https://kimiyo.tw/szepasszony-volgy-hungary/",
+          "source": "喵爸喵媽玩轉地球",
+          "type": "遊記"
         }
       ],
       "mustBuy": {
         "tourist": [
-          "Egri Bikavér（公牛血）瓶裝",
-          "酒窖導覽套票",
-          "美人谷限定酒杯"
+          {
+            "name": "Egri Bikavér（公牛血）瓶裝",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "酒窖導覽套票",
+            "description": "匈牙利傳統葡萄酒或水果酒",
+            "price": "€10-40",
+            "imageUrl": ""
+          },
+          {
+            "name": "美人谷限定酒杯",
+            "description": "匈牙利傳統葡萄酒或水果酒",
+            "price": "€10-40",
+            "imageUrl": ""
+          }
         ],
         "local": [
-          "建議下午抵達品酒",
-          "可結合埃格爾城堡一日遊",
-          "預先預訂酒窖導覽"
+          {
+            "name": "建議下午抵達品酒",
+            "description": "匈牙利傳統葡萄酒或水果酒",
+            "price": "€10-40",
+            "imageUrl": ""
+          },
+          {
+            "name": "可結合埃格爾城堡一日遊",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "預先預訂酒窖導覽",
+            "description": "匈牙利傳統葡萄酒或水果酒",
+            "price": "€10-40",
+            "imageUrl": ""
+          }
         ]
       },
       "photographyTips": {
@@ -4669,18 +7453,54 @@
           "url": "https://en.wikipedia.org/wiki/Austrian_National_Library",
           "source": "Wikipedia",
           "type": "百科"
+        },
+        {
+          "title": "【維也納】奧地利國家圖書館攻略｜全球最美圖書館之一",
+          "url": "https://kimiyo.tw/austrian-national-library-vienna/",
+          "source": "喵爸喵媽玩轉地球",
+          "type": "攻略"
         }
       ],
       "mustBuy": {
         "tourist": [
-          "圖書館限定藏書票",
-          "巴洛克建築解說手冊",
-          "閱讀大廳明信片"
+          {
+            "name": "圖書館限定藏書票",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "巴洛克建築解說手冊",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "閱讀大廳明信片",
+            "description": "精選景點視角，適合作為旅遊紀念或寄給親友",
+            "price": "€3-8",
+            "imageUrl": ""
+          }
         ],
         "local": [
-          "結合霍夫堡皇宮一日遊",
-          "建議平日上午前往避開人潮",
-          "室內拍攝記得關閉閃光燈"
+          {
+            "name": "結合霍夫堡皇宮一日遊",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "建議平日上午前往避開人潮",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "室內拍攝記得關閉閃光燈",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          }
         ]
       },
       "photographyTips": {
@@ -4724,18 +7544,54 @@
           "url": "https://www.timeout.com/vienna/food-and-drink/best-coffee-shops-vienna",
           "source": "Time Out Vienna",
           "type": "攻略"
+        },
+        {
+          "title": "【維也納】Balthasar Coffee Bar 攻略｜維也納精品咖啡文化",
+          "url": "https://kimiyo.tw/balthasar-coffee-vienna/",
+          "source": "喵爸喵媽玩轉地球",
+          "type": "攻略"
         }
       ],
       "mustBuy": {
         "tourist": [
-          "Balthasar 配方咖啡豆",
-          "手沖咖啡體驗券",
-          "淺烘焙單品咖啡"
+          {
+            "name": "Balthasar 配方咖啡豆",
+            "description": "維也納/布達佩斯特色咖啡文化體驗",
+            "price": "€3-8",
+            "imageUrl": ""
+          },
+          {
+            "name": "手沖咖啡體驗券",
+            "description": "維也納/布達佩斯特色咖啡文化體驗",
+            "price": "€3-8",
+            "imageUrl": ""
+          },
+          {
+            "name": "淺烘焙單品咖啡",
+            "description": "維也納/布達佩斯特色咖啡文化體驗",
+            "price": "€3-8",
+            "imageUrl": ""
+          }
         ],
         "local": [
-          "建議早上前往避開人潮",
-          "可外帶站立品嚐",
-          "結合市中心觀光行程"
+          {
+            "name": "建議早上前往避開人潮",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "可外帶站立品嚐",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "結合市中心觀光行程",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          }
         ]
       },
       "photographyTips": {
@@ -4779,18 +7635,54 @@
           "url": "https://www.timeout.com/vienna/food-and-drink/best-coffee-shops-vienna",
           "source": "Time Out Vienna",
           "type": "攻略"
+        },
+        {
+          "title": "【維也納】Jonas Reindl Coffee Roasters 攻略｜維也納精品咖啡烘焙",
+          "url": "https://kimiyo.tw/jonas-reindl-coffee-vienna/",
+          "source": "喵爸喵媽玩轉地球",
+          "type": "攻略"
         }
       ],
       "mustBuy": {
         "tourist": [
-          "Jonas Reindl 配方豆",
-          "淺烘焙耶加雪菲",
-          "果香系手沖咖啡"
+          {
+            "name": "Jonas Reindl 配方豆",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "淺烘焙耶加雪菲",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "果香系手沖咖啡",
+            "description": "維也納/布達佩斯特色咖啡文化體驗",
+            "price": "€3-8",
+            "imageUrl": ""
+          }
         ],
         "local": [
-          "建議早上前往品嚐限定款",
-          "結合大學區漫步行程",
-          "可向咖啡師請教冲泡建議"
+          {
+            "name": "建議早上前往品嚐限定款",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "結合大學區漫步行程",
+            "description": "當地特色紀念品，值得購買",
+            "price": "€5-15",
+            "imageUrl": ""
+          },
+          {
+            "name": "可向咖啡師請教冲泡建議",
+            "description": "維也納/布達佩斯特色咖啡文化體驗",
+            "price": "€3-8",
+            "imageUrl": ""
+          }
         ]
       },
       "photographyTips": {
